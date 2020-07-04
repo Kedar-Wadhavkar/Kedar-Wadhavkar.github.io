@@ -14,27 +14,29 @@ body{
 
 .displayImage{
 	margin-left: 4%;
-	/*width: 48%;*/
-	padding-top: 42rem;
 	
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	
 	position: fixed;
-	border: 1px solid black;
-	border-radius: 10px;
+	/*border: 1px solid black;
+	border-radius: 10px;*/
 	
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-color: #353535;
-	/*box-shadow: -15px 15px 8px #0B5345;*/
-	box-shadow: 0 0 40px 0 #000000, 0 10px 20px 0 #000000; /*#0B5345;*/
+	/*background-color: #353535;
+	box-shadow: 0 0 40px 0 #000000, 0 10px 20px 0 #000000;*/
 
 	transition: 0.5s;
+
+	text-align: center;
+	color: #ffffff;
 }
 
 
 #bigDisplay:hover {
-	transform: scale(1.1);
-	transition: transform 2s;
+	transform: scale(1.15);
+	transition: transform 2.5s;
 }
 
 .box{
