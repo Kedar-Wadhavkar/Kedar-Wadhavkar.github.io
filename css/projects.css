@@ -3,11 +3,37 @@ body{
 	background: #121212;
 }
 
-.btext{
-	color: #ffffff;
-	position: absolute;
+.link{
+  	background-color: #555;
+  	color: white;
+  	float: left;
+ 	border: none;
+  	outline: none;
+  	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+}
+.link:hover{
+	background-color: #777;
+}
+
+.content{
+	
+	color: white;
+	display: none;
+	padding: 50px;
 	text-align: center;
-	top: 45%;
-	width: 100%;
-	line-height: 0.5em;
+}
+#SUPRA{
+	background-color: red;
+}
+#DELERIOS{
+	background-color: green;
+}
+#Website{
+	background-color: blue;
+}
+#Internship{
+	background-color: orange;
 }
