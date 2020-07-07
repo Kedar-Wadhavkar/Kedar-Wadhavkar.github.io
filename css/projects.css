@@ -1,16 +1,17 @@
 body{
 	display: block;
 	background: #121212;
+	font-family: cursive;
 }
 
 .container{
 	display: inline-block;
-	padding: 0 4rem 0 4rem;
+	padding: 0 3rem 0 3rem;
 }
 
 .tablink{
-  	background-color: #555;
-  	color: white;
+  	color: black;
+	background-color: #eeeeee;
   	float: left;
  	border: none;
   	outline: none;
@@ -21,55 +22,59 @@ body{
 }
 
 .tablink:hover{
-	background-color: #777;
+	/*background-color: #777;*/
+	background-color: #101010;
+	color: white;
 }
 
 .content{
+	width: 100%;
 	color: white;
 	display: none;
-	padding: 5rem 5% 3rem 10%;
+	padding: 4rem 0rem 3rem 0rem;
 	text-align: center;
-	left: calc(50% - 300px);
+	border-radius: 3rem 3rem 0 0;
 }
 
-
 #SUPRA{
-	background-color: red;
+	background-color: #232323;
 }
 
 #DELERIOS{
-	background-color: green;
+	background-color: #232323;
 }
 #Website{
-	background-color: blue;
+	background-color: #232323;
 }
 #Internship{
-	background-color: yellow;
+	background-color: #232323;
 }
 
 
 @media only screen and (min-width: 576px){
 
 .disp {
-	/*margin-left: 25rem;*/
-	width: 100%;
+	margin-left: 5%;
+	width: 97%;
 	display: flex;
 }
 
 .card {
 	display: flex;
 	height: 28rem;
-	width: 25%;
+	width: 26%;
 	background-color: #17141d;
 	border-radius: 10px;
-	box-shadow: -1rem 0 3rem #000;
+	/*box-shadow: -1rem 0 3rem #000;*/
+	/*box-shadow: -0.5rem 0.5rem 0.5rem #55ff06;*/
+	box-shadow: 0 0 1rem 0 #000000, 0 0 1rem 0 #000000;
 	transition: 0.4s ease-out;
 	position: relative;
 	left: 0px;
 }
 
 .card:not(:first-child) {
-	margin-left: -50px;
+	margin-left: -5%;
 }
 
 .card:hover {
@@ -79,43 +84,114 @@ body{
 
 .card:hover ~ .card {
 	position: relative;
-	left: 80px;
+	left: 6%;
 	transition: 0.4s ease-out;
+}
+
+#one:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#one:hover ~ #one {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#two:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#two:hover ~ #two {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#three:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#three:hover ~ #three {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#four:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#four:hover ~ #four {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
 }
 
 @media only screen and (max-width: 576px){
 
+.content{
+	padding: 4rem 0rem 1.5rem 0rem;
+}
+
 .disp {
-	margin-left: 50px;
+	margin-left: 8%;
+	width: 96%;
 	display: relative;
+	padding-top: 7%;
 }
 
 .card {
 	display: relative;
-	height: 280px;
-	width: 200px;
+	height: 28rem;
+	width: 80%;
 	background-color: #17141d;
 	border-radius: 10px;
-	box-shadow: -1rem 0 3rem #000;
+	box-shadow: 0 0 1rem 0 #000000, 0 0 1rem 0 #000000;
 	transition: 0.4s ease-out;
 	position: relative;
 	left: 0px;
 }
 
 .card:not(:first-child) {
-	margin-top: -80px;
+	margin-top: -10%;
 }
 
 .card:hover {
-	transform: translateX(200px);
+	transform: translateY(-20%);
 	transition: 1s ease-out;
 }
 
 .card:hover ~ .card {
 	position: relative;
+	left: 6%;
 	transition: 1s ease-out;
+}
+
+#one:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#one:hover ~ #one {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#two:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#two:hover ~ #two {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#three:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#three:hover ~ #three {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#four:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#four:hover ~ #four {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
 }
@@ -131,29 +207,33 @@ body{
 .bar {
 	position: absolute;
 	top: 100px;
-	left: 20px;
+	left: 10%;
 	height: 5px;
-	width: 150px;
+	width: 100%;
+	border-radius: 2.5px;
 }
 
 .emptybar {
+	border-radius: 2.5px;
 	background-color: #2e3033;
 	width: 80%;
 	height: 100%;
 }
 
 .filledbar {
+	border-radius: 2.5px;
 	position: absolute;
 	top: 0px;
 	z-index: 3;
 	width: 0px;
 	height: 100%;
 	background: rgb(0,154,217);
-	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
 	transition: 0.6s ease-out;
 }
 
 .card:hover .filledbar {
+	border-radius: 2.5px;
 	width: 80%;
 	transition: 0.4s ease-out;
 }
