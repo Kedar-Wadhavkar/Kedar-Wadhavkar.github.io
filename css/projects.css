@@ -48,7 +48,7 @@ body{
 }
 
 
-@media only screen and (min-width: 995px){
+@media only screen and (min-width: 576px){
 
 .disp {
 	/*margin-left: 25rem;*/
@@ -85,7 +85,7 @@ body{
 
 }
 
-@media only screen and (max-width: 995px){
+@media only screen and (max-width: 576px){
 
 .disp {
 	margin-left: 50px;
