@@ -54,15 +54,15 @@ body{
 @media only screen and (min-width: 576px){
 
 .disp {
-	margin-left: 5%;
-	width: 97%;
+	margin-left: 10%;
+	width: 90%;
 	display: flex;
 }
 
 .card {
 	display: flex;
-	height: 28rem;
-	width: 26%;
+	height: 23rem;
+	width: 30%;
 	background-color: #121212; /*#17141d;*/
 	border-radius: 10px;
 	/*box-shadow: -1rem 0 3rem #000;*/
@@ -74,17 +74,17 @@ body{
 }
 
 .card:not(:first-child) {
-	margin-left: -5%;
+	margin-left: -8%;
 }
 
 .card:hover {
-	transform: translateY(-20px);
+	transform: translateX(-30%);
+	/*transform: translateY(-20px);*/
 	transition: 0.4s ease-out;
 }
 
 .card:hover ~ .card {
 	position: relative;
-	left: 6%;
 	transition: 0.4s ease-out;
 }
 
@@ -121,6 +121,7 @@ body{
 }
 
 }
+
 
 @media only screen and (max-width: 576px){
 
@@ -195,6 +196,78 @@ body{
 }
 
 }
+
+@media only screen and (min-width: 992px){
+
+.disp {
+	margin-left: 5%;
+	width: 97%;
+	display: flex;
+}
+
+.card {
+	display: flex;
+	height: 28rem;
+	width: 26%;
+	background-color: #121212; /*#17141d;*/
+	border-radius: 10px;
+	/*box-shadow: -1rem 0 3rem #000;*/
+	/*box-shadow: -0.5rem 0.5rem 0.5rem #55ff06;*/
+	box-shadow: 0 0 1rem 0 #000000, 0 0 1rem 0 #000000;
+	transition: 0.4s ease-out;
+	position: relative;
+	left: 0px;
+}
+
+.card:not(:first-child) {
+	margin-left: -5%;
+}
+
+.card:hover {
+	transform: translateY(-20px);
+	transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+	position: relative;
+	left: 6%;
+	transition: 0.4s ease-out;
+}
+
+#one:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#one:hover ~ #one {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#two:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#two:hover ~ #two {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#three:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#three:hover ~ #three {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#four:hover {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+#four:hover ~ #four {
+	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
+}
+
+}
+
 
 .title {
 	color: white;
