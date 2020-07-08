@@ -266,6 +266,12 @@ body{
 	font-size: 2rem;
 }
 
+.tablink:hover{
+	text-shadow: 1px 1px 2px yellow, 0 0 10px yellow, 0 0 10px yellow;
+	color: #000000;
+	font-weight: none;
+}
+
 .disp {
 	margin-left: 10%;
 	width: 90%;
