@@ -345,7 +345,14 @@ body{
 }
 
 .tablink{
+	text-align: center;
 	font-size: 1.5rem;
+}
+
+.tablink:hover{
+	text-shadow: 1px 1px 2px yellow, 0 0 10px yellow, 0 0 10px yellow;
+	color: #000000;
+	font-weight: none;
 }
 
 .disp {
