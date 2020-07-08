@@ -10,21 +10,30 @@ body{
 }
 
 .tablink{
-  	color: black;
-	background-color: #eeeeee;
+	font-weight: bold;
+	color: #000000;
+  	text-shadow: 1px 1px 2px #55ff06, 0 0 5px #55ff06, 0 0 5px #55ff06;
+	background-color: #0f0f0f;
   	float: left;
  	border: none;
   	outline: none;
   	cursor: pointer;
 	padding: 14px 16px;
-	font-size: 17px;
 	width: 25%;
+	text-align: center;
+
+	border-color: #3f3f3f;
+	border-width: 3px;
+	border-bottom-style: groove;
 }
 
 .tablink:hover{
 	/*background-color: #777;*/
-	background-color: #101010;
-	color: white;
+	/*background-color: #eeeeee;*/
+	/*background-image: linear-gradient(#dddddd, #232323);*/
+	text-shadow: 1px 1px 2px rgb(0,154,217), 0 0 10px rgb(0,154,217), 0 0 10px rgb(0,154,217);
+	color: #000000;
+	font-weight: none;
 }
 
 .content{
@@ -33,7 +42,25 @@ body{
 	display: none;
 	padding: 4rem 0rem 3rem 0rem;
 	text-align: center;
+
 	border-radius: 3rem 3rem 0 0;
+	border-color: #3f3f3f;
+	border-width: 3px;
+	border-top-style: ridge;
+	border-right-style: groove;
+	border-left-style: ridge;
+}
+
+.but1{
+	border-color: #3f3f3f;
+	border-width: 3px;
+	border-left-style: ridge;
+}
+
+.but4{
+	border-color: #3f3f3f;
+	border-width: 3px;
+	border-right-style: groove;
 }
 
 #SUPRA{
@@ -235,6 +262,10 @@ body{
 
 @media only screen and (min-width: 576px){
 
+.tablink{
+	font-size: 2rem;
+}
+
 .disp {
 	margin-left: 10%;
 	width: 90%;
@@ -313,6 +344,10 @@ body{
 	padding: 4rem 0rem 1.5rem 0rem;
 }
 
+.tablink{
+	font-size: 1.5rem;
+}
+
 .disp {
 	margin-left: 10%;
 	width: 96%;
@@ -384,6 +419,10 @@ body{
 }
 
 @media only screen and (min-width: 992px){
+
+.tablink{
+	font-size: 2rem;
+}
 
 .disp {
 	margin-left: 5%;
