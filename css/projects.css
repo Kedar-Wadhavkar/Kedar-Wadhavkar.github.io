@@ -43,12 +43,194 @@ body{
 #DELERIOS{
 	background-color: #232323;
 }
+
 #Website{
 	background-color: #232323;
 }
+
 #Internship{
 	background-color: #232323;
 }
+
+
+.title {
+	display: none;
+	color: white;
+	font-weight: 300;
+	position: absolute;
+	left: 20px;
+	top: 15px;
+}
+
+.bar {
+	position: absolute;
+	top: 100px;
+	left: 10%;
+	height: 5px;
+	width: 100%;
+	border-radius: 2.5px;
+}
+
+.filledbar {
+	border-radius: 2.5px;
+	position: absolute;
+	top: 0px;
+	z-index: 3;
+	width: 0px;
+	height: 100%;
+	background: rgb(0,154,217);
+	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
+	transition: 0.5s ease-out;
+}
+
+.card:hover .filledbar {
+	border-radius: 2.5px;
+	width: 80%;
+	transition: 0.8s ease-out;
+}
+
+.card:hover .title {
+	display: block;
+}
+
+
+.s1{
+	background-image: url("picaboutme.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.s2{
+	background-image: url("picprojects.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.s3{
+	background-image: url("picskills.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.s4{
+	background-image: url("picthesis.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.d1{
+	background-image: url("picsupra.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.d2{
+	background-image: url("picachievements.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.d3{
+	background-image: url("pichobbies.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.d4{
+	background-image: url("picgallery.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.w1{
+	background-image: url("picaboutme.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.w2{
+	background-image: url("picprojects.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.w3{
+	background-image: url("picskills.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.w4{
+	background-image: url("picthesis.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.i1{
+	background-image: url("picsupra.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.i2{
+	background-image: url("picachievements.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.i3{
+	background-image: url("pichobbies.jpg");
+	background-size: cover;
+	display: block;
+}
+
+.i4{
+	background-image: url("picgallery.jpg");
+	background-size: cover;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 576px){
@@ -67,7 +249,7 @@ body{
 	border-radius: 10px;
 	/*box-shadow: -1rem 0 3rem #000;*/
 	/*box-shadow: -0.5rem 0.5rem 0.5rem #55ff06;*/
-	box-shadow: 0 0 1rem 0 #000000, 0 0 1rem 0 #000000;
+	box-shadow: -1.5rem 0 2rem 0 #000000, 0 0 2rem 0 #000000;
 	transition: 0.4s ease-out;
 	position: relative;
 	left: 0px;
@@ -78,6 +260,8 @@ body{
 }
 
 .card:hover {
+	background-image: none !important;
+	background-color: #000000;
 	transform: translateX(-30%);
 	/*transform: translateY(-20px);*/
 	transition: 0.4s ease-out;
@@ -142,7 +326,7 @@ body{
 	width: 80%;
 	background-color: #121212; /*#17141d;*/
 	border-radius: 10px;
-	box-shadow: 0 0 1rem 0 #000000, 0 0 1rem 0 #000000;
+	box-shadow: 0 -1.5rem 2rem 0 #000000, 0 0 2rem 0 #000000;
 	transition: 0.4s ease-out;
 	position: relative;
 	left: 0px;
@@ -153,6 +337,8 @@ body{
 }
 
 .card:hover {
+	background-image: none !important;
+	background-color: #000000;
 	left: 6%;
 	transform: translateY(-20%);
 	transition: 1s ease-out;
@@ -213,7 +399,7 @@ body{
 	border-radius: 10px;
 	/*box-shadow: -1rem 0 3rem #000;*/
 	/*box-shadow: -0.5rem 0.5rem 0.5rem #55ff06;*/
-	box-shadow: 0 0 1rem 0 #000000, 0 0 1rem 0 #000000;
+	box-shadow: -1.5rem 0 2rem 0 #000000, 0 0 2rem 0 #000000;
 	transition: 0.4s ease-out;
 	position: relative;
 	left: 0px;
@@ -224,6 +410,8 @@ body{
 }
 
 .card:hover {
+	background-image: none !important;
+	background-color: #000000;
 	transform: translateY(-20px);
 	transition: 0.4s ease-out;
 }
@@ -268,48 +456,6 @@ body{
 
 }
 
-
-.title {
-	color: white;
-	font-weight: 300;
-	position: absolute;
-	left: 20px;
-	top: 15px;
-}
-
-.bar {
-	position: absolute;
-	top: 100px;
-	left: 10%;
-	height: 5px;
-	width: 100%;
-	border-radius: 2.5px;
-}
-
-.emptybar {
-	border-radius: 2.5px;
-	background-color: #2e3033;
-	width: 80%;
-	height: 100%;
-}
-
-.filledbar {
-	border-radius: 2.5px;
-	position: absolute;
-	top: 0px;
-	z-index: 3;
-	width: 0px;
-	height: 100%;
-	background: rgb(0,154,217);
-	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
-	transition: 0.5s ease-out;
-}
-
-.card:hover .filledbar {
-	border-radius: 2.5px;
-	width: 80%;
-	transition: 0.8s ease-out;
-}
 
 
 
