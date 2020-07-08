@@ -350,21 +350,7 @@ body{
 	transition: 0.4s;
 }
 
-.suprabutton{
-	width: 80%;
-}
 
-.deleriobutton{
-	width: 100%;
-}
-
-.websitebutton{
-	width: 80%;
-}
-
-.internshipbutton{
-	width: 100%;
-}
 
 .buttondiv:before{
 	transition: 0.2s;
@@ -496,21 +482,7 @@ body{
 	transition: 0.4s;
 }
 
-.suprabutton{
-	width: 80%;
-}
 
-.deleriobutton{
-	width: 100%;
-}
-
-.websitebutton{
-	width: 80%;
-}
-
-.internshipbutton{
-	width: 100%;
-}
 
 .buttondiv:before{
 	transition: 0.2s;
@@ -635,7 +607,7 @@ body{
 	/*text-shadow: 5px 0 5px black;*/
 	font-size: 0.5rem;
 	border-radius: 2rem;
-	width: 80%;
+	
 	padding: 1rem;
 	color: #666666;
 	transition: 0.4s;
