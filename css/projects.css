@@ -4,11 +4,6 @@ body{
 	font-family: cursive;
 }
 
-.container{
-	display: inline-block;
-	padding: 0 3rem 0 3rem;
-}
-
 .tablink{
 	font-weight: bold;
 	color: #000000;
@@ -253,6 +248,11 @@ body{
 
 @media only screen and (min-width: 576px){
 
+.container{
+	padding: 0 2rem 0 2rem;
+	margin-bottom: 5rem;
+}
+
 .tablink{
 	font-size: 2rem;
 }
@@ -290,7 +290,7 @@ body{
 .card:hover {
 	background-image: none !important;
 	background-color: #000000;
-	transform: translateX(-30%);
+	transform: translateX(-32%);
 	/*transform: translateY(-20px);*/
 	transition: 0.4s ease-out;
 }
@@ -337,6 +337,11 @@ body{
 
 @media only screen and (max-width: 576px){
 
+.container{
+	padding: 0 1.5rem 0 1.5rem;
+	margin-bottom: 5rem;
+}
+
 .content{
 	padding: 4rem 0rem 1.5rem 0rem;
 }
@@ -354,7 +359,7 @@ body{
 
 .disp {
 	margin-left: 10%;
-	width: 96%;
+	width: 94%;
 	display: relative;
 	padding-top: 7%;
 }
@@ -378,7 +383,7 @@ body{
 .card:hover {
 	background-image: none !important;
 	background-color: #000000;
-	left: 6%;
+	left: 8%;
 	transform: translateY(-20%);
 	transition: 1s ease-out;
 }
@@ -423,6 +428,11 @@ body{
 }
 
 @media only screen and (min-width: 992px){
+
+.container{
+	padding: 0 3rem 0 3rem;
+	margin-bottom: 5rem;
+}
 
 .tablink{
 	font-size: 2rem;
