@@ -250,7 +250,7 @@ body{
 
 .container{
 	padding: 0 2rem 0 2rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 }
 
 .tablink{
@@ -332,6 +332,44 @@ body{
 	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
+.buttoncontainer{
+	padding: 0 3rem 4.5rem 3rem;
+}
+
+.maindiv{
+	padding: 5px;
+	text-align: center;
+}
+
+.buttondiv{
+	/*text-shadow: 5px 0 5px black;*/
+	font-size: 0.5rem;
+	border-radius: 2rem;
+	width: 80%;
+	padding: 1rem;
+	color: #666666;
+	transition: 0.4s;
+}
+
+.buttondiv:before{
+	transition: 0.2s;
+	transform: scale(0.9);
+	z-index: -1;
+}
+
+.buttondiv:hover:before{
+	transform: scale(1);
+}
+
+.buttondiv:hover{
+	/*color: #55ff06;*/
+	background: -webkit-linear-gradient(#55ff06, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	box-shadow: 0 0 20px #000000;
+	/*text-shadow: 0 0 1px yellow;*/
+}
+
 }
 
 
@@ -339,7 +377,7 @@ body{
 
 .container{
 	padding: 0 1.5rem 0 1.5rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 }
 
 .content{
@@ -425,13 +463,51 @@ body{
 	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
+.buttoncontainer{
+	padding: 0 3rem 4.5rem 3rem;
+}
+
+.maindiv{
+	padding: 5px;
+	text-align: center;
+}
+
+.buttondiv{
+	/*text-shadow: 5px 0 5px black;*/
+	font-size: 0.5rem;
+	border-radius: 2rem;
+	width: 90%;
+	padding: 1rem;
+	color: #666666;
+	transition: 0.4s;
+}
+
+.buttondiv:before{
+	transition: 0.2s;
+	transform: scale(0.9);
+	z-index: -1;
+}
+
+.buttondiv:hover:before{
+	transform: scale(1);
+}
+
+.buttondiv:hover{
+	/*color: #55ff06;*/
+	background: -webkit-linear-gradient(#55ff06, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	box-shadow: 0 0 20px #000000;
+	/*text-shadow: 0 0 1px yellow;*/
+}
+
 }
 
 @media only screen and (min-width: 992px){
 
 .container{
 	padding: 0 3rem 0 3rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 }
 
 .tablink{
@@ -515,7 +591,60 @@ body{
 	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
+
+.buttoncontainer{
+	padding: 0 3rem 4.5rem 3rem;
 }
+
+.maindiv{
+	padding: 5px;
+	text-align: center;
+}
+
+.buttondiv{
+	/*text-shadow: 5px 0 5px black;*/
+	font-size: 0.5rem;
+	border-radius: 2rem;
+	width: 80%;
+	padding: 1rem;
+	color: #666666;
+	transition: 0.4s;
+}
+
+.buttondiv:before{
+	transition: 0.2s;
+	transform: scale(0.9);
+	z-index: -1;
+}
+
+.buttondiv:hover:before{
+	transform: scale(1);
+}
+
+.buttondiv:hover{
+	/*color: #55ff06;*/
+	background: -webkit-linear-gradient(#55ff06, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	box-shadow: 0 0 20px #000000;
+	/*text-shadow: 0 0 1px yellow;*/
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
