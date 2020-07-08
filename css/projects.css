@@ -27,15 +27,6 @@ body{
 	border-bottom-style: groove;
 }
 
-.tablink:hover{
-	/*background-color: #777;*/
-	/*background-color: #eeeeee;*/
-	/*background-image: linear-gradient(#dddddd, #232323);*/
-	text-shadow: 1px 1px 2px rgb(0,154,217), 0 0 10px rgb(0,154,217), 0 0 10px rgb(0,154,217);
-	color: #000000;
-	font-weight: none;
-}
-
 .content{
 	width: 100%;
 	color: white;
@@ -435,6 +426,14 @@ body{
 
 .tablink{
 	font-size: 2rem;
+}
+
+.tablink:hover{
+	/*background-color: #777;*/
+	/*background-color: #eeeeee;*/
+	/*background-image: linear-gradient(#dddddd, #232323);*/
+	text-shadow: 1px 1px 2px rgb(0,154,217), 0 0 10px rgb(0,154,217), 0 0 10px rgb(0,154,217);
+	color: #000000;
 }
 
 .disp {
