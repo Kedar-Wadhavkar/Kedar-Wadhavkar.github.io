@@ -3,11 +3,18 @@ body{
 	background: #121212;
 }
 
-.btext{
-	color: #ffffff;
-	position: absolute;
-	text-align: center;
-	top: 45%;
-	width: 100%;
-	line-height: 0.5em;
+.container{
+	display: inline-block;
+	/*background-color: red;*/
+	padding: 0 2rem;
+}
+
+.pdfsection{
+	position: relative;
+	background-color: #232323;
+	padding: 0.5rem 0.5rem 0 0.5rem;
+	float: right;
+	border-color: #4f4f4f;
+	border-style: ridge;
+	box-shadow: 1px 1px 3rem black;
 }

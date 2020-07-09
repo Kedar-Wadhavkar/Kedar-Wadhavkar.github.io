@@ -377,6 +377,8 @@ body{
 }
 
 .buttondiv:hover{
+	transform: scale(1.075);
+	transition: transform 0.8s;
 	/*color: #55ff06;*/
 	background: -webkit-linear-gradient(#55ff06, yellow);
 	-webkit-background-clip: text;
@@ -523,6 +525,8 @@ body{
 }
 
 .buttondiv:hover{
+	transform: scale(1.075);
+	transition: transform 0.8s;
 	/*color: #55ff06;*/
 	background: -webkit-linear-gradient(#55ff06, yellow);
 	-webkit-background-clip: text;
@@ -652,17 +656,24 @@ body{
 }
 
 .buttondiv:hover{
+	transform: scale(1.075);
+	transition: transform 0.8s;
 	/*color: #55ff06;*/
 	background: -webkit-linear-gradient(#55ff06, yellow);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	box-shadow: 0 0 20px #000000;
-	/*text-shadow: 0 0 1px yellow;*/
+	box-shadow: 1px 1px 20px #000000;
+	
 }
 
 }
 
-
+.projectName{
+	font-family: cursive;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
 
 
 
