@@ -11,6 +11,7 @@
 }
 
 .active2{
+	color: #000000 !important;
 	background-color: #dfdfdf;
 	border-radius: 5px 5px 5px 5px;
 	border-style: ridge;
