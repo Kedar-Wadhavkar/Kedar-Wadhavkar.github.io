@@ -12,6 +12,8 @@
 	<link rel = "stylesheet" href = "css/navbar_styling.css">
 	<link rel = "stylesheet" href = "css/projects.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
 </head>
 
 <body>
@@ -68,7 +70,7 @@
 	<div id="SUPRA" class="content">
 	<div class = "disp">
 
-  		<div class="card" id = "one">
+  		<div class="card s1" id = "one">
     			<h3 class="title">Card 1</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -76,7 +78,7 @@
   			</div>
 		</div>
 
-  		<div class="card" id = "two">
+  		<div class="card s2" id = "two">
 			<h3 class="title">Card 2</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -84,7 +86,7 @@
 			</div>
     		</div>
 
-		<div class="card" id = "three">
+		<div class="card s3" id = "three">
 			<h3 class="title">Card 3</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -92,7 +94,7 @@
 			</div>
 		</div>
 
-		<div class="card" id = "four">
+		<div class="card s4" id = "four">
 			<h3 class="title">Card 4</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -107,7 +109,7 @@
 	<div id="DELERIOS" class="content">
 	<div class = "disp">
 
-  		<div class="card" id = "one">
+  		<div class="card d1" id = "one">
     			<h3 class="title">Card 1</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -115,7 +117,7 @@
   			</div>
 		</div>
 
-  		<div class="card" id = "two">
+  		<div class="card d2" id = "two">
 			<h3 class="title">Card 2</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -123,7 +125,7 @@
 			</div>
     		</div>
 
-		<div class="card" id = "three">
+		<div class="card d3" id = "three">
 			<h3 class="title">Card 3</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -131,7 +133,7 @@
 			</div>
 		</div>
 
-		<div class="card" id = "four">
+		<div class="card d4" id = "four">
 			<h3 class="title">Card 4</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -144,7 +146,7 @@
 	<div id="Website" class="content">
 	<div class = "disp">
 
-  		<div class="card" id = "one">
+  		<div class="card w1" id = "one">
     			<h3 class="title">Card 1</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -152,7 +154,7 @@
   			</div>
 		</div>
 
-  		<div class="card" id = "two">
+  		<div class="card w2" id = "two">
 			<h3 class="title">Card 2</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -160,7 +162,7 @@
 			</div>
     		</div>
 
-		<div class="card" id = "three">
+		<div class="card w3" id = "three">
 			<h3 class="title">Card 3</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -168,7 +170,7 @@
 			</div>
 		</div>
 
-		<div class="card" id = "four">
+		<div class="card w4" id = "four">
 			<h3 class="title">Card 4</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -181,7 +183,7 @@
 	<div id="Internship" class="content">
 	<div class = "disp">
 
-  		<div class="card" id = "one">
+  		<div class="card i1" id = "one">
     			<h3 class="title">Card 1</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -189,7 +191,7 @@
   			</div>
 		</div>
 
-  		<div class="card" id = "two">
+  		<div class="card i2" id = "two">
 			<h3 class="title">Card 2</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -197,7 +199,7 @@
 			</div>
     		</div>
 
-		<div class="card" id = "three">
+		<div class="card i3" id = "three">
 			<h3 class="title">Card 3</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -205,7 +207,7 @@
 			</div>
 		</div>
 
-		<div class="card" id = "four">
+		<div class="card i4" id = "four">
 			<h3 class="title">Card 4</h3>
 			<div class="bar">
 				<div class="emptybar"></div>
@@ -215,10 +217,31 @@
 	</div>
 	</div>
 
-	<button class="tablink" onclick="openProject('SUPRA', this, '#232323')" id="defaultOpen">SUPRA</button>
-	<button class="tablink" onclick="openProject('DELERIOS', this, '#232323')">DELERIOS</button>
-	<button class="tablink" onclick="openProject('Website', this, '#232323')">Website</button>
-	<button class="tablink" onclick="openProject('Internship', this, '#232323')">Internship</button>
+	<button class="tablink but1" onclick="openProject('SUPRA', this, '#232323')" id="defaultOpen">SUPRA</button>
+	<button class="tablink but2" onclick="openProject('DELERIOS', this, '#232323')">DELERIOS</button>
+	<button class="tablink but3" onclick="openProject('Website', this, '#232323')">Website</button>
+	<button class="tablink but4" onclick="openProject('Internship', this, '#232323')">Internship</button>
+
+</div>
+
+
+<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 buttoncontainer">
+
+	<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-3 maindiv">
+		<a href = "#"><i class="fa fa-flag-checkered fa-2x buttondiv suprabutton" aria-hidden="true"><br><h3 class = "projectName">SUPRA</h3></i></a>
+	</div>
+
+	<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-3 maindiv">
+		<a href = "#"><i class="fa fa-wheelchair-alt fa-2x buttondiv deleriobutton" aria-hidden="true"><br><h3 class = "projectName">DELERIO</h3></i></a>
+	</div>
+
+	<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-3 maindiv">
+		<a href = "#"><i class="fa fa-laptop fa-2x buttondiv websitebutton" aria-hidden="true"><br><h3 class = "projectName">Website</h3></i></a>
+	</div>
+
+	<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-3 maindiv">
+		<a href = "#"><i class="fa fa-suitcase fa-2x buttondiv internshipbutton" aria-hidden="true"><br><h3 class = "projectName">Internship</h3></i></a>
+	</div>
 
 </div>
 
@@ -251,8 +274,55 @@ document.getElementById("defaultOpen").click();
 
 
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -272,7 +342,6 @@ document.getElementById("defaultOpen").click();
 </body>
 
 </html>
-
 
 
 
