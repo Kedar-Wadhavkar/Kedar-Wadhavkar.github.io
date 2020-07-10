@@ -93,7 +93,7 @@ body{
 	height: 100%;
 	background: rgb(0,154,217);
 	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
-	transition: 0.5s ease-out;
+	/*transition: 0.5s ease-out;*/
 }
 
 .card:hover .filledbar {
@@ -332,61 +332,6 @@ body{
 	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
-.buttoncontainer{
-	padding: 0 3rem 4.5rem 3rem;
-}
-
-.maindiv{
-	padding: 5px;
-	text-align: center;
-}
-
-.buttondiv{
-	/*text-shadow: 5px 0 5px black;*/
-	font-size: 0.5rem;
-	border-radius: 2rem;
-	padding: 1rem;
-	color: #666666;
-	transition: 0.4s;
-}
-
-.suprabutton{
-	width: 100%;
-}
-
-.deleriobutton{
-	width: 100%;
-}
-
-.websitebutton{
-	width: 100%;
-}
-
-.internshipbutton{
-	width: 100%;
-}
-
-.buttondiv:before{
-	transition: 0.2s;
-	transform: scale(0.9);
-	z-index: -1;
-}
-
-.buttondiv:hover:before{
-	transform: scale(1);
-}
-
-.buttondiv:hover{
-	transform: scale(1.075);
-	transition: transform 0.8s;
-	/*color: #55ff06;*/
-	background: -webkit-linear-gradient(#55ff06, yellow);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	box-shadow: 0 0 20px #000000;
-	/*text-shadow: 0 0 1px yellow;*/
-}
-
 }
 
 
@@ -480,62 +425,8 @@ body{
 	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
-.buttoncontainer{
-	padding: 0 3rem 4.5rem 3rem;
 }
 
-.maindiv{
-	padding: 5px;
-	text-align: center;
-}
-
-.buttondiv{
-	/*text-shadow: 5px 0 5px black;*/
-	font-size: 0.5rem;
-	border-radius: 2rem;
-	padding: 1rem;
-	color: #666666;
-	transition: 0.4s;
-}
-
-.suprabutton{
-	width: 100%;
-}
-
-.deleriobutton{
-	width: 100%;
-}
-
-.websitebutton{
-	width: 100%;
-}
-
-.internshipbutton{
-	width: 100%;
-}
-
-.buttondiv:before{
-	transition: 0.2s;
-	transform: scale(0.9);
-	z-index: -1;
-}
-
-.buttondiv:hover:before{
-	transform: scale(1);
-}
-
-.buttondiv:hover{
-	transform: scale(1.075);
-	transition: transform 0.8s;
-	/*color: #55ff06;*/
-	background: -webkit-linear-gradient(#55ff06, yellow);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	box-shadow: 0 0 20px #000000;
-	/*text-shadow: 0 0 1px yellow;*/
-}
-
-}
 
 @media only screen and (min-width: 992px){
 
@@ -625,47 +516,19 @@ body{
 	box-shadow: 0 0 1rem 0 #55ff06, 0 0 1rem 0 #55ff06;
 }
 
+}
+
+
 
 .buttoncontainer{
-	padding: 0 3rem 4.5rem 3rem;
+	padding: 0 3rem 3.5rem 3rem;
 }
 
 .maindiv{
-	padding: 5px;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-}
-
-.buttondiv{
-	/*text-shadow: 5px 0 5px black;*/
-	font-size: 0.5rem;
-	border-radius: 2rem;
-	width: 80%;
-	padding: 1rem;
-	color: #666666;
-	transition: 0.4s;
-}
-
-.buttondiv:before{
-	transition: 0.2s;
-	transform: scale(0.9);
-	z-index: -1;
-}
-
-.buttondiv:hover:before{
-	transform: scale(1);
-}
-
-.buttondiv:hover{
-	transform: scale(1.075);
-	transition: transform 0.8s;
-	/*color: #55ff06;*/
-	background: -webkit-linear-gradient(#55ff06, yellow);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	box-shadow: 1px 1px 20px #000000;
-	
-}
-
+	padding: 0 2.5rem 1.25rem 2.5rem;
 }
 
 .projectName{
@@ -673,20 +536,63 @@ body{
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
+	display: block;
 }
 
+.buttoneffect{
+	position: relative;
+	height: 9rem;
+	background-color: #121212;
+	font-size: 1.75rem;
+	border-radius: 15px 15px 15px 15px;
+	/*border: 1px solid #000000;*/
+	transition: 0.5s;
+}
 
+.effect{
+	padding-top: 1rem;
+	justify-content: center;
+	align-items: center;
+	color: #666666;
+	position: absolute;
+	display: block;
+	background-color: #121212;
+	top: 4px;
+	left: 4px;
+	right: 4px;
+	bottom: 4px;
+	text-align: center;
+	border-radius: 10px 10px 10px 10px;
+}
 
+.buttoneffect:hover .effect::before{
+	background-color: #343434;
+	transform: scale(1);
+}
 
+.effect::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background-color: #121212;
+	border-radius: 10px 10px 10px 10px;
+	z-index: -1;	
+}
 
+.buttoneffect:hover{
+	box-shadow: 0 0 10px 2px #000000;
+	transform: scale(1.075);
+	transition: transform 0.8s;
+}
 
-
-
-
-
-
-
-
-
-
+.buttoneffect:hover .effect{
+	background-color: #121212;
+	background: -webkit-linear-gradient(#55ff06, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*text-shadow: 0 0 3px #000000;*/
+}
 
