@@ -1,22 +1,29 @@
 <?php
-	$name = $_POST['name'];
-	$visitor_email = $_POST['email'];
+	if(isset($_POST['submit']))
+	{
+		$name = $_POST['name'];
+		$visitor_email = $_POST['email'];
 
-	$email_from = 'kedar.wadhavkar@gmail.com';
+		$to = "kdkingdomcoc@gmail.com";
+
+		$subject = "New Form Submission";
+
+		$message = "Name: ".$name."\n".
+			"User Email: ".$visitor_email."\n";
+		
+		$email_from = "kdkingdomcoc@gmail.com";
+
+		$headers = "From: " .$email_from;
+
+
+		if(mail($to, $subject, $message, $headers))
+		{
+			echo "<h1>Sent Successfully! Thank you!"." ".$name.", We willcontact you shortly!</h1>";
+		}
 	
-	$email_subject = "New Form Submission";
-
-	$email_body = "Username: $name.\n".
-			"User Email: $visitor_email.\n";
-
-	$to = "kedar.wadhavkar@gmail.com";
-
-	$headers = "From: $email_from \r\n";
-
-	$headers = "Reply-To: $visitor_email \r\n";
-
-	mail($to,$email_subject,$email_body,$headers);
-	
-	header("Location: projects.html");
-
+		else
+		{
+		    echo "Something went wrong!";
+		}
+	}
 ?>
