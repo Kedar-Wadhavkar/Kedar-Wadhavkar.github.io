@@ -2,6 +2,7 @@ body{
 	display: block;
 	background: #121212;
 }
+
 /*
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
@@ -10,16 +11,17 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-}
-*/
+}*/
+
 
 section{
+	top: 0;
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background-color: #112d42;
+	/*background-color: #112d42;*/
 }
 
 section::before{
@@ -27,27 +29,31 @@ section::before{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50%;
-	height: 100%;
-	background-color: #03a9f4; 
+	/*width: 50%;*/
+	/*height: 100%;*/
+	/*background-color: #03a9f4; */
 }
 
 .container{
+	margin-top: 0;
+	/*width: 90%;*/
+	margin-right: 4%;
 	position: relative;
-	min-width: 1100px;
-	min-height: 550px;
+	/*min-width: 1100px;*/
+	min-height: 80vh;
 	display: flex;
 	z-index: 1000;
 }
 
 .contactInfo{
+	margin-left: 3%;
 	position: absolute;
-	top: 40px;
-	width: 350px;
-	height: calc(100% - 80px);
+	top: 8%;
+	width: 35%;
+	height: calc(100% - 18%);
 	background-color: #0f3959;
 	z-index: 1;
-	padding: 40px;
+	padding: 2.5% 0%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -55,31 +61,33 @@ section::before{
 }
 
 .contactInfo h2{
+	text-align: left;
+	margin-left: 10%;
 	color: #fff;
-	font-size: 24px;
+	font-size: 2.5rem;
 	font-weight: 500;
+	margin-bottom: 7%;
 }
 
 .info{
 	position: relative;
-	margin: 20px 0;
 }
 
 .info li{
+	font-size: 1.6rem;
 	position: relative;
 	list-style: none;
 	display: flex;
-	margin: 20px 0;
+	margin: 4% 0;
 	cursor: pointer;
 	align-items: flex-start;
 }
 
 .info li span:nth-child(1){
-	width: 30px;
-	min-width: 30px;
+	width: 10%;
 }
 
-.info li span:nth-child(1) img{
+.info li span:nth-child(1) fa{
 	max-width: 100%;
 	filter: invert(1);
 	opacity: 0.5;
@@ -88,12 +96,12 @@ section::before{
 
 .info li span:nth-child(2){
 	color: #fff;
-	margin-left: 10px;
+	margin-left: 5%;
 	font-weight: 300;
 	opacity: 0.5;
 }
 
-.info li:hover span:nth-child(1) img, 
+.info li:hover span:nth-child(1) fa, 
 .info li:hover span:nth-child(2)
 {
 	opacity: 1;
@@ -101,44 +109,50 @@ section::before{
 
 .sci{
 	position: relative;
-	display: flex;
+	
 }
 
 .sci li{
+	float: right;
+	display: inline-block;
 	list-style: none;
-	margin-right: 15px;
+	margin-right: 8%;
+}
+
+.sci li:nth-child(1){
+	margin-right: 15%;
 }
 
 .sci li a{
 	text-decoration: none;
 }
 
-.sci li a img{
+.sci li a fa{
 	filter: invert(1);
 	opacity: 0.5;
 }
 	
-.sci li:hover a img{
+.sci li:hover a fa{
 	opacity: 1;
 }
 
 .contactForm h2{
 	display: block;
-	margin-top: 6%;
-	margin-bottom: 5%;
+	margin-top: 8%;
+	margin-bottom: 4%;
 	color: #0f3959;
-	font-size: 30px;
+	font-size: 2.75rem;
 	font-weight: 500;
 }
 
 .contactForm{
 	position: absolute;
 	display: block;
-	padding: 8px 80px;
+	padding: 0 5%;
 	background-color: #fff;
-	margin-left: 150px;
-	padding-left: 250px;
-	width: calc(100% - 150px);
+	margin-left: 15%;
+	padding-left: 26%;
+	/*width: calc(100% - 150px);*/
 	height: 100%;
 	box-shadow: 0 50px 50px #000000;
 }
@@ -153,7 +167,7 @@ section::before{
 
 .formBox .inputBox{
 	position: relative;
-	margin: 0 0 30px 0;
+	margin: 0 0 5% 0;
 }
 
 .one{
@@ -164,13 +178,12 @@ section::before{
 	width: 100%;
 }
 
-.inputBox input,
-.inputBox textarea
+.inputBox input
 {
 	width: 100% !important;
-	padding: 5px 0;
+	padding: 2% 0;
 	resize: none;
-	font-size: 18px;
+	font-size: 1.75rem;
 	font-weight: 300;
 	color: #333;
 	border: none;
@@ -178,17 +191,12 @@ section::before{
 	outline: none;
 }
 
-.inputBox textarea{
-	min-height: 100px;
-	width: 90%;
-}
-
 .inputBox span{
 	display: none;
 	position: absolute;
 	left: 0;
 	padding: 5px 0;
-	font-size: 18px;
+	font-size: 5rem;
 	font-weight: 300;
 	color: #fff;
 	transition: 0.5s;
@@ -196,27 +204,32 @@ section::before{
 }
 
 .inputBox input:focus ~ span,
-.inputBox textarea:focus ~ span,
-.inputBox input:valid ~ span,
-.inputBox textarea:valid ~ span
+.inputBox input:valid ~ span
 {
 	display: block;
 	transform: translateY(-60px);
 	transition: 1s;
-	font-size: 12px;
+	font-size: 1.5rem;
 	font-weight: 400;
-	letter-spacing: 1px;
-	color: #ff568c;
+	color: #a0a0a0;
+}
+
+.two input:focus ~ span,
+.two input:valid ~ span
+{
+	transform: translateY(-70px);
 }
 
 .inputBox input[type="submit"]{
+	font-size: 2rem;
+	text-align: center;
 	position: relative;
 	cursor: pointer;
 	background-color: #0f3959;
 	color: #fff;
 	border: none;
-	max-width: 150px;
-	padding: 12px;
+	max-width: 100%;
+	padding: 12px 12px;
 }
 
 .inputBox input[type="submit"]:hover{
