@@ -20,7 +20,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	/*background-color: #112d42;*/
 }
 
@@ -34,21 +34,20 @@ section::before{
 	/*background-color: #03a9f4; */
 }
 
-
-
-
-@media only screen and (min-width: 576px){ /*Medium*/
-
 .container{
 	margin-top: 0;
 	/*width: 90%;*/
 	margin-right: 4%;
 	position: relative;
 	/*min-width: 1100px;*/
-	min-height: 80vh;
+	min-height: 100vh;
 	display: flex;
 	z-index: 1000;
 }
+
+
+
+@media only screen and (min-width: 576px){ /*Medium*/
 
 .contactInfo{
 	margin-left: 3%;
@@ -255,17 +254,6 @@ section::before{
 
 
 @media only screen and (min-width: 992px){ /*large and above*/
-
-.container{
-	margin-top: 0;
-	/*width: 90%;*/
-	margin-right: 4%;
-	position: relative;
-	/*min-width: 1100px;*/
-	min-height: 80vh;
-	display: flex;
-	z-index: 1000;
-}
 
 .contactInfo{
 	margin-left: 3%;
