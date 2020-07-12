@@ -83,6 +83,7 @@ section::before{
 	list-style: none;
 	display: flex;
 	margin: 4% 0;
+	margin-left: -3%;
 	cursor: pointer;
 	align-items: flex-start;
 }
@@ -245,7 +246,7 @@ section::before{
 }
 
 
-@media only screen and (max-width: 576px){ /*small and below*/
+@media only screen and (max-width: 768px){ /*small and below*/
 
 
 
