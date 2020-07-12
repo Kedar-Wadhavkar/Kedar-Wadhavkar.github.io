@@ -83,7 +83,7 @@ section::before{
 	list-style: none;
 	display: flex;
 	margin: 4% 0;
-	margin-left: -3%;
+	margin-left: -5%;
 	cursor: pointer;
 	align-items: flex-start;
 }
