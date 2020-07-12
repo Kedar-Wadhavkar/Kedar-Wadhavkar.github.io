@@ -40,7 +40,7 @@ section::before{
 	margin-right: 4%;
 	position: relative;
 	/*min-width: 1100px;*/
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	display: flex;
 	z-index: 1000;
 }
@@ -52,7 +52,7 @@ section::before{
 .contactInfo{
 	margin-left: 3%;
 	position: absolute;
-	top: 8%;
+	margin-top: 3%;
 	width: 40%;
 	/*height: calc(100% - 18%);*/
 	background-color: #0f3959;
@@ -156,8 +156,9 @@ section::before{
 	background-color: #fff;
 	margin-left: 15%;
 	padding-left: 32%;
+	padding-bottom: 5%;
 	/*width: calc(100% - 150px);*/
-	height: 100%;
+	
 	box-shadow: 0 50px 50px #000000;
 }
 
@@ -258,7 +259,7 @@ section::before{
 .contactInfo{
 	margin-left: 3%;
 	position: absolute;
-	top: 8%;
+	margin-top: 3%;
 	width: 35%;
 	/*height: calc(100% - 18%);*/
 	background-color: #0f3959;
@@ -359,11 +360,12 @@ section::before{
 	position: absolute;
 	display: block;
 	padding: 0 5%;
+	
 	background-color: #fff;
 	margin-left: 15%;
 	padding-left: 26%;
 	/*width: calc(100% - 150px);*/
-	height: 100%;
+	padding-bottom: 2%;
 	box-shadow: 0 50px 50px #000000;
 }
 
