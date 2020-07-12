@@ -55,7 +55,7 @@ section::before{
 	position: absolute;
 	top: 8%;
 	width: 40%;
-	height: calc(100% - 18%);
+	/*height: calc(100% - 18%);*/
 	background-color: #0f3959;
 	z-index: 1;
 	padding: 2.5% 0%;
