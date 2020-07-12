@@ -4,14 +4,14 @@
 		$name = $_POST['name'];
 		$visitor_email = $_POST['email'];
 
-		$to = "kdkingdomcoc@gmail.com";
+		$to = "kedar.feedback@yahoo.com";
 
 		$subject = "New Form Submission";
 
 		$message = "Name: ".$name."\n".
 			"User Email: ".$visitor_email."\n";
 		
-		$email_from = "kdkingdomcoc@gmail.com";
+		$email_from = "kedar.feedback@yahoo.com";
 
 		$headers = "From: " .$email_from;
 
