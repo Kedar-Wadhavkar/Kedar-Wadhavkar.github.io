@@ -26,7 +26,7 @@ section{
 
 section::before{
 	content: '';
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	/*width: 50%;*/
@@ -55,7 +55,7 @@ section::before{
 	margin-top: 3%;
 	width: 40%;
 	/*height: calc(100% - 18%);*/
-	background-color: #0f3959;
+	background-color: #444444;
 	z-index: 1;
 	padding: 2.5% 0%;
 	display: flex;
@@ -67,10 +67,16 @@ section::before{
 .contactInfo h2{
 	text-align: left;
 	margin-left: 10%;
-	color: #fff;
-	font-size: 2.5rem;
+	color: #dddddd;
+	font-size: 2.75rem;
 	font-weight: 500;
 	margin-bottom: 7%;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.contactInfo h2 hr{
+	margin-right: 10%;
+	box-shadow: 2px 2px 8px #000000;
 }
 
 .info{
@@ -78,6 +84,7 @@ section::before{
 }
 
 .info li{
+	color: #bbbbbb;
 	font-size: 1.6rem;
 	position: relative;
 	list-style: none;
@@ -103,10 +110,10 @@ section::before{
 	color: #fff;
 	margin-left: 5%;
 	font-weight: 300;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
-.info li:hover span:nth-child(1) fa, 
+.info li:hover span:nth-child(1) fab, 
 .info li:hover span:nth-child(2)
 {
 	opacity: 1;
@@ -118,6 +125,8 @@ section::before{
 }
 
 .sci li{
+	font-size: 1.2rem;
+	color: #ffffff;
 	float: right;
 	display: inline-block;
 	list-style: none;
@@ -134,20 +143,25 @@ section::before{
 
 .sci li a fa{
 	filter: invert(1);
-	opacity: 0.5;
+	opacity: 0.1;
 }
 	
 .sci li:hover a fa{
-	opacity: 1;
+	opacity: 0.8;
 }
 
 .contactForm h2{
 	display: block;
 	margin-top: 8%;
 	margin-bottom: 4%;
-	color: #0f3959;
-	font-size: 2.75rem;
+	color: #dddddd;
+	font-size: 3rem;
 	font-weight: 500;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.contactForm h2 hr{
+	text-shadow: 2px 2px 8px #000000;
 }
 
 .contactForm{
@@ -156,7 +170,7 @@ section::before{
 	padding: 0 5%;
 	padding-left: 32%;
 	padding-bottom: 5%;
-	background-color: #fff;
+	background-color: #232323;
 	margin-left: 15%;
 	margin-bottom: 5%;
 	box-shadow: 0 50px 50px #000000;
@@ -186,12 +200,13 @@ section::before{
 
 .inputBox input
 {
+	background-color: #232323;
 	width: 100% !important;
 	padding: 5% 0;
 	resize: none;
 	font-size: 1.75rem;
 	font-weight: 300;
-	color: #333;
+	color: #eeeeee;
 	border: none;
 	border-bottom: 1px solid #777;
 	outline: none;
@@ -217,7 +232,7 @@ section::before{
 	transition: 1s;
 	font-size: 1.5rem;
 	font-weight: 400;
-	color: #a0a0a0;
+	color: #dddddd;
 }
 
 .two input:focus ~ span,
@@ -231,15 +246,16 @@ section::before{
 	text-align: center;
 	position: relative;
 	cursor: pointer;
-	background-color: #0f3959;
+	background-color: #212121;
 	color: #fff;
 	border: none;
 	max-width: 100%;
 	padding: 12px 12px;
+	border: 3px ridge;
 }
 
 .inputBox input[type="submit"]:hover{
-	background-color: #ff568c;
+	background-color: #343434;
 }
 
 
@@ -263,7 +279,7 @@ section::before{
 	margin-top: 3%;
 	width: 35%;
 	/*height: calc(100% - 18%);*/
-	background-color: #0f3959;
+	background-color: #444444; /*#0f3959;*/
 	z-index: 1;
 	padding: 2.5% 0%;
 	display: flex;
@@ -275,17 +291,23 @@ section::before{
 .contactInfo h2{
 	text-align: left;
 	margin-left: 10%;
-	color: #fff;
-	font-size: 2.5rem;
+	color: #dddddd;
+	font-size: 2.75rem;
 	font-weight: 500;
 	margin-bottom: 7%;
+	text-shadow: 2px 2px 5px #000000;
 }
 
+.contactInfo h2 hr{
+	margin-right: 10%;
+	box-shadow: 2px 2px 8px #000000;
+}
 .info{
 	position: relative;
 }
 
 .info li{
+	color: #bbbbbb;
 	font-size: 1.6rem;
 	position: relative;
 	list-style: none;
@@ -299,7 +321,7 @@ section::before{
 	width: 10%;
 }
 
-.info li span:nth-child(1) fa{
+.info li span:nth-child(1) fab{
 	max-width: 100%;
 	filter: invert(1);
 	opacity: 0.5;
@@ -310,10 +332,10 @@ section::before{
 	color: #fff;
 	margin-left: 5%;
 	font-weight: 300;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
-.info li:hover span:nth-child(1) fa, 
+.info li:hover span:nth-child(1) fab, 
 .info li:hover span:nth-child(2)
 {
 	opacity: 1;
@@ -325,6 +347,8 @@ section::before{
 }
 
 .sci li{
+	font-size: 1.2rem;
+	color: #ffffff;
 	float: right;
 	display: inline-block;
 	list-style: none;
@@ -341,20 +365,25 @@ section::before{
 
 .sci li a fa{
 	filter: invert(1);
-	opacity: 0.5;
+	opacity: 0.1;
 }
 	
 .sci li:hover a fa{
-	opacity: 1;
+	opacity: 0.8;
 }
 
 .contactForm h2{
 	display: block;
 	margin-top: 8%;
 	margin-bottom: 4%;
-	color: #0f3959;
-	font-size: 2.75rem;
+	color: #dddddd;
+	font-size: 3rem;
 	font-weight: 500;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.contactForm h2 hr{
+	box-shadow: 2px 2px 8px #000000;
 }
 
 .contactForm{
@@ -363,7 +392,7 @@ section::before{
 	padding: 0 5%;
 	padding-bottom: 2%;
 	padding-left: 26%;
-	background-color: #fff;
+	background-color: #232323; /*#fff;*/
 	margin-left: 15%;
 	margin-bottom: 5%;
 	box-shadow: 0 50px 50px #000000;
@@ -393,12 +422,13 @@ section::before{
 
 .inputBox input
 {
+	background-color: #232323;
 	width: 100% !important;
 	padding: 3% 0;
 	resize: none;
 	font-size: 1.75rem;
 	font-weight: 300;
-	color: #333;
+	color: #eeeeee;
 	border: none;
 	border-bottom: 1px solid #777;
 	outline: none;
@@ -424,7 +454,7 @@ section::before{
 	transition: 1s;
 	font-size: 1.5rem;
 	font-weight: 400;
-	color: #a0a0a0;
+	color: #dddddd;
 }
 
 .two input:focus ~ span,
@@ -438,26 +468,89 @@ section::before{
 	text-align: center;
 	position: relative;
 	cursor: pointer;
-	background-color: #0f3959;
+	background-color: #212121; /*#0f3959;*/
 	color: #fff;
 	border: none;
 	max-width: 100%;
 	padding: 12px 12px;
+	border: 3px ridge;
 }
 
 .inputBox input[type="submit"]:hover{
-	background-color: #ff568c;
+	background-color: #343434;
 }
 
 }
 
 
 
+.iconDiv{
+	position: relative;	
+}
 
+.iconList{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
 
+.icons{
+	list-style: none;
+}
 
+.icons a{
+	position: relative;
+	width: 6.5rem;
+	height: 6.5rem;
+	background-color: #f1f1f1;
+	display: block;
+	text-align: center;
+	margin: 0 1.25rem;
+	border-radius: 50%;
+	padding: 0.75rem;
+	box-sizing: border-box;
+	text-decoration: none;
+	box-shadow: 0 8px 15px #000000;
+	background-image: linear-gradient(0deg, #565656, #aaaaaa);
+	transition: transform 0.5s;
+}
 
+.icons a:hover{
+	box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
 
+.icons .fab{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: linear-gradient(0deg, #aaaaaa, #565656);
+	border-radius: 50%;
+	line-height: calc(6.5rem - 1.5rem);
+	font-size: 2.5rem;
+	color: #262626;
+	transition: transform 0.5s;
+}
+
+.icons:nth-child(1) a:hover .fab{/*facebook*/
+	color: #3b5998;
+	/*text-shadow: 0 2px 20px #fff;*/
+}
+
+.icons:nth-child(2) a:hover .fab{/*gplus*/
+	color: #dd4b39;
+}
+
+.icons:nth-child(3) a:hover .fab{/*linked in*/
+	color: #007bb6;
+}
+
+.icons:nth-child(4) a:hover .fab{/*insta*/
+	color: #bc2a8d;
+}
+
+.icons:nth-child(5) a:hover .fab{/*github*/
+	color: #000000;
+}
 
 
 
