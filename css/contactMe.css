@@ -172,7 +172,7 @@ section::before{
 	display: block;
 	padding: 0 5%;
 	padding-left: 32%;
-	padding-bottom: 5%;
+	padding-bottom: 6%;
 	background-color: #232323;
 	margin-left: 15%;
 	margin-bottom: 5%;
@@ -245,6 +245,7 @@ section::before{
 }
 
 .inputBox input[type="submit"]{
+	margin-top: 10%;
 	font-size: 2rem;
 	text-align: center;
 	position: relative;
@@ -395,7 +396,7 @@ section::before{
 	position: absolute;
 	display: block;
 	padding: 0 5%;
-	padding-bottom: 2%;
+	padding-bottom: 4%;
 	padding-left: 26%;
 	background-color: #232323; /*#fff;*/
 	margin-left: 15%;
@@ -469,6 +470,7 @@ section::before{
 }
 
 .inputBox input[type="submit"]{
+	margin-top: 10%;
 	font-size: 2rem;
 	text-align: center;
 	position: relative;
