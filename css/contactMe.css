@@ -316,7 +316,8 @@ body{
 @media only screen and (max-width: 768px){ /*small and below*/
 
 .iconDiv{
-	position: relative;	
+	position: relative;
+	margin-left: -10%;	
 }
 
 .iconList{
