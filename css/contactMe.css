@@ -226,6 +226,7 @@ body{
 	margin-bottom: 5%;
 	box-shadow: 0 50px 50px #000000;
 	/*width: calc(100% - 150px);*/
+	border: 3px ridge;
 }
 
 .formBox{
@@ -396,7 +397,7 @@ body{
 }
 
 .contactInfo{
-	margin-left: 12%;
+	margin-left: 11%;
 	position: absolute;
 	/*margin-top: 3%;*/
 	width: 70%;
@@ -437,6 +438,10 @@ body{
 	margin: 4% 0;
 	cursor: pointer;
 	align-items: flex-start;
+}
+
+.info fab{
+	font-size: 1rem;
 }
 
 .info li span:nth-child(1){
@@ -524,6 +529,7 @@ body{
 	box-shadow: 0 50px 50px #000000;
 	/*width: calc(100% - 150px);*/
 	width: 100%;
+	border: 3px ridge;
 }
 
 .formBox{
@@ -810,6 +816,7 @@ body{
 	margin-bottom: 5%;
 	box-shadow: 0 50px 50px #000000;
 	/*width: calc(100% - 150px);*/
+	border: 3px ridge;
 }
 
 .formBox{
