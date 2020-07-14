@@ -15,8 +15,6 @@ body{
 }*/
 
 
-
-
 .container{
 	margin-top: 0;
 	width: 100%;
@@ -42,7 +40,7 @@ body{
 	position: relative;
 	width: 6.5rem;
 	height: 6.5rem;
-	margin: 0 1rem;
+	margin: 0 0.8rem;
 	background-color: #f1f1f1;
 	display: block;
 	text-align: center;
@@ -452,7 +450,7 @@ body{
 	margin-top: 45%;
 	/*padding-bottom: 4%;*/
 	/*padding-left: 26%;*/
-	padding-top: 55%;
+	padding-top: 50%;
 	background-color: #232323; /*#fff;*/
 	/*margin-left: 1%;*/
 	margin-bottom: 5%;
