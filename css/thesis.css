@@ -34,7 +34,7 @@ body{
 	background-color:#121212;
 	margin-left: 8%;
 	width: 92%;
-	height: 78vh;
+	height: 80vh;
 	border-top: 4px ridge #565656;
 	border-left: 4px ridge #565656;
 	border-right: 4px groove #565656;
@@ -49,7 +49,7 @@ body{
 	background-color:#121212;
 	margin-right: 10%;
 	width: 92%;
-	height: 78vh;
+	height: 80vh;
 	border-top: 4px ridge #565656;
 	border-left: 4px ridge #565656;
 	border-right: 4px groove #565656;
@@ -71,14 +71,49 @@ body{
 .left{
 	margin-left: 22%;
 	margin-top: 10%;
-	height: 70vh;
+	height: 69.5vh;
+	background: url(rp1.png);
+	background-size: cover;
 	position: relative;
 	display: block;
-	background-color: #121212;
+	background-color: #010101;
 	width: 50vh;
 	transform: rotate(-30deg) skew(25deg) scale(0.8);
 	transition: transform 1s;
-	border: 4px ridge #565656;
+	border: 1vh ridge #565656;
+	border-right: 1vh groove #565656;
+	border-bottom: 1vh groove #565656;
+	border-radius: 1vh 1vh 1vh 1vh;
+}
+
+.left:before{
+	content: '';
+	position: absolute;
+	top: -0.5vh;
+	left: -6.05vh;
+	height: 69.05vh;
+	width: 5vh;
+	background-color: #454545;
+	box-sizing: border-box;
+	border-top-left-radius: 80px solid #ad3c3c;
+	transform-origin: right;
+	transform: skewY(-45deg);
+	border-radius: 1vh 0.5vh 0vh 0.5vh;
+}
+
+.left:after{
+	content: '';
+	position: absolute;
+	bottom: -6.05vh;
+	left: -1vh;	
+	height: 5vh;
+	width: 49.5vh;
+	background-color: #232323;
+	box-sizing: border-box;
+	border-top-left-radius: 80px solid #ad3c3c;
+	transform-origin: top;
+	transform: skewX(-45deg);
+	border-radius: 0vh 0.5vh 1vh 0.5vh;
 }
 
 .right{
