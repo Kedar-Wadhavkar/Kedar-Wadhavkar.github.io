@@ -258,7 +258,7 @@ body{
 }
 
 .tablink:hover{
-	text-shadow: 1px 1px 2px yellow, 0 0 10px yellow, 0 0 10px yellow;
+	text-shadow: 1px 1px 2px aqua, 0 0 10px aqua, 0 0 10px aqua;
 	color: #000000;
 	font-weight: none;
 }
@@ -352,7 +352,7 @@ body{
 }
 
 .tablink:hover{
-	text-shadow: 1px 1px 2px yellow, 0 0 10px yellow, 0 0 10px yellow;
+	text-shadow: 1px 1px 2px aqua, 0 0 10px aqua, 0 0 10px aqua;
 	color: #000000;
 	font-weight: none;
 }
