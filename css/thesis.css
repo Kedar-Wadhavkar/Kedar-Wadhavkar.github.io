@@ -8,7 +8,7 @@ body{
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 576px){
 
 .container{
 	background-color: #121212;
@@ -111,14 +111,14 @@ body{
 
 .left img{
 	position: absolute;
-	margin-top: -142.5%;
+	margin-top: -143%;
 	width: 100%;
 	transition: transform 1s;
 }
 
 .right img{
 	position: absolute;	
-	margin-top: -142.5%;
+	margin-top: -143%;
 	width: 100%;
 	transition: transform 1s;
 }
@@ -243,7 +243,7 @@ body{
 
 
 
-@media only screen and (min-width: 768px){ /*large and above*/
+@media only screen and (min-width: 576px){ 
 
 .container{
 	background-color: #121212;
