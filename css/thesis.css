@@ -111,14 +111,14 @@ body{
 
 .left img{
 	position: absolute;
-	margin-top: -142%;
+	margin-top: -142.5%;
 	width: 100%;
 	transition: transform 1s;
 }
 
 .right img{
 	position: absolute;	
-	margin-top: -142%;
+	margin-top: -142.5%;
 	width: 100%;
 	transition: transform 1s;
 }
