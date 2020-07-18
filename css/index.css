@@ -21,9 +21,8 @@ body{
 }
 
 .btext{
-	background: -webkit-linear-gradient(rgba(0,154,217,1), white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px rgba(0,255,255);
 	position: absolute;
 	text-align: center;
 	top: 45%;
@@ -121,7 +120,7 @@ div.single-card{
 }
 
 .block{
-	margin: 4rem auto;
+	margin: 3rem auto;
 }
 
 .single-card:hover .information{
