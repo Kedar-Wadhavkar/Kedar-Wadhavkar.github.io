@@ -207,7 +207,9 @@ body{
 	font-weight: bold;
 	padding: 0;
 	display: block;
-	color: #bbbbbb;
+	background: -webkit-linear-gradient(rgba(0,255,255), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	margin-top: 1.75vh;
 	margin-bottom: 2vh;
 }
@@ -218,9 +220,6 @@ body{
 }
 
 .buttoneffect1:hover .projectName{
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	transform: scale(1.1);
 	transition: 1s;
 }
@@ -442,7 +441,9 @@ body{
 	font-weight: bold;
 	padding: 0;
 	display: block;
-	color: #bbbbbb;
+	background: -webkit-linear-gradient(rgba(0,255,255), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	margin-top: 1.75vh;
 	margin-bottom: 2vh;
 }
@@ -453,9 +454,6 @@ body{
 }
 
 .buttoneffect1:hover .projectName{
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	transform: scale(1.1);
 	transition: 1s;
 }

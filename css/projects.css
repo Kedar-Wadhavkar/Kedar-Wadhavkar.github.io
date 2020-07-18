@@ -8,6 +8,9 @@ body{
 	font-weight: bold;
 	color: #000000;
   	text-shadow: 1px 1px 2px #55ff06, 0 0 5px #55ff06, 0 0 5px #55ff06;
+	/*background: -webkit-linear-gradient(rgba(0,255,255), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;*/
 	background-color: #0f0f0f;
   	float: left;
  	border: none;
@@ -16,7 +19,6 @@ body{
 	padding: 1.5rem 0;
 	width: 25%;
 	text-align: center;
-
 	border-color: #3f3f3f;
 	border-width: 3px;
 	border-bottom-style: groove;
@@ -254,7 +256,7 @@ body{
 }
 
 .tablink{
-	font-size: 2rem;
+	font-size: 2.25rem;
 }
 
 .tablink:hover{
@@ -436,7 +438,7 @@ body{
 }
 
 .tablink{
-	font-size: 2rem;
+	font-size: 2.25rem;
 }
 
 .tablink:hover{
