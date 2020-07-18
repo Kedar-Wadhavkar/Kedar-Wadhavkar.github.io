@@ -43,7 +43,7 @@ body{
 
 .cardHeading{
 	color: #000000;
-	text-shadow: 1px 1px 2px rgba(0,154,217,1), 0 0 10px rgba(0,154,217,1), 0 0 10px rgba(0,154,217,1);
+	text-shadow: 1px 1px 2px rgba(0,255,255,1), 0 0 10px rgba(0,255,255,1), 0 0 10px rgba(0,255,255,1);
 	font-size: 2.5rem;
 	font-weight: bold;
 	word-wrap: break-word;
@@ -72,7 +72,7 @@ body{
 }
 
 div.single-card{
-	box-shadow: -4.5px 4.5px 4.5px rgba(0,255,255); /*rgba(0,154,217,1);*/ /*#0B5345;*/
+	box-shadow: -4.5px 4.5px 4.5px rgba(0,154,217,1); /*#0B5345;*/
 }
 
 .single-card{
