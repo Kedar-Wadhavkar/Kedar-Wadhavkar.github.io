@@ -30,6 +30,7 @@ body{
 	width: 100%;
 	line-height: 0.5em;
 	z-index: 2;
+	font-weight: bold;
 }
 
 #myBtn {
@@ -88,7 +89,7 @@ div.single-card{
 	height: 32rem;
 	/*background: linear-gradient(to top right, #2f2f2f, #e0e0e0);*/
 	/*background: #f0e995;*/ /*#ffffcb;*/
-	background: #262626;
+	background: #212121;
 	overflow: hidden;
 	text-align: center;
 	border-left: 2.5px solid #000000;

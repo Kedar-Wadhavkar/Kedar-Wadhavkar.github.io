@@ -61,7 +61,7 @@ body{
 }
 
 .icons a:hover{
-	box-shadow: 0 2px 5px rgba(0,0,0,1);
+	box-shadow: 0 2px 6px rgba(0,255,255);
 }
 
 .icons .fab{
@@ -103,29 +103,33 @@ body{
 	margin-top: 3%;
 	width: 40%;
 	/*height: calc(100% - 18%);*/
-	background-color: #444444;
+	background-color: #333333;
 	z-index: 1;
 	padding: 2.5% 0%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	box-shadow: 0 20px 20px #000000;
+	box-shadow: 0 6px 15px rgba(0,255,255);
 }
 
 .contactInfo h2{
 	text-align: left;
 	margin-left: 10%;
-	color: #dddddd;
+	color: #000000;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 2.75rem;
 	font-weight: 500;
 	margin-bottom: 7%;
-	text-shadow: 2px 2px 5px #000000;
 }
 
-.contactInfo h2 hr{
-	margin-right: 10%;
+.contactInfo h2 .hline{
+	margin: 6% 10% 5% 0;
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
 	box-shadow: 2px 2px 8px #000000;
 }
+
 
 .info{
 	position: relative;
@@ -202,16 +206,21 @@ body{
 
 .contactForm h2{
 	display: block;
-	margin-top: 8%;
+	margin-top: 10%;
 	margin-bottom: 4%;
-	color: #dddddd;
+	color: #000000;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 3rem;
 	font-weight: 500;
-	text-shadow: 2px 2px 5px #000000;
 }
 
-.contactForm h2 hr{
-	text-shadow: 2px 2px 8px #000000;
+.contactForm h2 .hline{
+	margin: 8% 0 8% 0;
+	/*border: 0.5px solid #55ff06;*/
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
+	box-shadow: 2px 2px 8px #000000;
 }
 
 .contactForm{
@@ -227,6 +236,7 @@ body{
 	box-shadow: 0 50px 50px #000000;
 	/*width: calc(100% - 150px);*/
 	border: 3px ridge;
+	border-color: rgba(0,154,217,1);
 }
 
 .formBox{
@@ -299,14 +309,19 @@ body{
 	text-align: center;
 	position: relative;
 	cursor: pointer;
+	
+	background: -webkit-linear-gradient(rgba(0,154,217), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	background-color: #212121;
-	color: #fff;
-	border: none;
 	max-width: 100%;
 	padding: 12px 12px;
 	border: 3px ridge;
-}
+	border-color: rgba(0,255,255);
+	font-weight: bold;
 
+}
+	
 .inputBox input[type="submit"]:hover{
 	background-color: #343434;
 }
@@ -349,7 +364,7 @@ body{
 }
 
 .icons a:hover{
-	box-shadow: 0 2px 5px rgba(0,0,0,1);
+	box-shadow: 0 2px 6px rgba(0,255,255);
 }
 
 .icons .fab{
@@ -402,29 +417,34 @@ body{
 	/*margin-top: 3%;*/
 	width: 70%;
 	/*height: calc(100% - 18%);*/
-	background-color: #444444; /*#0f3959;*/
+	background-color: #333333; /*#0f3959;*/
 	z-index: 1;
 	padding: 2.5% 0%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	box-shadow: 0 10px 15px #000000;
+	box-shadow: 0 6px 15px rgba(0,255,255);
 }
 
 .contactInfo h2{
 	text-align: left;
 	margin-left: 10%;
-	color: #dddddd;
+	color: #000000;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 2.75rem;
 	font-weight: 500;
 	margin-bottom: 7%;
-	text-shadow: 2px 2px 5px #000000;
+	/*text-shadow: 2px 2px 5px #000000;*/
 }
 
-.contactInfo h2 hr{
-	margin-right: 10%;
+.contactInfo h2 .hline{
+	margin: 6% 10% 5% 0;
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
 	box-shadow: 2px 2px 8px #000000;
 }
+	
 .info{
 	position: relative;
 }
@@ -505,13 +525,18 @@ body{
 	display: block;
 	margin-top: 10%;
 	margin-bottom: 4%;
-	color: #dddddd;
+	color: #000000;
+	text-shadow: 1px 1px 2px rgba(0, 255, 255), 0 0 10px rgba(0, 255, 255), 0 0 10px rgba(0, 255, 255);
 	font-size: 3rem;
 	font-weight: 500;
-	text-shadow: 2px 2px 5px #000000;
 }
 
-.contactForm h2 hr{
+.contactForm h2 .hline{
+	margin: 6% 0 5% 0;
+	/*border: 0.5px solid #55ff06;*/
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
 	box-shadow: 2px 2px 8px #000000;
 }
 
@@ -530,6 +555,7 @@ body{
 	/*width: calc(100% - 150px);*/
 	width: 100%;
 	border: 3px ridge;
+	border-color: rgba(0,154,217,1);
 }
 
 .formBox{
@@ -604,12 +630,16 @@ body{
 	text-align: center;
 	position: relative;
 	cursor: pointer;
+	background: -webkit-linear-gradient(rgba(0,154,217), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	background-color: #212121; /*#0f3959;*/
-	color: #fff;
 	border: none;
 	max-width: 20%;
 	padding: 10px 10px;
 	border: 3px ridge;
+	border-color: rgba(0,255,255);
+	font-weight: bold;
 }
 
 .inputBox input[type="submit"]:hover{
@@ -653,7 +683,7 @@ body{
 }
 
 .icons a:hover{
-	box-shadow: 0 2px 5px rgba(0,0,0,1);
+	box-shadow: 0 2px 6px rgba(0,255,255);
 }
 
 .icons .fab{
@@ -695,29 +725,33 @@ body{
 	margin-top: 3%;
 	width: 35%;
 	/*height: calc(100% - 18%);*/
-	background-color: #444444; /*#0f3959;*/
+	background-color: #333333; /*#0f3959;*/
 	z-index: 1;
 	padding: 2.5% 0%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	box-shadow: 0 20px 20px #000000;
+	box-shadow: 0 5px 15px rgba(0,255,255);
 }
 
 .contactInfo h2{
 	text-align: left;
 	margin-left: 10%;
-	color: #dddddd;
+	color: #000000;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 2.75rem;
 	font-weight: 500;
 	margin-bottom: 7%;
-	text-shadow: 2px 2px 5px #000000;
 }
 
-.contactInfo h2 hr{
-	margin-right: 10%;
+.contactInfo h2 .hline{
+	margin: 6% 10% 5% 0;
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
 	box-shadow: 2px 2px 8px #000000;
 }
+
 .info{
 	position: relative;
 }
@@ -794,13 +828,18 @@ body{
 	display: block;
 	margin-top: 8%;
 	margin-bottom: 4%;
-	color: #dddddd;
-	font-size: 3rem;
+	color: #000000;
+	text-shadow: 1px 1px 2px rgba(0, 255, 255), 0 0 10px rgba(0, 255, 255), 0 0 10px rgba(0, 255, 255);
+	font-size: 3.5rem;
 	font-weight: 500;
-	text-shadow: 2px 2px 5px #000000;
 }
 
-.contactForm h2 hr{
+.contactForm h2 .hline{
+	margin: 6% 0 5% 0;
+	/*border: 0.5px solid #55ff06;*/
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
 	box-shadow: 2px 2px 8px #000000;
 }
 
@@ -817,6 +856,7 @@ body{
 	box-shadow: 0 50px 50px #000000;
 	/*width: calc(100% - 150px);*/
 	border: 3px ridge;
+	border-color: rgba(0,154,217,1);
 }
 
 .formBox{
@@ -889,12 +929,15 @@ body{
 	text-align: center;
 	position: relative;
 	cursor: pointer;
+	background: -webkit-linear-gradient(rgba(0,154,217), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	background-color: #212121; /*#0f3959;*/
-	color: #fff;
-	border: none;
 	max-width: 100%;
 	padding: 12px 12px;
 	border: 3px ridge;
+	border-color: rgba(0,255,255);
+	font-weight: bold;
 }
 
 .inputBox input[type="submit"]:hover{
@@ -903,7 +946,7 @@ body{
 
 }
 
-
+	
 
 
 
