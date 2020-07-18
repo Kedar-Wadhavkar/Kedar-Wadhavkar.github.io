@@ -22,7 +22,7 @@ body{
 
 .btext{
 	color: #ffffff;
-	text-shadow: 2px 2px 3px rgba(0,255,255);
+	text-shadow: 1px 1px 3px rgba(0,255,255);
 	position: absolute;
 	text-align: center;
 	top: 45%;
