@@ -109,7 +109,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	box-shadow: 0 6px 8px rgba(0,255,255);
+	box-shadow: 0 3px 8px rgba(0,255,255);
 }
 
 .contactInfo h2{
@@ -127,7 +127,7 @@ body{
 	height: 3px;
 	border-radius: 50%;
 	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
-	box-shadow: 2px 2px 6px #000000;
+	box-shadow: 2px 2px 8px #000000;
 }
 
 
@@ -423,7 +423,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	box-shadow: 0 6px 6px rgba(0,255,255);
+	box-shadow: 2px 2px 5px rgba(0,255,255);
 }
 
 .contactInfo h2{
@@ -442,7 +442,7 @@ body{
 	height: 3px;
 	border-radius: 50%;
 	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
-	box-shadow: 2px 2px 6px #000000;
+	box-shadow: 2px 2px 8px #000000;
 }
 	
 .info{
@@ -731,7 +731,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	box-shadow: 0 5px 8px rgba(0,255,255);
+	box-shadow: 0 3px 15px rgba(0,255,255);
 }
 
 .contactInfo h2{
