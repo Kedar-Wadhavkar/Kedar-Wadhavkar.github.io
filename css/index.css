@@ -7,23 +7,29 @@ body{
 	margin-top: -1%;
 	background-image: url("mypic2.jpg");
 	background-size: cover;
-	opacity: 
 }
 
 .far{
+	/*color: #55ff06;*/
+	background: -webkit-linear-gradient(rgba(0,154,217,1), #55ff06);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	border-style: ridge;
 	border-color: #000000;
 	border-radius: 50%;
-	box-shadow: 1px 2px 4px #55ff06, -1px -2px 4px #55ff06;
+	box-shadow: 1px 2px 4px rgba(0,255,255), -1px -2px 4px #fff;
 }
 
 .btext{
-	color: #ffffff;
+	background: -webkit-linear-gradient(rgba(0,154,217,1), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	position: absolute;
 	text-align: center;
 	top: 45%;
 	width: 100%;
 	line-height: 0.5em;
+	z-index: 2;
 }
 
 #myBtn {

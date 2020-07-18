@@ -5,7 +5,7 @@ particlesJS("particles-js",
                 "value": 50,
                 "density": { "enable": true, "value_area": 750 }
             },
-            "color": { "value": ["#00ffff","#55ff06"] },
+            "color": { "value": "#00ffff" },
             "shape": {
                 "type": "circle",
                 "stroke": { "width": 0, "color": "#eeeeee" },
