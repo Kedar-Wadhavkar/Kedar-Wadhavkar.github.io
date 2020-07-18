@@ -43,7 +43,7 @@ body{
 
 .cardHeading{
 	color: #000000;
-	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
+	text-shadow: 1px 1px 2px rgba(0,154,217,1), 0 0 10px rgba(0,154,217,1), 0 0 10px rgba(0,154,217,1);
 	font-size: 2.5rem;
 	font-weight: bold;
 	word-wrap: break-word;
@@ -59,7 +59,7 @@ body{
 	/*border: 0.5px solid #55ff06;*/
 	height: 3px;
 	border-radius: 50%;
-	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
 }
 
 .information{
@@ -72,7 +72,7 @@ body{
 }
 
 div.single-card{
-	box-shadow: -4.5px 4.5px 4.5px rgba(0,154,217,1); /*#0B5345;*/
+	box-shadow: -4.5px 4.5px 4.5px rgba(0,255,255); /*rgba(0,154,217,1);*/ /*#0B5345;*/
 }
 
 .single-card{
