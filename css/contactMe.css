@@ -127,7 +127,7 @@ body{
 	height: 3px;
 	border-radius: 50%;
 	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06 100%);
-	box-shadow: 2px 2px 8px #000000;
+	box-shadow: 2px 2px 6px #000000;
 }
 
 
@@ -209,7 +209,7 @@ body{
 	margin-top: 10%;
 	margin-bottom: 4%;
 	color: #000000;
-	text-shadow: 1px 1px 2px #55ff06, 0 0 10px #55ff06, 0 0 10px #55ff06;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 3rem;
 	font-weight: 500;
 }
@@ -219,7 +219,7 @@ body{
 	/*border: 0.5px solid #55ff06;*/
 	height: 3px;
 	border-radius: 50%;
-	background: linear-gradient(90deg, #55ff06, rgba(0,154,217,1));
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06);
 	box-shadow: 2px 2px 8px #000000;
 }
 
@@ -423,7 +423,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	box-shadow: 0 6px 10px rgba(0,255,255);
+	box-shadow: 0 6px 6px rgba(0,255,255);
 }
 
 .contactInfo h2{
@@ -526,7 +526,7 @@ body{
 	margin-top: 10%;
 	margin-bottom: 4%;
 	color: #000000;
-	text-shadow: 1px 1px 2px #55ff06, 0 0 10px #55ff06, 0 0 10px #55ff06;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 3rem;
 	font-weight: 500;
 }
@@ -536,7 +536,7 @@ body{
 	/*border: 0.5px solid #55ff06;*/
 	height: 3px;
 	border-radius: 50%;
-	background: linear-gradient(90deg, #55ff06, rgba(0,154,217,1));
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06);
 	box-shadow: 2px 2px 8px #000000;
 }
 
@@ -829,7 +829,7 @@ body{
 	margin-top: 8%;
 	margin-bottom: 4%;
 	color: #000000;
-	text-shadow: 1px 1px 2px #55ff06, 0 0 10px #55ff06, 0 0 10px #55ff06;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 3.5rem;
 	font-weight: 500;
 }
@@ -839,7 +839,7 @@ body{
 	/*border: 0.5px solid #55ff06;*/
 	height: 3px;
 	border-radius: 50%;
-	background: linear-gradient(90deg, #55ff06, rgba(0,154,217,1));
+	background: linear-gradient(90deg, rgba(0,154,217,1), #55ff06);
 	box-shadow: 2px 2px 8px #000000;
 }
 
