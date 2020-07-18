@@ -3,6 +3,13 @@ body{
 	background: #121212; /*#353535; #99ffcc;*/
 }
 
+#particles-js{
+	margin-top: -1%;
+	background-image: url("mypic2.jpg");
+	background-size: cover;
+	opacity: 
+}
+
 .far{
 	border-style: ridge;
 	border-color: #000000;
@@ -36,7 +43,7 @@ body{
 
 .cardHeading{
 	color: #000000;
-	text-shadow: 1px 1px 2px #55ff06, 0 0 10px #55ff06, 0 0 10px #55ff06;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
 	font-size: 2.5rem;
 	font-weight: bold;
 	word-wrap: break-word;
@@ -47,10 +54,12 @@ body{
 	margin-bottom: 1rem;
 }
 
-hr{
-	border: 0.5px double #55ff06;
-	box-shadow: 1px 2px 8px #55ff06, -1px -2px 8px #000000;
-	border-radius: 1px;
+.hline{
+	margin: 6% 0 5% 0;
+	/*border: 0.5px solid #55ff06;*/
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
 }
 
 .information{
@@ -63,7 +72,7 @@ hr{
 }
 
 div.single-card{
-	box-shadow: -4.5px 4.5px 4.5px #55ff06; /*#0B5345;*/
+	box-shadow: -4.5px 4.5px 4.5px rgba(0,154,217,1); /*#0B5345;*/
 }
 
 .single-card{
@@ -112,7 +121,7 @@ div.single-card{
 	display: none;
 }
 
-.single-card:hover hr{
+.single-card:hover .hline{
 	display: none;
 }
 

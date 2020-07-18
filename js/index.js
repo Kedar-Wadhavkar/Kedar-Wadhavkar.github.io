@@ -2,10 +2,10 @@ particlesJS("particles-js",
     {
         "particles": {
             "number": {
-                "value": 40,
+                "value": 50,
                 "density": { "enable": true, "value_area": 750 }
             },
-            "color": { "value": "#55ff06" },
+            "color": { "value": "#00ffff" },
             "shape": {
                 "type": "circle",
                 "stroke": { "width": 0, "color": "#eeeeee" },

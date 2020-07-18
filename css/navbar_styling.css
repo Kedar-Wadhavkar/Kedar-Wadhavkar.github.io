@@ -1,6 +1,8 @@
 .navbar {
+	background-color: #121212;
 	font-family: cursive;
 	font-size: 20px; 
+	border: none;
 }
 
 .active{
@@ -30,22 +32,27 @@
 }
 
 .navbar-brand {
-	text-shadow: 10px 1px 5px #000000, 0 0 15px #000000;
+	/*text-shadow: 10px 1px 5px #000000, 0 0 15px #000000;*/
 	font-style: italic;
 	font-size: 2.5rem;
-	margin: 1.5px 0.5rem 0 1rem;
-	padding-top: 1rem;
-	background-color: #121212;
+	margin: 0.5rem 0.5rem 0.5rem 1.5rem;
+	padding-top: 1.3rem;
+	background-color: #202020;
 	border-radius: 25px 0 15px 0;
-	border-style: ridge;
+	/*border-style: ridge;*/
 	border-color: #222222;
+	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;
+}
+
+.navbar-brand:hover{
+	background-color: #000000;
+	box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+	
 }
 
 .adjustPadding{
 	font-weight: bold;
 	text-align: center;
-	/*margin-top: 1px;
-	margin-bottom: 1px;*/
 	margin-left: 1rem;
 	cursor: pointer;
 	text-shadow: 0 1px 5px #000000, 0 0 20px #000000, 0 0 10px #000000;
@@ -55,6 +62,7 @@
 	margin-right: 0.5rem;
 }
 
+
 .navbar-nav li:after {
 	content: '';
 	display: block;
@@ -62,10 +70,13 @@
 	height: 3px;
 	width: 0px;
 	background: transparent;
-	transition: width .3s ease, background-color .3s ease;
+	transition: width 1s ease, background-color 1s ease;
+	border-radius: 50%;
 }
 
 .navbar-nav li:hover:after {
+	z-index: 1;
 	width: 100%;
-	background: #55ff06;
+	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
+	transition: width .5s ease, background-color .5s ease;
 }
