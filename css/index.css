@@ -17,7 +17,7 @@ html{
 	display: none;
 	position: fixed;
 	bottom: 20px;
-	right: 30px;
+	right: 15px;
 	z-index: 99;
 	font-size: 36px;
 	border: none;
@@ -49,6 +49,11 @@ html{
 	line-height: 0.5em;
 	z-index: 2;
 	font-weight: bold;
+}
+
+.container{
+	width: 90%;
+	padding-top: 5%;
 }
 
 .cardHeading{

@@ -73,6 +73,7 @@ body{
 	border-radius: 54px 54px 0 0;
 	z-index: 2;
 	box-shadow: 0px 3px 10px #000000;
+	margin-bottom: 6%;
 }
 
 .left{
@@ -81,7 +82,7 @@ body{
 	display: block;
 	background: radial-gradient(#111111, #212121);
 	width: 52%;
-	padding-top: 68%;
+	padding-top: 66%;
 	/*background: url(rp1.png);
 	background-size: 100%;*/
 	transform: rotate(-30deg) skew(25deg) scale(0.8);
@@ -98,7 +99,7 @@ body{
 	display: block;
 	background: radial-gradient(#111111, #212121);
 	width: 52%;
-	padding-top: 68%;
+	padding-top: 66%;
 	/*background: url(rp1.png);
 	background-size: 100%;*/
 	transform: rotate(-30deg) skew(25deg) scale(0.8);
@@ -183,7 +184,7 @@ body{
 	background-color: #121212;
 	font-size: 1.75rem;
 	border-radius: 5px 31px 5px 31px;
-	margin-top: 3%;
+	margin-top: -2%;
 	box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
 }
