@@ -16,8 +16,8 @@ html{
 .gotopbtn{
 	display: none;
 	position: fixed;
-	bottom: 20px;
-	right: 15px;
+	bottom: 15px;
+	right: 10px;
 	z-index: 99;
 	font-size: 36px;
 	border: none;
@@ -52,7 +52,7 @@ html{
 }
 
 .container{
-	width: 90%;
+	width: 95%;
 	padding-top: 5%;
 }
 
@@ -65,7 +65,7 @@ html{
 	text-align: left;
 	font-family: cursive;
 	margin-left: 1.5rem;
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	margin-bottom: 1rem;
 }
 
@@ -94,7 +94,7 @@ div.single-card{
 	font-family: cursive;
 	position: relative;
 	padding: 2rem 3rem 5rem 3rem;
-	height: 32rem;
+	height: 34rem;
 	/*background: linear-gradient(to top right, #2f2f2f, #e0e0e0);*/
 	/*background: #f0e995;*/ /*#ffffcb;*/
 	background: #212121;
@@ -110,10 +110,8 @@ div.single-card{
 	position: absolute;
 	top: 0; 
 	right: 0;
-
 	border-style: solid;
 	border-color: #262626 #262626 transparent transparent;
-	/*display: block-inline;*/
 	width: 0;	
 }
 
@@ -213,9 +211,6 @@ footer p {
 	text-align:center;
 	text-shadow: 2px 2px 2px #000000;	
 }
-
-
-
 
 
 
