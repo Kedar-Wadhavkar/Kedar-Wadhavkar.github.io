@@ -95,9 +95,9 @@ div.single-card{
 	position: relative;
 	padding: 2rem 3rem 5rem 3rem;
 	height: 33.5rem;
-	/*background: linear-gradient(to top right, #2f2f2f, #e0e0e0);*/
+	background: linear-gradient(to top right, #212121, #313131);
 	/*background: #f0e995;*/ /*#ffffcb;*/
-	background: #212121;
+	/*background: #212121;*/
 	overflow: hidden;
 	text-align: center;
 	border-left: 2.5px solid #000000;
@@ -111,7 +111,7 @@ div.single-card{
 	top: 0; 
 	right: 0;
 	border-style: solid;
-	border-color: #262626 #262626 transparent transparent;
+	border-color: #313131 #313131 transparent transparent;
 	width: 0;	
 }
 
