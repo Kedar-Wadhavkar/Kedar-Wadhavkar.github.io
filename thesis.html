@@ -69,8 +69,7 @@
 	<div class = "separateBlock1">
 		<div class = "windowLeft">
 		<div class = "heading"><h2>Research Thesis</h2></div>
-		<div class = "buttoneffect1">
-			<a href = "#" style="text-decoration: none;">
+		<div class = "buttoneffect1" id = "scrollbottom">
 			<span class = "effect">
 			<h3 class = "projectName">Read<br>Abstract</h3>
 			</span></a>
@@ -94,7 +93,6 @@
 		<div class = "windowRight">
 		<div class = "heading"><h2>Seminar Thesis</h2></div>
 		<div class = "buttoneffect1">
-			<a href = "#" style="text-decoration: none;">
 			<span class = "effect">
 			<h3 class = "projectName">Read<br>Abstract</h3>
 			</span></a>
@@ -113,8 +111,23 @@
 		</div>
 		</div>
 	</div>
-
 </div>
+
+<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 abstractread1">Abstract is here. Read it.</div>
+
+<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 abstractread2" onclick = "bottomFunction();">Abstract is here. Read it.</div>
+
+
+<script>
+
+function scrollWin() {
+	window.scrollBy({ top: 930, behavior: 'smooth' });
+}
+
+document.getElementById("scrollbottom").addEventListener("click", scrollWin);
+
+</script>
+
 
 
 	<!-- scripts required in this program i placed here -->

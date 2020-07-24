@@ -711,7 +711,27 @@ body{
 }
 
 
+.abstractread1{
+	display: block; 
+	padding: 20px; 
+	width: 100%; 
+	height: 500px; 
+	text-align: center; 
+	color: #dddddd; 
+	background-color: #565656;
+	margin-bottom: 300px;
+}
 
+.abstractread2{
+	display: block; 
+	padding: 20px; 
+	width: 100%; 
+	height: 60px; 
+	text-align: center; 
+	color: #dddddd; 
+	background-color: #565656;
+	margin-bottom: 300px;
+}
 
 
 
