@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');*/
 
-/*@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 
 *{
 	font-family: 'Merriweather', serif;
@@ -305,7 +305,6 @@ body{
 	text-align: center;
 	position: relative;
 	cursor: pointer;
-	
 	background: -webkit-linear-gradient(rgba(0,154,217), white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -633,7 +632,7 @@ body{
 	background-color: #212121; /*#0f3959;*/
 	border: none;
 	max-width: 25%;
-	padding: 2% 5% 2% 5%;
+	padding: 2% 0;
 	border: 3px ridge;
 	border-color: rgba(0,255,255);
 	font-weight: bold;
