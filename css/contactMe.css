@@ -3,7 +3,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');*/
 
 *{
-	font-family: 'Merriweather', serif !important;
+	font-family: 'Merriweather', serif;
 }
 
 body{
@@ -408,10 +408,10 @@ body{
 }
 
 .contactInfo{
-	margin-left: 11%;
+	margin-left: 8.5%;
 	position: absolute;
 	/*margin-top: 3%;*/
-	width: 70%;
+	width: 75%;
 	/*height: calc(100% - 18%);*/
 	background-color: #333333; /*#0f3959;*/
 	z-index: 1;
@@ -452,6 +452,7 @@ body{
 	list-style: none;
 	display: flex;
 	margin: 4% 0;
+	margin-left: -5%;
 	cursor: pointer;
 	align-items: flex-start;
 }
