@@ -11,44 +11,41 @@ body{
 	background-color: #121212;
 }
 
-@media only screen and (max-width: 576px){
+
+@media only screen and (max-width: 992px){ 
 
 .container{
 	background-color: #121212;
-	display: block;
+	display: flex;
 	margin: 0;	
-	padding-bottom: 5%;
-	
+	padding-right: 1%;
+	padding-left: 1%;
 	padding-top: 0;
+	padding-bottom: 5%;
 }
 
 .separateBlock1{
-	width: 100%;
+	width: 50%;
 	position: relative;
 	display: block;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-right: 1%;
 }
 
 .separateBlock2{
-	width: 100%;
+	width: 50%;
 	position: relative;
 	display: block;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 1%;
 }
 
 .windowLeft{
 	position: relative;
 	display: block;
 	background: linear-gradient(#202020, #262626);
+	margin-left: 4%;
 	margin-top: 2%;
-	width: 100%;
+	width: 96%;
 	padding-bottom: 2.5%;
-	/*border-top: 1px ridge #565656;
-	border-left: 1px ridge #565656;
-	border-right: 1px groove #565656;
-	border-bottom: 1px groove #565656;*/
 	border-radius: 60px 60px 40px 40px;
 	box-shadow: -3px -3px 8px #333333, 3px 3px 8px #000000;
 }
@@ -56,44 +53,45 @@ body{
 .windowRight{
 	position: relative;
 	display: block;
-	background: linear-gradient(#222222, #262626);
-	margin-top: 10%;
-	width: 100%;
+	background: linear-gradient(#202020, #262626);
+	margin-top: 2%;
+	width: 96%;
 	padding-bottom: 2.5%;
 	border-radius: 60px 60px 40px 40px;
 	box-shadow: -3px -3px 8px #333333, 3px 3px 8px #000000;
 }
 
 .heading{
-	/*color: #000000;
-	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);*/
 	position: relative;
 	width: 100%;
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 	/*background-color: #333333;*/ /*rgba(18,18,18, 0);*/
 	/*border-bottom: 4px ridge #565656;*/
-	background-image: radial-gradient(#333333, #212121);
+	background: radial-gradient(#333333, #212121);
 	border-radius: 54px 54px 0 0;
 	z-index: 2;
-	box-shadow: 0px 6px 5px #000000;;
+	box-shadow: 0px 3px 10px #000000;
 	margin-bottom: 6%;
 	font-weight: bold;
 	background: -webkit-linear-gradient(rgba(0,255,255), white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	
 }
 
 .windowLeft .heading{
 	height: 14rem;
-	padding: 2rem 2rem 2rem 2rem;
+	padding: 2.5rem 2.5rem 2rem 2.5rem;
 }
 
 .windowRight .heading{
-	height: 12rem;
-	padding: 2.5rem 2rem 2rem 2rem;
+	height: 14rem;
+	padding: 2.5rem 2.5rem 2rem 2.5rem;
 }
+
+
+
+
 
 .left{
 	margin-left: 23%;
@@ -131,14 +129,14 @@ body{
 
 .left img{
 	position: absolute;
-	margin-top: -143%;
+	margin-top: -140%;
 	width: 100%;
 	transition: transform 1s;
 }
 
 .right img{
 	position: absolute;	
-	margin-top: -143%;
+	margin-top: -140%;
 	width: 100%;
 	transition: transform 1s;
 }
@@ -201,7 +199,6 @@ body{
 	position: absolute;
 	padding: 0.1rem;
 	background-color: #121212;
-	font-size: 1.75rem;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -2%;
 	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
@@ -216,7 +213,6 @@ body{
 	position: relative;
 	padding: 0.1rem;
 	background-color: #121212;
-	font-size: 1.75rem;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -21%;
 	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
@@ -224,6 +220,7 @@ body{
 }
 
 .projectName{
+	font-size: 2rem;
 	font-weight: bold;
 	padding: 0;
 	display: block;
@@ -257,41 +254,36 @@ body{
 }
 
 
-
-
-@media only screen and (min-width: 576px){ 
+@media only screen and (max-width: 576px){
 
 .container{
 	background-color: #121212;
-	display: flex;
+	display: block;
 	margin: 0;	
-	padding-right: 1%;
-	padding-left: 1%;
-	padding-top: 0;
 	padding-bottom: 5%;
+	
+	padding-top: 0;
 }
 
 .separateBlock1{
-	width: 50%;
+	width: 100%;
 	position: relative;
 	display: block;
-	padding-right: 1%;
+	padding-right: 4%;
 }
 
 .separateBlock2{
-	width: 50%;
+	width: 100%;
 	position: relative;
 	display: block;
-	padding-left: 1%;
+	padding-left: 4%;
 }
 
 .windowLeft{
 	position: relative;
 	display: block;
-	background: linear-gradient(#121212, #222222);
-	margin-left: 4%;
+	background: linear-gradient(#202020, #262626);
 	margin-top: 2%;
-	width: 96%;
 	padding-bottom: 2.5%;
 	/*border-top: 1px ridge #565656;
 	border-left: 1px ridge #565656;
@@ -304,44 +296,43 @@ body{
 .windowRight{
 	position: relative;
 	display: block;
-	background: linear-gradient(#121212, #222222);
-	margin-top: 2%;
-	width: 96%;
+	background: linear-gradient(#202020, #262626);
+	margin-top: 10%;
 	padding-bottom: 2.5%;
 	border-radius: 60px 60px 40px 40px;
 	box-shadow: -3px -3px 8px #333333, 3px 3px 8px #000000;
 }
 
 .heading{
-	color: #000000;
-	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
+	/*color: #000000;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);*/
 	position: relative;
 	width: 100%;
-	padding: 1rem 5rem 1rem 5rem;
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 	/*background-color: #333333;*/ /*rgba(18,18,18, 0);*/
 	/*border-bottom: 4px ridge #565656;*/
-	background: radial-gradient(#333333, #212121);
+	background-image: radial-gradient(#333333, #212121);
 	border-radius: 54px 54px 0 0;
 	z-index: 2;
-	box-shadow: 0px 3px 10px #000000;
+	box-shadow: 0px 6px 5px #000000;;
+	margin-bottom: 5%;
 	font-weight: bold;
+	background: -webkit-linear-gradient(rgba(0,255,255), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
 }
 
 .windowLeft .heading{
 	height: 14rem;
-	padding: 2rem 3rem 2rem 3rem;
+	padding: 2.5rem 2.5rem 2rem 2.5rem;
 }
 
 .windowRight .heading{
 	height: 14rem;
-	padding: 3.5rem 3rem 2rem 3rem;
+	padding: 2.5rem 2.5rem 2rem 2.5rem;
 }
-
-
-
-
 
 .left{
 	margin-left: 23%;
@@ -379,14 +370,14 @@ body{
 
 .left img{
 	position: absolute;
-	margin-top: -140%;
+	margin-top: -143%;
 	width: 100%;
 	transition: transform 1s;
 }
 
 .right img{
 	position: absolute;	
-	margin-top: -140%;
+	margin-top: -143%;
 	width: 100%;
 	transition: transform 1s;
 }
@@ -446,14 +437,14 @@ body{
 	text-align: center;
 	width: 30%;
 	margin-left: 67%;
+	margin-top: 0%;
 	position: absolute;
 	padding: 0.1rem;
 	background-color: #121212;
-	font-size: 1.75rem;
 	border-radius: 5px 31px 5px 31px;
-	margin-top: 3%;
-	box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
+	cursor: pointer;
 }
 
 .buttoneffect2{
@@ -463,18 +454,19 @@ body{
 	position: relative;
 	padding: 0.1rem;
 	background-color: #121212;
-	font-size: 1.75rem;
+	
 	border-radius: 5px 31px 5px 31px;
-	margin-top: -19%;
-	box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+	margin-top: -21%;
+	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	cursor: pointer;
 }
 
 .projectName{
+	font-size: 2rem;
 	font-weight: bold;
 	padding: 0;
 	display: block;
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
+	background: -webkit-linear-gradient(#55ff06, white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-top: 1.75vh;
@@ -482,7 +474,7 @@ body{
 }
 
 .buttoneffect1:hover{
-	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;
+	box-shadow: -3px -3px 5px #55ff06, 3px 3px 5px #010101;
 	
 }
 
@@ -492,22 +484,16 @@ body{
 }
 
 .buttoneffect2:hover{
-	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;
+	box-shadow: -3px -3px 5px #55ff06, 3px 3px 5px #010101;
 	
 }
 
 .buttoneffect2:hover .projectName{
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	transform: scale(1.1);
 	transition: 1s;
 }
 
 }
-
-
-
 
 
 @media only screen and (min-width: 992px){ /*large and above*/
@@ -539,7 +525,7 @@ body{
 .windowLeft{
 	position: relative;
 	display: block;
-	background: linear-gradient(#121212, #222222);
+	background: linear-gradient(#202020, #262626);
 	margin-left: 9%;
 	margin-top: 2%;
 	width: 92%;
@@ -555,7 +541,7 @@ body{
 .windowRight{
 	position: relative;
 	display: block;
-	background: linear-gradient(#121212, #222222);
+	background: linear-gradient(#202020, #262626);
 	margin-top: 2%;
 	width: 92%;
 	padding-bottom: 2.5%;
@@ -564,29 +550,32 @@ body{
 }
 
 .heading{
-	color: #000000;
-	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
+	/*color: #000000;
+	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);*/
 	position: relative;
 	width: 100%;
-	height: 12rem;
 	text-align: center;
 	font-size: 24px;
 	/*background-color: #333333;*/ /*rgba(18,18,18, 0);*/
 	/*border-bottom: 4px ridge #565656;*/
 	background: radial-gradient(#333333, #212121);
 	border-radius: 54px 54px 0 0;
-	z-index: 2;
+	margin-bottom: 1%;
 	box-shadow: 0px 3px 10px #000000;
-	justify-content: center;
 	font-weight: bold;
+	background: -webkit-linear-gradient(rgba(0,255,255), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .windowLeft .heading{
-	padding: 2.5rem 6rem 2rem 6rem;
+	height: 11rem;
+	padding: 2.5rem 2.5rem 2rem 2.5rem;
 }
 
 .windowRight .heading{
-	padding: 2.5rem 6rem 2rem 6rem;
+	height: 11rem;
+	padding: 2.5rem 2.5rem 2rem 2.5rem;
 }
 
 .left{
@@ -695,11 +684,11 @@ body{
 	position: absolute;
 	padding: 0.1rem;
 	background-color: #121212;
-	font-size: 1.75rem;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: 3%;
-	box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
+	cursor: pointer;
 }
 
 .buttoneffect2{
@@ -709,14 +698,15 @@ body{
 	position: relative;
 	padding: 0.1rem;
 	background-color: #121212;
-	font-size: 1.75rem;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -19%;
-	box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
+	z-index: 2;
 	cursor: pointer;
 }
 
 .projectName{
+	font-size: 2.1rem;
 	font-weight: bold;
 	padding: 0;
 	display: block;
@@ -726,12 +716,12 @@ body{
 }
 
 .buttoneffect1:hover{
-	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;
+	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;
 	
 }
 
 .buttoneffect1:hover .projectName{
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
+	background: -webkit-linear-gradient(#55ff06, white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transform: scale(1.1);
@@ -739,12 +729,12 @@ body{
 }
 
 .buttoneffect2:hover{
-	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;
+	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;
 	
 }
 
 .buttoneffect2:hover .projectName{
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
+	background: -webkit-linear-gradient(#55ff06, white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transform: scale(1.1);
