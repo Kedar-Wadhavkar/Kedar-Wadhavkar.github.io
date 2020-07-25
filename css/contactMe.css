@@ -452,13 +452,13 @@ body{
 	list-style: none;
 	display: flex;
 	margin: 4% 0;
-	margin-left: -5%;
+	margin-left: -2.5%;
 	cursor: pointer;
 	align-items: flex-start;
 }
 
 .info fab{
-	font-size: 1rem;
+	font-size: 1px;
 }
 
 .info li span:nth-child(1){
@@ -503,7 +503,7 @@ body{
 }
 
 .sci li:nth-child(1){
-	margin-right: 15%;
+	margin-right: 8%;
 }
 
 .end:nth-child(1) a:hover .fab{/*github*/
@@ -632,8 +632,8 @@ body{
 	-webkit-text-fill-color: transparent;
 	background-color: #212121; /*#0f3959;*/
 	border: none;
-	max-width: 20%;
-	padding: 10px 10px;
+	max-width: 25%;
+	padding: 2% 5% 2% 5%;
 	border: 3px ridge;
 	border-color: rgba(0,255,255);
 	font-weight: bold;
