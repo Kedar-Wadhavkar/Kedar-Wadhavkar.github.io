@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');*/
+
 *{
-	font-family: Comic Sans MS;
+	font-family: 'Merriweather', serif;
 }
 
 body{
