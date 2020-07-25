@@ -3,7 +3,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');*/
 
 *{
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif !important;
 }
 
 body{
