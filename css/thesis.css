@@ -74,9 +74,6 @@ body{
 	box-shadow: 0px 3px 10px #000000;
 	margin-bottom: 4.5%;
 	font-weight: bold;
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .windowLeft .heading{
@@ -88,10 +85,6 @@ body{
 	height: 14rem;
 	padding: 2.5rem 2.5rem 2rem 2.5rem;
 }
-
-
-
-
 
 .left{
 	margin-left: 23%;
@@ -124,7 +117,7 @@ body{
 	border: 1.5vh ridge #121212;
 	border-right: 1.5vh groove #121212;
 	border-bottom: 1.5vh groove #121212;
-	box-shadow: -3px 1px 15px rgba(0,255,255); /*#d600ff; #55ff06;*/
+	box-shadow: -3px 1px 15px #55ff06; /*#d600ff; #55ff06;*/
 }
 
 .left img{
@@ -201,7 +194,6 @@ body{
 	background-color: #121212;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -1%;
-	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
 	cursor: pointer;
 }
@@ -215,7 +207,6 @@ body{
 	background-color: #121212;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -21%;
-	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	cursor: pointer;
 }
 
@@ -224,26 +215,13 @@ body{
 	font-weight: bold;
 	padding: 0;
 	display: block;
-	background: -webkit-linear-gradient(#55ff06, white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	margin-top: 1.75vh;
 	margin-bottom: 2vh;
-}
-
-.buttoneffect1:hover{
-	box-shadow: -3px -3px 5px #55ff06, 3px 3px 5px #010101;
-	
 }
 
 .buttoneffect1:hover .projectName{
 	transform: scale(1.1);
 	transition: 1s;
-}
-
-.buttoneffect2:hover{
-	box-shadow: -3px -3px 5px #55ff06, 3px 3px 5px #010101;
-	
 }
 
 .buttoneffect2:hover .projectName{
@@ -318,10 +296,6 @@ body{
 	box-shadow: 0px 6px 5px #000000;;
 	margin-bottom: 5%;
 	font-weight: bold;
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	
 }
 
 .windowLeft .heading{
@@ -365,7 +339,7 @@ body{
 	border: 1.5vh ridge #121212;
 	border-right: 1.5vh groove #121212;
 	border-bottom: 1.5vh groove #121212;
-	box-shadow: -3px 1px 15px rgba(0,255,255); /*#d600ff; #55ff06;*/
+	box-shadow: -3px 1px 15px #55ff06; /*#d600ff; #55ff06;*/
 }
 
 .left img{
@@ -466,26 +440,13 @@ body{
 	font-weight: bold;
 	padding: 0;
 	display: block;
-	background: -webkit-linear-gradient(#55ff06, white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	margin-top: 1.75vh;
 	margin-bottom: 2vh;
-}
-
-.buttoneffect1:hover{
-	box-shadow: -3px -3px 5px #55ff06, 3px 3px 5px #010101;
-	
 }
 
 .buttoneffect1:hover .projectName{
 	transform: scale(1.1);
 	transition: 1s;
-}
-
-.buttoneffect2:hover{
-	box-shadow: -3px -3px 5px #55ff06, 3px 3px 5px #010101;
-	
 }
 
 .buttoneffect2:hover .projectName{
@@ -563,9 +524,6 @@ body{
 	margin-bottom: 1%;
 	box-shadow: 0px 3px 10px #000000;
 	font-weight: bold;
-	background: -webkit-linear-gradient(rgba(0,255,255), white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .windowLeft .heading{
@@ -609,7 +567,7 @@ body{
 	border: 1.5vh ridge #121212;
 	border-right: 1.5vh groove #121212;
 	border-bottom: 1.5vh groove #121212;
-	box-shadow: -3px 1px 15px rgba(0,255,255); /*#d600ff; #55ff06;*/
+	box-shadow: -3px 1px 15px #55ff06; /*#d600ff; #55ff06;*/
 }
 
 .left img{
@@ -710,37 +668,38 @@ body{
 	font-weight: bold;
 	padding: 0;
 	display: block;
-	color: #bbbbbb;
 	margin-top: 1.75vh;
 	margin-bottom: 2vh;
 }
 
-.buttoneffect1:hover{
-	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;
-	
-}
-
 .buttoneffect1:hover .projectName{
-	background: -webkit-linear-gradient(#55ff06, white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	transform: scale(1.1);
 	transition: 1s;
-}
-
-.buttoneffect2:hover{
-	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;
-	
 }
 
 .buttoneffect2:hover .projectName{
-	background: -webkit-linear-gradient(#55ff06, white);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	transform: scale(1.1);
 	transition: 1s;
 }
 
+}
+
+
+
+.rightButton{
+	 box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+}
+
+.rightButton:hover{
+	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;	
+}
+
+.leftButton{
+	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
+}
+
+.leftButton:hover{
+	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;	
 }
 
 
@@ -793,7 +752,7 @@ body{
 	z-index: 1000;
 	/*transform: perspective(2000px) rotate(-10deg);*/
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);
-	background-image: none;
+	/*background-image: none;*/
 }
 
 .imgBox{
