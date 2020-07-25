@@ -1,9 +1,12 @@
+*{
+	font-family: Comic Sans MS;
+}
+
 body{
 	display: block;
 	align-items: center;
 	justify-content: center;
 	background-color: #121212;
-	font-family: cursive;
 }
 
 
@@ -38,7 +41,7 @@ body{
 .windowLeft{
 	position: relative;
 	display: block;
-	background: linear-gradient(#121212, #222222);
+	background: linear-gradient(#202020, #262626);
 	margin-top: 2%;
 	width: 100%;
 	padding-bottom: 2.5%;
@@ -53,8 +56,8 @@ body{
 .windowRight{
 	position: relative;
 	display: block;
-	background: linear-gradient(#121212, #222222);
-	margin-top: 5%;
+	background: linear-gradient(#222222, #262626);
+	margin-top: 10%;
 	width: 100%;
 	padding-bottom: 2.5%;
 	border-radius: 60px 60px 40px 40px;
@@ -73,7 +76,7 @@ body{
 	background-image: radial-gradient(#333333, #212121);
 	border-radius: 54px 54px 0 0;
 	z-index: 2;
-	box-shadow: 0px 3px 10px #000000;
+	box-shadow: 0px 6px 5px #000000;;
 	margin-bottom: 6%;
 	font-weight: bold;
 	background: -webkit-linear-gradient(rgba(0,255,255), white);
@@ -203,6 +206,7 @@ body{
 	margin-top: -2%;
 	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
+	cursor: pointer;
 }
 
 .buttoneffect2{
@@ -220,7 +224,6 @@ body{
 }
 
 .projectName{
-	font-family: cursive;
 	font-weight: bold;
 	padding: 0;
 	display: block;
@@ -468,7 +471,6 @@ body{
 }
 
 .projectName{
-	font-family: cursive;
 	font-weight: bold;
 	padding: 0;
 	display: block;
@@ -715,7 +717,6 @@ body{
 }
 
 .projectName{
-	font-family: cursive;
 	font-weight: bold;
 	padding: 0;
 	display: block;

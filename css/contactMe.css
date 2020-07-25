@@ -1,19 +1,11 @@
+*{
+	font-family: Comic Sans MS;
+}
+
 body{
 	display: block;
 	background: #121212;
-	font-family: cursive;
 }
-
-/*
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
-
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
-}*/
-
 
 .container{
 	margin-top: 0;
