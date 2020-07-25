@@ -72,7 +72,7 @@ body{
 	border-radius: 54px 54px 0 0;
 	z-index: 2;
 	box-shadow: 0px 3px 10px #000000;
-	margin-bottom: 6%;
+	margin-bottom: 4.5%;
 	font-weight: bold;
 	background: -webkit-linear-gradient(rgba(0,255,255), white);
 	-webkit-background-clip: text;
@@ -200,7 +200,7 @@ body{
 	padding: 0.1rem;
 	background-color: #121212;
 	border-radius: 5px 31px 5px 31px;
-	margin-top: -2%;
+	margin-top: -1%;
 	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
 	cursor: pointer;
@@ -456,7 +456,7 @@ body{
 	background-color: #121212;
 	
 	border-radius: 5px 31px 5px 31px;
-	margin-top: -21%;
+	margin-top: -22.5%;
 	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	cursor: pointer;
 }
