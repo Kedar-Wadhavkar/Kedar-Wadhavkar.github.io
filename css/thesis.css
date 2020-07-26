@@ -862,7 +862,7 @@ html{
 .paperTagleft{
 	text-align: center;
 	width: 85%;
-	margin-left: 4%;
+	margin-left: 8%;
 	margin-top: 1rem;
 	position: relative;
 	height: 6rem;
@@ -914,7 +914,7 @@ html{
 .paperTagright{
 	text-align: center;
 	width: 85%;
-	margin-left: 4%;
+	margin-left: 8%;
 	margin-top: 1rem;
 	position: relative;
 	height: 6rem;
@@ -964,7 +964,7 @@ html{
 
 .head{
 	margin-top: 0.6rem;
-	margin-left: 3%;
+	margin-left: 4%;
 	font-size: 2rem;
 	background-color: transparent;
 	position: absolute;
