@@ -11,7 +11,8 @@
 	<link rel = "stylesheet" href = "css/bootstrap.css">
 	<link rel = "stylesheet" href = "css/thesis.css">
 	<link rel = "stylesheet" href = "css/navbar_styling.css">
-
+	
+	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<script src = "js/thesis.js"></script>
 
 </head>
@@ -63,6 +64,15 @@
     </div>
 
 </nav>
+
+
+	<!------------Button for scroll up added here-->
+        <a class="gotopbtn" href="#">
+	<i class="far fa-arrow-alt-circle-up" style="color: #7fff44d3;"></i> 
+	</a>
+        <!---------------------------------------------->
+
+
 
 <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 container">
 
@@ -118,39 +128,63 @@
 	</div>
 </div>
 
-<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "abstractread1">Abstract is here. Read it.</div>
+<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 pointer" id = "abstractread1"><div class = "paperTagleft"><h3 class = "head" style = "color: #000000; text-shadow: 1px 1px 3px rgba(0,255,255), 0 0 5px rgba(0,255,255), 0px 0px 10px rgba(0,255,255);">DETAILS OF RESEARCH THESIS</h3></div></div>
+
 <div class = "container1">
 	<div class = "card">
 		<div class = "imgBox"></div>
 		<div class = "details">
 			<!-- <h2>Kedar</h2> -->
-			<p>An efficient drivetrain is the necessity of every car especially a racer one to power it to its maximum potential. There are frequent breakdowns seen in either of the components comprised in the assembly. This research illustrates an efficient drivetrain system of a rear wheel driven car. It presents a detail design and development of this successfully experimented system. The paper also includes computationally simulated results using which all the components have been optimized and developed further to prove an effective output from the system. It also elaborates various calculations using standard formulae performed to finalize parameters and constraints as per the requirement. Accurate optimization and appropriate material selection for every component decreases the total weight dramatically extracting the best feasible output. Thus, keeping this view as the prior-most objective, research has been done on this basis. And is further discussed in detail in the paper.</p>
+			<p>&nbsp;&nbsp;&nbsp;An efficient drivetrain is the necessity of every car especially a racer one to power it to its maximum potential. There are frequent breakdowns seen in either of the components comprised in the assembly. This research illustrates an efficient drivetrain system of a rear wheel driven car. It presents a detail design and development of this successfully experimented system. The paper also includes computationally simulated results using which all the components have been optimized and developed further to prove an effective output from the system. It also elaborates various calculations using standard formulae performed to finalize parameters and constraints as per the requirement. Accurate optimization and appropriate material selection for every component decreases the total weight dramatically extracting the best feasible output. Thus, keeping this view as the prior-most objective, research has been done on this basis.</p>
 		</div>
 	</div>
 </div>
 
 
-<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "abstractread2">Abstract is here. Read it.</div>
+<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 pointer" id = "abstractread2"><div class = "paperTagright"><h3 class = "head" style = "color: #000000; text-shadow: 1px 1px 3px #55ff06, 0 0 5px #55ff06, 0px 0px 10px #55ff06;">DETAILS OF SEMINAR THESIS</h3></div></div>
+
 <div class = "container1">
 	<div class = "card">
 		<div class = "imgBox"></div>
 		<div class = "details">
-			<h3>Kedar</h3>
-			<p>Here the abstract would be shown and you will be able to read everything here on opening the cover page. Stay tuned for it.</p>
+			<!-- <h3>Kedar</h3> -->
+			<p>&nbsp;&nbsp;&nbsp;Full automatization with least human intervention is what the ultimate goal of any industry is. It is nothing but a developed industry 4.0, looking after consumers need independently with the best feasible output. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industrial Internet also called as Industrial Internet of Things (IIoT) is the base of this colossal development upon which the industries would cultivate on to become a smarter one. IIoT is nothing but the interconnection of various things facilitating interaction between them. This connectivity allows for data collection, exchange, and analysis, potentially facilitating improvements in productivity as well as efficiency. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, emphasis is given on why a manufacturing technique to be smart is important in coming period of time. A case study on one of the manufacturing techniques is also stated to help clear the idea of smart manufacturing making use of the Big data, the Internet and other relative concepts.
+</p>
 		</div>
 	</div>
 </div>
+
+
+
 
 
 	<!-- scripts required in this program i placed here -->
 	
 	<script  type="text/javascript" src="js/jquery.js"></script>
 	<script  type="text/javascript" src="js/bootstrap.js"></script>
-
-	<script type="text/javascript" src="js/particles.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
 	
 	<!--finished-->
+
+<script>
+
+var mybutton = document.querySelector('.gotopbtn');
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	mybutton.style.display = "block";
+	} 
+
+	else {
+	mybutton.style.display = "none";
+	}
+}
+
+</script>
 
 
 </body>
