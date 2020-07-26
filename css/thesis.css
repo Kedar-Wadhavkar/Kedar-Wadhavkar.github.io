@@ -20,7 +20,7 @@ html{
 	position: fixed;
 	bottom: 15px;
 	right: 10px;
-	z-index: 99;
+	z-index: 2000;
 	font-size: 36px;
 	border: none;
 	outline: none;
@@ -885,7 +885,7 @@ html{
 
 .pointer{
 	display: block; 
-	width: 80%; 
+	width: 78%; 
 	height: 8rem;
 	text-align: center; 
 	margin-left: 0;
@@ -912,7 +912,7 @@ html{
 
 .paperTagleft{
 	text-align: center;
-	width: 85%;
+	width: 80%;
 	margin-left: 8%;
 	margin-top: 1rem;
 	position: relative;
@@ -964,7 +964,7 @@ html{
 
 .paperTagright{
 	text-align: center;
-	width: 85%;
+	width: 80%;
 	margin-left: 8%;
 	margin-top: 1rem;
 	position: relative;
