@@ -778,8 +778,11 @@ body{
 
 .details{
 	position: absolute;
+	text-align: justify;
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
 	padding: 20px;
+	overflow: scroll;
+	height: 400px;
 }
