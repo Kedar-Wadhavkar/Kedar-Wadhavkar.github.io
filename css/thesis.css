@@ -834,8 +834,8 @@ html{
 
 .pointer{
 	display: block; 
-	width: 82%; 
-	height: 6rem;
+	width: 80%; 
+	height: 8rem;
 	text-align: center; 
 	margin-left: 0;
 	padding-top: 0;
@@ -851,21 +851,21 @@ html{
 .pointer:after {
 	content: "";
 	position: absolute;
-	right: -6rem;
+	right: -8rem;
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 6rem solid #202020;
-	border-top: 6rem solid transparent;
+	border-left: 8rem solid #202020;
+	border-top: 8rem solid transparent;
 }
 
 .paperTagleft{
 	text-align: center;
-	width: 90%;
-	margin-left: 2%;
-	margin-top: 0.8rem;
+	width: 85%;
+	margin-left: 4%;
+	margin-top: 1rem;
 	position: relative;
-	height: 4.5rem;
+	height: 6rem;
 	padding: 0.5rem 0;
 	border-left: 5px solid rgba(0,255,255); 
 	transition: 0.5s;
@@ -893,12 +893,12 @@ html{
 .paperTagleft:after {
 	content: "";
 	position: absolute;
-	right: -4.5rem;
+	right: -6rem;
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 4.5rem solid rgba(0,255,255);
-	border-top: 4.5rem solid transparent;
+	border-left: 6rem solid rgba(0,255,255);
+	border-top: 6rem solid transparent;
 	/* border-bottom: 20px solid transparent;*/
 	transform: scaleX(0);
 	transform-origin: left;	
@@ -913,11 +913,11 @@ html{
 
 .paperTagright{
 	text-align: center;
-	width: 90%;
-	margin-left: 2%;
-	margin-top: 0.8rem;
+	width: 85%;
+	margin-left: 4%;
+	margin-top: 1rem;
 	position: relative;
-	height: 4.5rem;
+	height: 6rem;
 	padding: 0.5rem 0;
 	border-left: 5px solid #55ff06; 
 	transition: 0.5s;
@@ -945,12 +945,12 @@ html{
 .paperTagright:after {
 	content: "";
 	position: absolute;
-	right: -4.5rem;
+	right: -6rem;
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 4.5rem solid #55ff06;
-	border-top: 4.5rem solid transparent;
+	border-left: 6rem solid #55ff06;
+	border-top: 6rem solid transparent;
 	/* border-bottom: 20px solid transparent;*/
 	transform: scaleX(0);
 	transform-origin: left;	
@@ -963,9 +963,9 @@ html{
 }
 
 .head{
-	margin-top: 0.5rem;
-	margin-left: 2%;
-	font-size: 2.2rem;
+	margin-top: 0.6rem;
+	margin-left: 3%;
+	font-size: 2rem;
 	background-color: transparent;
 	position: absolute;
 	z-index: 1000;
