@@ -748,7 +748,7 @@ html{
 
 .pointer {
 	position: relative;
-	background: #202020;
+	background: #333333;
 }
 
 .pointer:after {
@@ -758,7 +758,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 6rem solid #202020;
+	border-left: 6rem solid #333333;
 	border-top: 6rem solid transparent;
 }
 
@@ -896,7 +896,7 @@ html{
 
 .pointer {
 	position: relative;
-	background: #202020;
+	background: #333333;
 }
 
 .pointer:after {
@@ -906,7 +906,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 8rem solid #202020;
+	border-left: 8rem solid #333333;
 	border-top: 8rem solid transparent;
 }
 
@@ -1045,7 +1045,7 @@ html{
 
 .pointer {
 	position: relative;
-	background: #202020;
+	background: #333333;
 }
 
 .pointer:after {
@@ -1055,7 +1055,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 6rem solid #202020;
+	border-left: 6rem solid #333333;
 	border-top: 6rem solid transparent;
 }
 
@@ -1183,7 +1183,8 @@ html{
 	width: 100%;
 	padding-top: 3%;
 	display: inline-block;
-	padding-left: 3%;
+	padding-left: 2.5%;
+	margin-bottom: 5%;
 }
 
 .container2{
@@ -1191,44 +1192,48 @@ html{
 	width: 100%;
 	padding-top: 3%;
 	display: inline-block;
-	padding-left: 3%;
+	padding-left: 2.5%;
+	margin-bottom: 5%;
 }
 
 .borderDiv1{
 	display: block;
-	background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);
+	/*background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);*/
+	background-image: linear-gradient(235deg, rgba(0,255,255), #121212, rgba(0,255,255));
 	position: relative;
-	width: 70%;
+	width: 75%;
 	height: 40.5rem;
-	margin-left: 12.5%;
+	margin-left: 10%;
 }
 
 .borderDiv1:before{
 	display: block;
 	content: '';
-	background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);
+	/*background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);*/
+	background-image: linear-gradient(235deg, rgba(0,255,255), #121212, rgba(0,255,255));
 	position: relative;
 	width: 100%;
 	height: 40.5rem;
 	z-index: -1;
 	opacity: 0.7;
 	filter: blur(1.2rem);
-	/*margin-left: 10%;*/
 }
 
 .borderDiv2{
 	display: block;
-	background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);
+	/*background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);*/
+	background-image: linear-gradient(235deg, #55ff06, #121212, #55ff06);
 	position: relative;
-	width: 70%;
+	width: 75%;
 	height: 40.5rem;
-	margin-left: 12.5%;
+	margin-left: 10%;
 }
 
 .borderDiv2:before{
 	display: block;
 	content: '';
-	background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);
+	/*background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);*/
+	background-image: linear-gradient(235deg, #55ff06, #121212, #55ff06);
 	position: relative;
 	width: 100%;
 	height: 40.5rem;
@@ -1241,7 +1246,7 @@ html{
 	display: block;
 	color: #202020;
 	position: relative;
-	width: 69%;
+	width: 74%;
 	height: 40rem;
 	background: #efefef;
 	/*transform-style: preserve-3d;
@@ -1249,8 +1254,8 @@ html{
 	transition: 0.5s;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.7);
 	margin-top: -40.25rem;
-	margin-bottom: 50px;
-	margin-left: 13%;
+	margin-bottom: 5%;
+	margin-left: 10.5%;
 }
 
 .card:hover{
@@ -1294,7 +1299,7 @@ html{
 .topHead{
 	position: absolute;
 	width: 100%;
-	margin-top: 5rem;
+	margin-top: 8rem;
 	padding-right: 3rem;
 	padding-left: 3rem;
 	z-index: 6;
@@ -1319,6 +1324,20 @@ html{
 	line-height: 3rem;
 }
 
+.topHead2{
+	position: absolute;
+	width: 100%;
+	margin-top: 10rem;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	z-index: 6;
+	opacity: 1;
+	transition: 0.5s;
+	/*font-weight: bold;*/
+	text-align: center;
+	line-height: 3rem;
+}
+
 .card:hover h3{
 	display: none;
 }
@@ -1331,7 +1350,7 @@ html{
 	box-sizing: border-box;
 	padding: 20px;
 	overflow: scroll;
-	height: 400px;
+	height: 40rem;
 	font-weight: bold;
 	/*border: 1px solid #232323;*/
 }
