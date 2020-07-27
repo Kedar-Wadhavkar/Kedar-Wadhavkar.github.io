@@ -1179,52 +1179,104 @@ html{
 
 
 .container1{
+	/*background-color: yellow;*/
 	width: 100%;
-	/*margin: 100px auto;*/
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	padding-top: 3%;
+	display: inline-block;
+	padding-left: 3%;
+}
+
+.container2{
+	/*background-color: red;*/
+	width: 100%;
+	padding-top: 3%;
+	display: inline-block;
+	padding-left: 3%;
 }
 
 .card{
+	color: #202020;
 	position:  relative;
 	width: 300px;
 	height: 400px;
-	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(2000px);
-	transition: 1s;
-	box-shadow: inset 300px 0 50px rgba(0,0,0,0.5);
+	background: #efefef;
+	/*transform-style: preserve-3d;
+	transform: perspective(2000px);*/
+	transition: 0.5s;
+	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);
 	margin-bottom: 50px;
 }
 
 .card:hover{
-	z-index: 1000;
-	/*transform: perspective(2000px) rotate(-10deg);*/
-	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);
-	/*background-image: none;*/
+	z-index: 20;
+	/*box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);*/
 }
 
+
 .imgBox{
+	background: #232323; /*blue;*/
 	position: relative;
 	width: 100%;
 	height: 100%;
-	border: 1px solid #000;
+	border: 1px solid #060606;
 	box-sizing: border-box;
-	transform-origin: left;
+	transform-origin: bottom;
 	z-index: 1;
-	transition: 1s;
+	
 	overflow: hidden;
-	background-image: url("rp1.png");
-	background-size: cover;
 	display: block;
 }
 
-.card:hover .imgBox{
-	transform: rotateY(-100deg);
-	
-	
+.imgBox:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 48%;
+	height: 96%;
+	background-color: #303030; /*orange;*/
+	margin: 2.5%;
+	border-radius: 5px 5px 5px 5px;
+	z-index: 5;	
 }
+
+.card:hover .imgBox{
+	transform: scaleY(0);	
+	transition: 1s;
+}
+
+.topHead{
+	position: absolute;
+	width: 100%;
+	margin-top: 5rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	z-index: 6;
+	opacity: 1;
+	transition: 0.5s;
+	font-weight: 600;
+	text-align: center;
+	line-height: 3rem;
+}
+
+.bottomHead{
+	position: absolute;
+	width: 100%;
+	margin-top: 30rem;
+	/*padding-right: 1.5rem;
+	padding-left: 1.5rem;*/
+	z-index: 6;
+	opacity: 1;
+	transition: 0.5s;
+	font-weight: 600;
+	text-align: center;
+	line-height: 3rem;
+}
+
+.card:hover h3{
+	display: none;
+}
+
 
 .details{
 	position: absolute;
