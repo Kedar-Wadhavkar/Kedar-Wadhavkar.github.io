@@ -1194,6 +1194,42 @@ html{
 	padding-left: 3%;
 }
 
+.borderDiv1{
+	background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);
+	position:  absolute;
+	width: 304px;
+	height: 404px;
+}
+
+.borderDiv1:before{
+	content: '';
+	background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);
+	position:  absolute;
+	width: 304px;
+	height: 404px;
+	z-index: -1;
+	opacity: 0.7;
+	filter: blur(1.2rem);
+}
+
+.borderDiv2{
+	background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);
+	position:  absolute;
+	width: 304px;
+	height: 404px;
+}
+
+.borderDiv2:before{
+	content: '';
+	background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);
+	position:  absolute;
+	width: 304px;
+	height: 404px;
+	z-index: -1;
+	opacity: 0.7;
+	filter: blur(1.2rem);
+}
+
 .card{
 	color: #202020;
 	position:  relative;
@@ -1203,15 +1239,15 @@ html{
 	/*transform-style: preserve-3d;
 	transform: perspective(2000px);*/
 	transition: 0.5s;
-	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,0.7);
+	margin-top: 2px;
 	margin-bottom: 50px;
+	margin-left: 2px;
 }
 
 .card:hover{
 	z-index: 20;
-	/*box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);*/
 }
-
 
 .imgBox{
 	background: #232323; /*blue;*/
@@ -1254,7 +1290,7 @@ html{
 	z-index: 6;
 	opacity: 1;
 	transition: 0.5s;
-	font-weight: 600;
+	/*font-weight: bold;*/
 	text-align: center;
 	line-height: 3rem;
 }
