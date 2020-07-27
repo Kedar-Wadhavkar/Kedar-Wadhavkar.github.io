@@ -879,7 +879,7 @@ html{
 
 
 
-@media only screen and (max-width: 576px){ 
+@media only screen and (max-width: 576px){ /*Mobile Portrait*/
 
 .pointer{
 	display: block; 
@@ -1176,6 +1176,271 @@ html{
 
 
 
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px){/*Mobile Landscape*/
+
+.container1{
+	width: 100%;
+	padding-top: 3%;
+	display: flex;
+	padding-left: 2.5%;
+	margin-bottom: 5%;
+	flex-wrap: wrap;
+	/*justify-content: space-around;*/
+}
+
+.container2{
+	width: 100%;
+	padding-top: 3%;
+	display: flex;
+	padding-left: 2.5%;
+	margin-bottom: 5%;
+	flex-wrap: wrap;
+	/*justify-content: space-around;*/
+}
+
+.borderDiv1{
+	display: block;
+	/*background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);*/
+	background-image: linear-gradient(235deg, rgba(0,255,255), #121212, rgba(0,255,255));
+	position: relative;
+	width: 43%;
+	height: 30.5rem;
+	margin-left: 4.25%;
+}
+
+.borderDiv1:before{
+	display: block;
+	content: '';
+	/*background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);*/
+	background-image: linear-gradient(235deg, rgba(0,255,255), #121212, rgba(0,255,255));
+	position: relative;
+	width: 100%;
+	height: 30.5rem;
+	z-index: -1;
+	opacity: 0.7;
+	filter: blur(1.2rem);
+}
+
+.borderDiv2{
+	display: block;
+	/*background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);*/
+	background-image: linear-gradient(235deg, #55ff06, #121212, #55ff06);
+	position: relative;
+	width: 43%;
+	height: 30.5rem;
+	margin-left: 4.25%;
+}
+
+.borderDiv2:before{
+	display: block;
+	content: '';
+	/*background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);*/
+	background-image: linear-gradient(235deg, #55ff06, #121212, #55ff06);
+	position: relative;
+	width: 100%;
+	height: 30.5rem;
+	z-index: -1;
+	opacity: 0.7;
+	filter: blur(1.2rem);
+}
+
+.card{
+	display: block;
+	color: #202020;
+	position: relative;
+	width: 42%;
+	height: 30rem;
+	background: #efefef;
+	/*transform-style: preserve-3d;
+	transform: perspective(2000px);*/
+	transition: 0.5s;
+	box-shadow: inset 20px 0 50px rgba(0,0,0,0.7);
+	margin-top: 0.25rem;
+	margin-bottom: 3%;
+	margin-left: -42.5%;
+}
+
+.card:hover{
+	z-index: 20;
+}
+
+.imgBox{
+	display: block;
+	background: #232323; /*blue;*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #121212;
+	box-sizing: border-box;
+	transform-origin: bottom;
+	z-index: 1;
+	
+	overflow: hidden;
+	display: block;
+}
+
+.imgBox:before{
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 48%;
+	height: 96%;
+	background-color: #303030; /*orange;*/
+	margin: 2.5%;
+	border-radius: 5px 5px 5px 5px;
+	z-index: 5;	
+}
+
+.card:hover .imgBox{
+	transform: scaleY(0);	
+	transition: 1s;
+}
+
+.topHead{
+	position: absolute;
+	width: 100%;
+	margin-top: 5rem;
+	padding-right: 3rem;
+	padding-left: 3rem;
+	z-index: 6;
+	opacity: 1;
+	transition: 0.5s;
+	/*font-weight: bold;*/
+	text-align: center;
+	line-height: 3rem;
+}
+
+.bottomHead{
+	position: absolute;
+	width: 100%;
+	margin-top: 22rem;
+	/*padding-right: 1.5rem;
+	padding-left: 1.5rem;*/
+	z-index: 6;
+	opacity: 1;
+	transition: 0.5s;
+	font-weight: 600;
+	text-align: center;
+	line-height: 3rem;
+}
+
+.topHead2{
+	position: absolute;
+	width: 100%;
+	margin-top: 8rem;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	z-index: 6;
+	opacity: 1;
+	transition: 0.5s;
+	/*font-weight: bold;*/
+	text-align: center;
+	line-height: 3rem;
+}
+
+.card:hover h3{
+	display: none;
+}
+
+.details{
+	position: absolute;
+	text-align: justify;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 20px;
+	overflow: scroll;
+	height: 30rem;
+	font-weight: bold;
+	/*border: 1px solid #232323;*/
+}
+
+.details p::first-letter {
+	font-size: 150%;
+}
+
+.butDivleft{
+	position: relative; 
+	/*margin-top: 50%;*/
+	margin-bottom: 1%;
+	/*background-color: yellow;*/
+	width: 97.5%;
+	height: 8rem;
+}
+
+.butDivright{
+	position: relative; 
+	/*margin-top: 50%;*/
+	margin-bottom: 1%;
+	/*background-color: yellow;*/
+	width: 97.5%;
+	height: 8rem;
+}
+
+.actBut1{
+	position: absolute;
+	width: 30%;
+	height: 6rem;
+	margin-top: 1rem;
+	margin-left: 11%;
+	/*background-color: red;*/
+	text-align: center;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.actBut2{
+	position: absolute;
+	width: 30%;
+	height: 6rem;
+	margin-top: 1rem;
+	margin-left: 59.5%;
+	/*background-color: blue;*/
+	text-align: center;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.rightBut2{
+	margin-left: 35.5%;
+}
+
+.butHead{
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.butDivleft .leftBut1{
+	 box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+}
+
+.butDivleft .leftBut1:hover{
+	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;	
+}
+
+.butDivright .rightBut2{
+	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
+}
+
+.butDivright .rightBut2:hover{
+	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;	
+}
+
+}
+
+
+@media only screen and (max-width: 576px){ /*Mobile Portrait*/
+
 .container1{
 	/*background-color: yellow;*/
 	width: 100%;
@@ -1425,12 +1690,7 @@ html{
 	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;	
 }
 
-
-
-
-
-
-
+}
 
 
 
