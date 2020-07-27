@@ -1357,11 +1357,9 @@ html{
 	font-size: 150%;
 }
 
-
-
 .butDivleft{
 	position: relative; 
-	margin-top: 8%;
+	margin-top: 5%;
 	margin-bottom: 5%;
 	/*background-color: yellow;*/
 	width: 97.5%;
@@ -1370,7 +1368,7 @@ html{
 
 .butDivright{
 	position: relative; 
-	margin-top: 8%;
+	margin-top: 5%;
 	margin-bottom: 5%;
 	/*background-color: yellow;*/
 	width: 97.5%;
@@ -1402,11 +1400,14 @@ html{
 	cursor: pointer;
 }
 
+.rightBut2{
+	margin-left: 26.5%;
+}
+
 .butHead{
 	font-size: 2rem;
 	font-weight: 600;
 }
-
 
 .butDivright .leftBut1{
 	 box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
