@@ -673,7 +673,6 @@ html{
 	background-color: #121212;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: 3%;
-	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
 	cursor: pointer;
 }
@@ -687,7 +686,6 @@ html{
 	background-color: #121212;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -19%;
-	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
 	cursor: pointer;
 }
@@ -1357,6 +1355,73 @@ html{
 
 .details p::first-letter {
 	font-size: 150%;
+}
+
+
+
+.butDivleft{
+	position: relative; 
+	margin-top: 8%;
+	margin-bottom: 5%;
+	/*background-color: yellow;*/
+	width: 97.5%;
+	height: 8rem;
+}
+
+.butDivright{
+	position: relative; 
+	margin-top: 8%;
+	margin-bottom: 5%;
+	/*background-color: yellow;*/
+	width: 97.5%;
+	height: 8rem;
+}
+
+.actBut1{
+	position: absolute;
+	width: 44%;
+	height: 6rem;
+	margin-top: 1rem;
+	margin-left: 4%;
+	/*background-color: red;*/
+	text-align: center;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.actBut2{
+	position: absolute;
+	width: 44%;
+	height: 6rem;
+	margin-top: 1rem;
+	margin-left: 52%;
+	/*background-color: blue;*/
+	text-align: center;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.butHead{
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+
+.butDivright .leftBut1{
+	 box-shadow: inset -2px -2px 3px rgba(0,255,255,0.5), inset 3px 3px 5px #010101;
+}
+
+.butDivright .leftBut1:hover{
+	box-shadow: -3px -3px 5px rgba(0,255,255,0.5), 3px 3px 5px #010101;	
+}
+
+.butDivleft .rightBut2{
+	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
+}
+
+.butDivleft .rightBut2:hover{
+	box-shadow: -3px -3px 5px rgba(85,255,06,0.5), 3px 3px 5px #010101;	
 }
 
 
