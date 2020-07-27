@@ -1026,8 +1026,6 @@ html{
 }
 
 
-
-
 @media only screen and (min-width: 992px){ 
 
 .pointer{
@@ -1220,7 +1218,7 @@ html{
 	content: '';
 	/*background-image: linear-gradient(235deg, #772aff, #121212, #2196f3);*/
 	background-image: linear-gradient(235deg, rgba(0,255,255), #121212, rgba(0,255,255));
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 30.5rem;
 	z-index: -1;
@@ -1243,7 +1241,7 @@ html{
 	content: '';
 	/*background-image: linear-gradient(235deg, #fbff00, #121212, #89ff00);*/
 	background-image: linear-gradient(235deg, #55ff06, #121212, #55ff06);
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 30.5rem;
 	z-index: -1;
@@ -1562,7 +1560,7 @@ html{
 .topHead{
 	position: absolute;
 	width: 100%;
-	margin-top: 8rem;
+	margin-top: 6rem;
 	padding-right: 3rem;
 	padding-left: 3rem;
 	z-index: 6;
