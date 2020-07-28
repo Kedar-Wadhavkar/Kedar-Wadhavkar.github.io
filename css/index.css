@@ -82,12 +82,16 @@ html{
 }
 
 .information{
-	color: #ededed;
+	/*color: #ededed;*/
+	background: -webkit-linear-gradient(#ffffff, rgba(0,255,255), rgba(0,154,217,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-size: 1.8rem;
 	text-align: justify;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	text-shadow: 2px 2px 2px #000000;
+	/*text-shadow: 2px 2px 2px #000000;*/
+	font-weight: bold;
 }
 
 div.single-card{
