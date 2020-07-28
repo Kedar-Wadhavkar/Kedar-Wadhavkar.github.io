@@ -83,8 +83,7 @@ html{
 
 .information{
 	/*color: #ededed;*/
-	/*background: -webkit-linear-gradient(#ffffff, rgba(0,255,255), rgba(0,154,217,1));*/
-	background: -webkit-linear-gradient(#ffffff, #999999);
+	background: -webkit-linear-gradient(#ffffff, rgba(0,255,255), rgba(0,154,217,1));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 1.8rem;
