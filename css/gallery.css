@@ -15,8 +15,11 @@ body{
 
 .container2{
 	float: right;
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 	clear: both;
+	/*column-count: 2;
+	column-gap: 1rem;*/
 }
 
 .displayImage{
@@ -65,12 +68,12 @@ body{
 }
 
 .box{
+	position: relative;
 	display: block;
 	margin-bottom: 2%;
 	text-align: center;
 	padding: 0px 5px 0px 10px;
 	color: #a0a0a0;
-	
 	/*border-style: solid;
 	border-width: 1px;*/
 	overflow: hidden;
