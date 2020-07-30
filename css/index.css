@@ -34,7 +34,7 @@ body{
 	border-radius: 4px;
 }
 
-.fa-arrow-alt-circle-up{
+.topButscroll{
 	/*color: #55ff06;*/
 	background: -webkit-linear-gradient(rgba(0,154,217,1), #55ff06);
 	-webkit-background-clip: text;
