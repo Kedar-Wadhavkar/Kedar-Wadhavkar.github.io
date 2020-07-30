@@ -34,7 +34,7 @@ body{
 	border-radius: 4px;
 }
 
-.far{
+.fa-arrow-alt-circle-up{
 	/*color: #55ff06;*/
 	background: -webkit-linear-gradient(rgba(0,154,217,1), #55ff06);
 	-webkit-background-clip: text;
@@ -66,7 +66,7 @@ body{
 	width: 100%;
 	height: 10rem;
 	margin-top: 2.5rem;
-	padding-left: 4%;
+	padding-left: 2%;
 }
 
 .preview{
@@ -78,7 +78,7 @@ body{
 	border-radius: 50%;
 	padding: 0.75rem;
 	box-sizing: border-box;
-	background-image: linear-gradient(0deg, #565656, #aaaaaa);
+	background-image: linear-gradient(0deg, #333, #888);
 	opacity: 0;
 	z-index: 10;
 	cursor: pointer;
@@ -96,7 +96,7 @@ body{
 	box-sizing: border-box;
 	text-decoration: none;
 	box-shadow: 0 8px 15px #000000;
-	background-image: linear-gradient(0deg, #565656, #aaaaaa);
+	background-image: linear-gradient(0deg, #333, #888);
 	margin-top: -6rem;
 }
 
@@ -109,9 +109,9 @@ body{
 	width: 100%;
 	height: 100%;
 	display: block;
-	background-image: linear-gradient(0deg, #aaaaaa, #565656);
+	background-image: linear-gradient(0deg, #888, #333);
 	border-radius: 50%;
-	line-height: calc(5rem - 1rem);
+	line-height: calc(5.5rem - 1rem);
 	font-size: 2.5rem;
 	color: #262626;
 	transition: transform 0.5s;
@@ -286,7 +286,8 @@ footer p {
 	font-size: 1.2em;
 	color: #c0c0c0;	
 	text-align:center;
-	text-shadow: 2px 2px 2px #000000;	
+	text-shadow: 2px 2px 2px #000000;
+	margin-top: 1rem;	
 }
 
 
