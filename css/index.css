@@ -24,10 +24,11 @@ body{
 }
 
 #particles-js{
-	margin-top: -15%;
-	position: fixed;
+	margin-top: 63.5rem;
+	position: absolute;
 	width: 100%;
 	z-index: -2;
+	/*height: 122rem;*/
 }
 
 .gotopbtn{
@@ -94,6 +95,7 @@ body{
 }
 
 .container{
+	margin-top: -75rem;
 	padding-top: 4%;
 	display: flex;
 	flex-wrap: wrap;
@@ -171,10 +173,10 @@ div.single-card{
 	transition: 1.2s;
 	box-shadow: -6px 6px 10px #000000;
 }
-
+/*
 .block{
 	margin: 3rem auto;
-}
+}*/
 
 .single-card:hover .information{
 	display: none;
@@ -259,6 +261,60 @@ footer p {
 }
 
 
+
+
+
+@media only screen and (max-width: 992px){
+
+#particles-js{
+	height: 155rem;
+	}
+
+.block{
+	margin: 3rem auto;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+
+#particles-js{
+	height: 205rem;
+	}
+
+.block{
+	margin: 2rem auto;
+	}
+	
+}
+
+@media only screen and (max-width: 576px){
+
+#particles-js{
+	height: 253rem;
+	}
+
+.block{
+	margin: 1.5rem auto;
+	}
+
+footer{
+	margin-top: 1rem;
+	}
+
+}
+
+@media only screen and (min-width: 992px){
+
+#particles-js{
+	height: 122rem;
+	}
+
+.block{
+	margin: 3rem auto;
+	}
+
+}
 
 
 
