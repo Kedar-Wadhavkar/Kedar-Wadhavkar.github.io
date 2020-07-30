@@ -20,11 +20,11 @@ body{
 	clear: both;
 	/*column-count: 2;
 	column-gap: 1rem;*/
+	margin-top: -1.5%;
 }
 
 .displayImage{
 	margin-left: 4%;
-	
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	
