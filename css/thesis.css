@@ -1281,7 +1281,7 @@ html{
 	box-sizing: border-box;
 	transform-origin: bottom;
 	z-index: 1;
-	
+	transition: 0.2s;
 	overflow: hidden;
 	display: block;
 }
@@ -1301,6 +1301,7 @@ html{
 }
 
 .card:hover .imgBox{
+	transform-origin: bottom;
 	transform: scaleY(0);	
 	transition: 1s;
 }
@@ -1535,7 +1536,7 @@ html{
 	box-sizing: border-box;
 	transform-origin: bottom;
 	z-index: 1;
-	
+	transition: 0.2s;
 	overflow: hidden;
 	display: block;
 }
@@ -1555,6 +1556,7 @@ html{
 }
 
 .card:hover .imgBox{
+	transform-origin: bottom;
 	transform: scaleY(0);	
 	transition: 1s;
 }
@@ -1571,6 +1573,7 @@ html{
 	/*font-weight: bold;*/
 	text-align: center;
 	line-height: 3rem;
+	transition-delay: 100s;
 }
 
 .bottomHead{
@@ -1792,7 +1795,7 @@ html{
 	box-sizing: border-box;
 	transform-origin: bottom;
 	z-index: 1;
-	
+	transition: 0.2s;
 	overflow: hidden;
 	display: block;
 }
@@ -1812,6 +1815,7 @@ html{
 }
 
 .card:hover .imgBox{
+	transform-origin: bottom;
 	transform: scaleY(0);	
 	transition: 1s;
 }
