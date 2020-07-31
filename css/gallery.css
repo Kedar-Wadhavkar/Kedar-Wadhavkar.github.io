@@ -11,6 +11,7 @@ body{
 .container1{
 	float: left;
 	display: block;
+	margin-top: 5.5%;
 }
 
 .container2{
@@ -20,7 +21,6 @@ body{
 	clear: both;
 	/*column-count: 2;
 	column-gap: 1rem;*/
-	margin-top: -1.5%;
 }
 
 .displayImage{
@@ -45,7 +45,7 @@ body{
 
 
 #bigDisplay:hover {
-	transform: scale(1.15);
+	transform: scale(1.1);
 	transition: transform 2s;
 }
 
@@ -178,4 +178,49 @@ p{
 
 
 
+
+@media only screen and (max-width: 992px){/*md*/
+
+.bx1{
+	margin-top: 20%;
+}
+
+.bx2{
+	margin-top: 20%;
+}
+
+}
+
+@media only screen and (max-width: 768px){/*sm*/
+
+.bx1{
+	margin-top: 8%;
+}
+
+.bx2{
+	margin-top: 1%;
+}
+	
+}
+
+@media only screen and (max-width: 576px){/*xs*/
+
+.bx1{
+	margin-top: 15%;
+}
+
+.bx2{
+	margin-top: 1%;
+}
+
+}
+
+
+@media only screen and (min-width: 992px){/*lg*/
+
+.bx1{
+	margin-top: 1.5%;
+}
+
+}
 
