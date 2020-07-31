@@ -4,14 +4,45 @@
 	font-family: 'Merriweather', serif;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body{
-	background-color: #121212;
+	display: block;
+	background: #121212; /*#353535; #99ffcc;*/
+}
+
+.gotopbtn{
+	display: none;
+	position: fixed;
+	bottom: 15px;
+	right: 10px;
+	z-index: 99;
+	font-size: 36px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.far{
+	/*color: #55ff06;*/
+	background: -webkit-linear-gradient(rgba(0,154,217,1), #55ff06);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-style: ridge;
+	border-color: #000000;
+	border-radius: 50%;
+	box-shadow: 1px 2px 4px rgba(0,255,255), -1px -2px 4px #fff;
 }
 
 .container1{
 	float: left;
 	display: block;
-	margin-top: 5.5%;
+	margin-top: -1%;
 }
 
 .container2{
@@ -21,6 +52,8 @@ body{
 	clear: both;
 	/*column-count: 2;
 	column-gap: 1rem;*/
+	margin-top: -1.5%;
+	margin-bottom: 2%;
 }
 
 .displayImage{
@@ -178,49 +211,4 @@ p{
 
 
 
-
-@media only screen and (max-width: 992px){/*md*/
-
-.bx1{
-	margin-top: 20%;
-}
-
-.bx2{
-	margin-top: 20%;
-}
-
-}
-
-@media only screen and (max-width: 768px){/*sm*/
-
-.bx1{
-	margin-top: 8%;
-}
-
-.bx2{
-	margin-top: 1%;
-}
-	
-}
-
-@media only screen and (max-width: 576px){/*xs*/
-
-.bx1{
-	margin-top: 15%;
-}
-
-.bx2{
-	margin-top: 1%;
-}
-
-}
-
-
-@media only screen and (min-width: 992px){/*lg*/
-
-.bx1{
-	margin-top: 1.5%;
-}
-
-}
 
