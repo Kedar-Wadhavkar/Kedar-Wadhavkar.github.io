@@ -1281,7 +1281,7 @@ html{
 	box-sizing: border-box;
 	transform-origin: bottom;
 	z-index: 1;
-	transition: 0.2s;
+	transition: 0.3s;
 	overflow: hidden;
 	display: block;
 }
@@ -1536,7 +1536,7 @@ html{
 	box-sizing: border-box;
 	transform-origin: bottom;
 	z-index: 1;
-	transition: 0.2s;
+	transition: 0.3s;
 	overflow: hidden;
 	display: block;
 }
@@ -1795,7 +1795,7 @@ html{
 	box-sizing: border-box;
 	transform-origin: bottom;
 	z-index: 1;
-	transition: 0.2s;
+	transition: 0.3s;
 	overflow: hidden;
 	display: block;
 }
