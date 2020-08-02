@@ -120,7 +120,7 @@ strong{
 	position: relative;
 	display: block;
 	width: 80%;
-	height: 26rem;
+	height: 27rem;
 	border-radius: 50%;
 	transition: 1s;
 	box-shadow: -8px -8px 12px #000000, 8px 8px 12px #000000;
@@ -181,7 +181,7 @@ p{
 	color: #eee;
 	text-align: justify;
 	font-size: 1.5rem;
-	margin: 32rem 4% 0 4%;
+	margin: 31rem 4% 0 4%;
 }
 
 strong{
