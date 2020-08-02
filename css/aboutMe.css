@@ -31,7 +31,7 @@ body{
 	box-shadow: inset -8px -8px 12px #343434, inset 9px 9px 15px #000000;
 	padding: 2%;
 	border-radius: 15px;
-	height: 135rem;
+	height: 150rem;
 }
 
 section{
@@ -74,15 +74,15 @@ img{
 
 .circle2{
 	/*background-color: yellow;*/
-	width: 150px;
-	height: 150px;
+	width: 40%;
+	height: 40%;
 	float: right;
 	border-radius: 50%;
 	margin: 2.5rem;
 	transition: 1s;
 	box-shadow: -6px -6px 10px #000000, 6px 6px 10px #000000;
-	margin-top: 68rem;
-	margin-bottom: 68rem;
+	margin-top: 75rem;
+	margin-bottom: 75rem;
 	margin-left: 5rem;
 	shape-outside: circle(8%);
 }
