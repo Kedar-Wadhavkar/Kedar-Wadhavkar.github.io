@@ -107,6 +107,7 @@ strong{
 
 .container{
 	position: relative;
+	display: block;
 	margin-top: -0.5%;
 	margin-left: 6%;
 	width: 88%;
@@ -116,14 +117,14 @@ strong{
 }
 
 .circle{
-	position: absolute;
-	clear: both;
-	width: 26rem;
+	position: relative;
+	display: block;
+	width: 80%;
 	height: 26rem;
 	border-radius: 50%;
 	transition: 1s;
 	box-shadow: -8px -8px 12px #000000, 8px 8px 12px #000000;
-	margin-left: 9%;
+	margin-left: 10%;
 	margin-top: 10rem;
 	overflow: hidden;
 }
@@ -164,7 +165,7 @@ h2{
 	background-image: linear-gradient(#202020, #000000);
 	color: #eee;
 	font-size: 2.1rem;
-	margin-top: 1rem;
+	margin-top: -35rem;
 	text-align: center;
 	/*box-shadow: -6px -6px 10px #333333, 6px 6px 10px #000000;*/
 	box-shadow: inset -4px -4px 6px #343434, inset 4px 4px 6px #010101;
@@ -180,7 +181,7 @@ p{
 	color: #eee;
 	text-align: justify;
 	font-size: 1.5rem;
-	margin: 36rem 4% 0 4%;
+	margin: 80% 4% 0 4%;
 }
 
 strong{
