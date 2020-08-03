@@ -87,7 +87,7 @@ body{
 	font-weight: bold;
 }
 
-.heading1{
+.heading{
 	width: 100%;
 	height: 100%;
 	background: -webkit-linear-gradient(#eee, #55ff06);
@@ -95,25 +95,6 @@ body{
 	-webkit-text-fill-color: transparent;
 	margin-top: -1%;
 	margin-bottom: 3.5%;
-}
-
-.heading2{
-	width: 100%;
-	height: 100%;
-	background: -webkit-linear-gradient(#eee, #55ff06);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-top: -1%;
-	margin-bottom: 3.5%;
-	display: none;
-}
-
-.headbg:hover .heading1{
-	display: none;
-}
-
-.headbg:hover .heading2{
-	display: block;
 }
 
 p{
@@ -204,29 +185,12 @@ strong{
 	
 }
 
-.heading1{
+.heading{
 	width: 100%;
 	height: 100%;
 	background: -webkit-linear-gradient(#eee, #55ff06);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
-
-.heading2{
-	width: 100%;
-	height: 100%;
-	background: -webkit-linear-gradient(#eee, #55ff06);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	display: none;
-}
-
-.headbg:hover .heading1{
-	display: none;
-}
-
-.headbg:hover .heading2{
-	display: block;
 }
 
 p{
@@ -317,7 +281,7 @@ strong{
 }
 
 
-.heading1{
+.heading{
 	width: 100%;
 	height: 100%;
 	background: -webkit-linear-gradient(#eee, #55ff06);
@@ -325,25 +289,6 @@ strong{
 	-webkit-text-fill-color: transparent;
 	margin-top: -1%;
 	margin-bottom: 3.5%;
-}
-
-.heading2{
-	width: 100%;
-	height: 100%;
-	background: -webkit-linear-gradient(#eee, #55ff06);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-top: -1%;
-	margin-bottom: 3.5%;
-	display: none;
-}
-
-.headbg:hover .heading1{
-	display: none;
-}
-
-.headbg:hover .heading2{
-	display: block;
 }
 
 p{
