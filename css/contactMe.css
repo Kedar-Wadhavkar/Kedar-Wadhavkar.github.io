@@ -417,6 +417,7 @@ body{
 	flex-direction: column;
 	justify-content: space-between;
 	box-shadow: 2px 2px 8px rgba(0,255,255);
+	height: 38rem;
 }
 
 .contactInfo h2{
@@ -517,7 +518,7 @@ body{
 
 .contactForm h2{
 	display: block;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-bottom: 4%;
 	color: #000000;
 	text-shadow: 1px 1px 2px rgba(0,255,255), 0 0 10px rgba(0,255,255), 0 0 10px rgba(0,255,255);
@@ -539,14 +540,10 @@ body{
 	display: block;
 	padding: 0 5%;
 	margin-top: 45%;
-	/*padding-bottom: 4%;*/
-	/*padding-left: 26%;*/
-	padding-top: 50%;
-	background-color: #232323; /*#fff;*/
-	/*margin-left: 1%;*/
+	padding-top: 24rem;
+	background-color: #232323;
 	margin-bottom: 5%;
 	box-shadow: 0 50px 50px #000000;
-	/*width: calc(100% - 150px);*/
 	width: 100%;
 	border: 3px ridge;
 	border-color: rgba(0,154,217,1);
