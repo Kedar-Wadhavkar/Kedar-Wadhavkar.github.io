@@ -208,7 +208,7 @@ html{
 	margin-left: 67%;
 	position: absolute;
 	padding: 0.1rem;
-	background-color: #121212;
+	background-color: #161616;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -1%;
 	z-index: 2;
@@ -221,7 +221,7 @@ html{
 	margin-left: 2%;
 	position: relative;
 	padding: 0.1rem;
-	background-color: #121212;
+	background-color: #161616;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -21%;
 	cursor: pointer;
@@ -431,7 +431,7 @@ html{
 	margin-top: 0%;
 	position: absolute;
 	padding: 0.1rem;
-	background-color: #121212;
+	background-color: #161616;
 	border-radius: 5px 31px 5px 31px;
 	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
@@ -444,7 +444,7 @@ html{
 	margin-left: 2%;
 	position: relative;
 	padding: 0.1rem;
-	background-color: #121212;
+	background-color: #161616;
 	
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -22.5%;
@@ -660,12 +660,11 @@ html{
 	margin-left: 67%;
 	position: absolute;
 	padding: 0.1rem;
-	background-color: #121212;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: 3%;
 	z-index: 2;
 	cursor: pointer;
-	background-color: #121212;
+	background-color: #161616;
 }
 
 .buttoneffect2{
@@ -674,12 +673,11 @@ html{
 	margin-left: 2%;
 	position: relative;
 	padding: 0.1rem;
-	background-color: #121212;
 	border-radius: 5px 31px 5px 31px;
 	margin-top: -19%;
 	z-index: 2;
 	cursor: pointer;
-	background-color: #121212;
+	background-color: #161616;
 }
 
 .projectName{
@@ -735,7 +733,7 @@ html{
 	padding-top: 0;
 	align-items: center;
 	justify-content: center;
-	background: #262626;
+	background: #202020
 }
 
 .pointer:after {
@@ -745,7 +743,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 6rem solid #262626;
+	border-left: 6rem solid #202020;
 	border-top: 6rem solid transparent;
 }
 
@@ -880,7 +878,9 @@ html{
 	padding-top: 0;
 	align-items: center;
 	justify-content: center;
-	background: #262626;
+	background-color: #202020;
+	margin-bottom: 2%;
+	box-shadow: -0px -0px 0px transparent, 0px 10px 10px #000000;
 }
 
 .pointer:after {
@@ -890,7 +890,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 8rem solid #262626;
+	border-left: 8rem solid #202020;
 	border-top: 8rem solid transparent;
 }
 
@@ -936,7 +936,7 @@ html{
 	border-top: 6rem solid transparent;
 	/* border-bottom: 20px solid transparent;*/
 	transform: scaleX(0);
-	transform-origin: left;	
+	transform-origin: left;
 }
 
 .paperTagleft:hover:after {
@@ -1024,7 +1024,7 @@ html{
 	padding-top: 0;
 	align-items: center;
 	justify-content: center;
-	background: #262626;
+	background: #202020;
 }
 
 .pointer:after {
@@ -1034,7 +1034,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 6rem solid #262626;
+	border-left: 6rem solid #202020;
 	border-top: 6rem solid transparent;
 }
 
