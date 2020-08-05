@@ -10,7 +10,10 @@ html{
 
 body{
 	display: block;
-	background: #121212; /*#353535; #99ffcc;*/
+	background: #121212;
+	background-image: url("hexbg2.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
 }
 
 .gotopbtn{

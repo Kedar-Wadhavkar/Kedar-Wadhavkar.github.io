@@ -8,7 +8,10 @@ body{
 	display: block;
 	align-items: center;
 	justify-content: center;
-	background-color: #121212;
+	background: #121212;
+	background-image: url("hexbg2.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
 }
 
 html{
