@@ -1353,7 +1353,7 @@ html{
 .butDivleft{
 	position: relative; 
 	/*margin-top: 50%;*/
-	margin-bottom: 1%;
+	margin-bottom: 0%;
 	/*background-color: yellow;*/
 	width: 97.5%;
 	height: 8rem;
@@ -1362,7 +1362,7 @@ html{
 .butDivright{
 	position: relative; 
 	/*margin-top: 50%;*/
-	margin-bottom: 1%;
+	margin-bottom: 0%;
 	/*background-color: yellow;*/
 	width: 97.5%;
 	height: 8rem;
@@ -1611,7 +1611,7 @@ html{
 .butDivleft{
 	position: relative; 
 	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	/*background-color: yellow;*/
 	width: 97.5%;
 	height: 8rem;
@@ -1620,7 +1620,7 @@ html{
 .butDivright{
 	position: relative; 
 	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 0%;
 	/*background-color: yellow;*/
 	width: 97.5%;
 	height: 8rem;
