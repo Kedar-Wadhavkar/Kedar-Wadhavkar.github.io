@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
-
-*{
-	font-family: 'Merriweather', serif;
-}
-
-body{
-	display: block;
-	background: #121212;
-	background-image: url("hexbg2.jpg");
-	background-repeat: repeat;
-	background-size: 100%;
-}
 
 .container{
 	margin-top: 0;
@@ -847,7 +834,7 @@ body{
 	margin-left: 18%;
 	margin-right: 8%;
 	margin-bottom: 5%;
-	box-shadow: 0 50px 50px #000000;
+	box-shadow: 0 25px 25px #000000;
 	/*width: calc(100% - 150px);*/
 	border: 3px ridge;
 	border-color: rgba(0,154,217,1);

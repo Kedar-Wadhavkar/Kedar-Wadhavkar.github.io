@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
-
-*{
-	font-family: 'Merriweather', serif;
-}
-
-body{
-	display: block;
-	background: #121212;
-	background-image: url("hexbg2.jpg");
-	background-repeat: repeat;
-	background-size: 100%;
-}
 
 .tablink{
 	font-weight: bold;
@@ -552,7 +539,7 @@ body{
 .buttoneffect{
 	position: relative;
 	height: 9rem;
-	background-color: #121212;
+	background-color: transparent;
 	font-size: 1.75rem;
 	border-radius: 15px 15px 15px 15px;
 	/*border: 1px solid #000000;*/
@@ -566,7 +553,6 @@ body{
 	color: #666666;
 	position: absolute;
 	display: block;
-	background-color: #121212;
 	top: 4px;
 	left: 4px;
 	right: 4px;
@@ -587,12 +573,12 @@ body{
 	left: 0;
 	width: 100%;
 	height: 50%;
-	background-color: #121212;
 	border-radius: 10px 10px 10px 10px;
 	z-index: -1;	
 }
 
 .buttoneffect:hover{
+	background-color: #121212;
 	box-shadow: 0 0 10px 2px #000000;
 	transform: scale(1.075);
 	transition: transform 0.8s;

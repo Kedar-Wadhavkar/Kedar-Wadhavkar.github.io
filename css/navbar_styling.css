@@ -89,4 +89,52 @@
 }
 
 
+@media only screen and (min-width: 576px){
+body{
+	display: block;
+	background: #121212;
+	background-image: url("hexbg3.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+}
+
+}
+
+
+@media only screen and (max-width: 576px){
+body{
+	display: block;
+	background: #121212;
+	background-image: url("hexbg3.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+}
+
+}
+
+
+@media only screen and (min-width: 992px){
+body{
+	display: block;
+	background: #121212;
+	background-image: url("hexbg2.jpg");
+	background-repeat: repeat;
+	background-size: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
