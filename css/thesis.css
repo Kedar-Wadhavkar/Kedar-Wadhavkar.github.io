@@ -665,6 +665,7 @@ html{
 	margin-top: 3%;
 	z-index: 2;
 	cursor: pointer;
+	background-color: #121212;
 }
 
 .buttoneffect2{
@@ -678,6 +679,7 @@ html{
 	margin-top: -19%;
 	z-index: 2;
 	cursor: pointer;
+	background-color: #121212;
 }
 
 .projectName{
@@ -721,9 +723,10 @@ html{
 
 
 
-@media only screen and (max-width: 992px){ 
+@media only screen and (max-width: 991px){ 
 
 .pointer{
+	position: relative;
 	display: block; 
 	width: 85%; 
 	height: 6rem;
@@ -732,11 +735,7 @@ html{
 	padding-top: 0;
 	align-items: center;
 	justify-content: center;
-}
-
-.pointer {
-	position: relative;
-	background: #333333;
+	background: #262626;
 }
 
 .pointer:after {
@@ -746,7 +745,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 6rem solid #333333;
+	border-left: 6rem solid #262626;
 	border-top: 6rem solid transparent;
 }
 
@@ -872,6 +871,7 @@ html{
 @media only screen and (max-width: 576px){ /*Mobile Portrait*/
 
 .pointer{
+	position: relative;
 	display: block; 
 	width: 78%; 
 	height: 8rem;
@@ -880,11 +880,7 @@ html{
 	padding-top: 0;
 	align-items: center;
 	justify-content: center;
-}
-
-.pointer {
-	position: relative;
-	background: #333333;
+	background: #262626;
 }
 
 .pointer:after {
@@ -894,7 +890,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 8rem solid #333333;
+	border-left: 8rem solid #262626;
 	border-top: 8rem solid transparent;
 }
 
@@ -1019,6 +1015,7 @@ html{
 @media only screen and (min-width: 992px){ 
 
 .pointer{
+	position: relative;
 	display: block; 
 	width: 90%; 
 	height: 6rem;
@@ -1027,11 +1024,7 @@ html{
 	padding-top: 0;
 	align-items: center;
 	justify-content: center;
-}
-
-.pointer {
-	position: relative;
-	background: #333333;
+	background: #262626;
 }
 
 .pointer:after {
@@ -1041,7 +1034,7 @@ html{
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 6rem solid #333333;
+	border-left: 6rem solid #262626;
 	border-top: 6rem solid transparent;
 }
 
@@ -1386,6 +1379,7 @@ html{
 	font-weight: 600;
 	border-radius: 0.5rem;
 	cursor: pointer;
+	background-color: #121212;
 }
 
 .actBut2{
@@ -1398,6 +1392,7 @@ html{
 	text-align: center;
 	border-radius: 0.5rem;
 	cursor: pointer;
+	background-color: #121212;
 }
 
 .rightBut2{
