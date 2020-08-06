@@ -1098,7 +1098,7 @@ img{
 	width: 120%;
 	height: 3.3rem;
 	top: 3rem;
-	margin-left: 42%;
+	margin-left: 50%;
 	background-color: #262626;
 	z-index: 5;
 	box-shadow: 0px -4px 0px red, 0px 0px 0px transparent;
@@ -1218,9 +1218,9 @@ img{
 
 .card:hover .imgbx{
 	width: 60%;
-	height: 70%;
-	top: -20%;
-	left: calc(50% - 63%);
+	height: 60%;
+	top: -22%;
+	left: calc(50% - 70%);
 	transition: 0.5s ease-in-out;
 	background-color: #000;
 	padding-bottom: 0%;
@@ -1245,7 +1245,7 @@ img{
 }
 
 .card:hover img{
-	max-width: 60%;
+	max-width: 50%;
 	opacity: 0.7;
 }
 
@@ -1267,13 +1267,13 @@ img{
 
 .content h3{
 	position: relative;
-	font-size: 24px;
+	font-size: 160%;
 	font-weight: bold;
 	display: none;
 	text-align: center;
 	margin-top: 5%;
 	right: 5%;
-	margin-left: 55%;
+	margin-left: 48%;
 }
 
 .content p{
