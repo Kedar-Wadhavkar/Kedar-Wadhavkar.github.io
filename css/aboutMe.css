@@ -22,7 +22,7 @@
 	float: left;
 	border-radius: 50%;
 	margin: 3rem;
-	margin-top: 6rem;
+	margin-top: 7rem;
 	transition: 1s;
 	box-shadow: -8px -8px 12px #000000, 8px 8px 12px #000000;
 	shape-outside: circle(50%);
@@ -71,7 +71,8 @@
 	border-radius: 25%;
 	width: 55%;
 	margin-left: 22.5%;
-	padding: 0;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
 	font-weight: bold;
 }
 
@@ -85,8 +86,14 @@
 	margin-bottom: 3.5%;
 }
 
+#intro{
+	
+	font-weight: bold;
+	font-size: 2.75rem;
+}
+
 p{
-	padding-top: 4rem;
+	padding-top: 5.5rem;
 	color: #eee;
 	text-align: justify;
 	font-size: 1.5rem;
