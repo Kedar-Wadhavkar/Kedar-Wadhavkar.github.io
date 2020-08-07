@@ -1704,7 +1704,8 @@ tr:nth-child(8):hover td{
 	height: 35rem;
 	transition: 1s;
 	/*background-color: red;*/
-	margin-top: 2rem; 
+	margin-top: 2rem;
+	perspective: 1000px; 
 }
 
 .imagebox{
@@ -1712,12 +1713,15 @@ tr:nth-child(8):hover td{
 	width: 90%;
 	margin-left: 5%;
 	height: 100%;
-	/*transition: 1s;*/
-	/*background-color: #000;*/
+	transition: transform 1.2s;
 	transform-style: preserve-3d;
 	box-shadow: -6px -6px 10px #000000, 6px 6px 10px #000000;
 	border-radius: 10px;
-	/*transform: rotateY(0deg);*/
+}
+
+.imagebox:hover{
+	transform: rotateY(180deg);
+	transition: transform 0.6s;
 }
 
 .frontcontent{
@@ -1729,13 +1733,6 @@ tr:nth-child(8):hover td{
 	background-size: 100%;*/
 	overflow: hidden;
 	border-radius: 10px;
-	transform-style: preserve-3d;
-	transition: 1s ease-in-out;
-}
-
-.imagebox:hover .frontcontent{
-	transition: 0.5s ease-in-out;
-	transform: rotateY(180deg);
 }
 
 .frontcontent img{
@@ -1755,14 +1752,7 @@ tr:nth-child(8):hover td{
 	text-align: center;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.7);
 	border-radius: 10px;
-	transform-style: preserve-3d;
-	transition: 1s ease-in-out;
 	transform: rotateY(180deg);
-}
-
-.imagebox:hover .rearcontent{
-	transition: 0.5s ease-in-out;
-	transform: rotateY(360deg);
 }
 
 
@@ -1812,7 +1802,7 @@ tr:nth-child(8):hover td{
 	border-radius: 50%;
 	transition: 0.5s;
 	transform: translateY(-200px);
-	box-shadow: inset -4px -4px 6px #888, inset 4px 4px 6px #666;
+	box-shadow: inset -4px -4px 6px #ababab, inset 4px 4px 6px #ababab;
 }
 
 .imagebox:hover li a{
