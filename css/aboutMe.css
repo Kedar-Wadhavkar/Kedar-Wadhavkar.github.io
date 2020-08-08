@@ -1978,7 +1978,7 @@ tr:nth-child(8):hover td{
 	border-radius: 10px;
 }
 
-.box:hover .imagebox{
+.imagebox:hover{
 	transform: rotateY(180deg);
 	transition: transform 0.6s;
 }
@@ -2098,7 +2098,7 @@ tr:nth-child(8):hover td{
 .socialIcon li:nth-child(5) a{
 	color: #bc2a8d;
 }
-
+/*
 .imagebox:hover li:nth-child(1) a{
 	transition-delay: 1s;
 }
@@ -2117,7 +2117,7 @@ tr:nth-child(8):hover td{
 
 .imagebox:hover li:nth-child(5) a{
 	transition-delay: 5s;
-}
+}*/
 
 
 
