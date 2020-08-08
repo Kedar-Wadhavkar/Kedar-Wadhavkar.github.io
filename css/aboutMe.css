@@ -1976,7 +1976,7 @@ tr:nth-child(8):hover td{
 	height: 100%;
 	transition: transform 1.2s;
 	transform-style: preserve-3d;
-	box-shadow: -6px -6px 10px #000000, 6px 6px 10px #000000;
+	/*box-shadow: -6px -6px 10px #000000, 6px 6px 10px #000000;*/
 	border-radius: 10px;
 }
 
@@ -1988,7 +1988,6 @@ tr:nth-child(8):hover td{
 .frontcontent{
 	position: absolute;
 	width: 100%;
-	height: 100%;
 	backface-visibility: hidden;
 	/*background-image: url('person.png');
 	background-size: 100%;*/
@@ -2007,7 +2006,6 @@ tr:nth-child(8):hover td{
 .rearcontent{
 	position: absolute;
 	width: 100%;
-	height: 100%;
 	backface-visibility: hidden;
 	background-color: #eee;
 	text-align: center;
@@ -2138,6 +2136,15 @@ tr:nth-child(8):hover td{
 
 .box{
 	height: 34rem;
+	margin-top: 0.75rem;
+}
+
+.frontcontent{
+	height: 95%;
+}
+
+.rearcontent{
+	height: 95%;
 }
 
 .rearcontent p{
@@ -2163,6 +2170,18 @@ tr:nth-child(8):hover td{
 	font-size: 2.5rem;
 }
 
+.box{
+	margin-top: 0rem;
+}
+
+.frontcontent{
+	height: 92%;
+}
+
+.rearcontent{
+	height: 92%;
+}
+
 .rearcontent p{
 	font-size: 1.3rem;
 }
@@ -2179,6 +2198,14 @@ tr:nth-child(8):hover td{
 .paperTag{
 	width: 35%;
 	margin-left: 32.5%;
+}
+
+.frontcontent{
+	height: 100%;
+}
+
+.rearcontent{
+	height: 100%;
 }
 
 .rearcontent p{
