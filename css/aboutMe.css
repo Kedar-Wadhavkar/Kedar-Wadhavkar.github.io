@@ -1980,7 +1980,7 @@ tr:nth-child(8):hover td{
 
 .imagebox:hover{
 	transform: rotateY(180deg);
-	transition: transform 0.6s;
+	transition: transform 0.8s;
 }
 
 .frontcontent{
@@ -2100,23 +2100,23 @@ tr:nth-child(8):hover td{
 }
 
 .imagebox:hover li:nth-child(1) a{
-	transition-delay: 0.4s;
-}
-
-.imagebox:hover li:nth-child(2) a{
-	transition-delay: 0.5s;
-}
-
-.imagebox:hover li:nth-child(3) a{
 	transition-delay: 0.6s;
 }
 
-.imagebox:hover li:nth-child(4) a{
+.imagebox:hover li:nth-child(2) a{
 	transition-delay: 0.7s;
 }
 
-.imagebox:hover li:nth-child(5) a{
+.imagebox:hover li:nth-child(3) a{
 	transition-delay: 0.8s;
+}
+
+.imagebox:hover li:nth-child(4) a{
+	transition-delay: 0.9s;
+}
+
+.imagebox:hover li:nth-child(5) a{
+	transition-delay: 1s;
 }
 
 
