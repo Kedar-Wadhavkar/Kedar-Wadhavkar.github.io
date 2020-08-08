@@ -2100,23 +2100,23 @@ tr:nth-child(8):hover td{
 }
 
 .imagebox:hover li:nth-child(1) a{
-	transition-delay: 0.3s;
+	transition-delay: 1s;
 }
 
 .imagebox:hover li:nth-child(2) a{
-	transition-delay: 0.4s;
+	transition-delay: 2s;
 }
 
 .imagebox:hover li:nth-child(3) a{
-	transition-delay: 0.5s;
+	transition-delay: 3s;
 }
 
 .imagebox:hover li:nth-child(4) a{
-	transition-delay: 0.6s;
+	transition-delay: 4s;
 }
 
 .imagebox:hover li:nth-child(5) a{
-	transition-delay: 0.7s;
+	transition-delay: 5s;
 }
 
 
