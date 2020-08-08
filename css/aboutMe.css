@@ -1978,7 +1978,7 @@ tr:nth-child(8):hover td{
 	border-radius: 10px;
 }
 
-.imagebox:hover{
+.box:hover .imagebox{
 	transform: rotateY(180deg);
 	transition: transform 0.6s;
 }
