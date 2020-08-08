@@ -18,7 +18,7 @@ html{
 	border-radius: 4px;
 }
 
-.far{
+.fa-arrow-alt-circle-up{
 	/*color: #55ff06;*/
 	background: -webkit-linear-gradient(rgba(0,154,217,1), #55ff06);
 	-webkit-background-clip: text;
@@ -1153,6 +1153,144 @@ html{
 
 
 
+.blockcontainer{
+	position: relative;
+	width: 95%;
+	margin-left: 2.5%;
+	top: -10rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*background-color: red;*/
+	margin-bottom: 3.5%;
+}
+
+.blockcontainer h2{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1%;
+	/*background-color: yellow;*/
+	font-size: 3.5rem;
+	font-weight: bold;
+	background: -webkit-linear-gradient(#eee, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.block{
+	position: relative;
+	display: block;
+	margin: 2rem auto;
+	/*background-color: pink;*/
+	padding: 1rem auto;
+}
+
+.blockcontent{
+	position: relative;
+	display: block;
+	background-color: #222;
+	height: 100%;
+	justify-content: center;
+}
+
+.blockcontent h3{
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 96%;
+	height: 30%;
+	background-color: #343434;
+	margin: 2%;
+	border-radius: 5px 5px 5px 5px;
+	border-bottom-left-radius: 70%;	
+	border-bottom-right-radius: 35%;
+	font-size: 2.5rem;
+	text-align: center;
+	color: #000; 
+	text-shadow: 1px 1px 3px rgba(0,255,255,0.7), 0 0 4px rgba(0,255,255,0.7), 0px 0px 4px rgba(0,255,255,0.7);
+	text-shadow: 1px 1px 3px yellow, 0 0 4px yellow, 0px 0px 4px yellow;
+	font-weight: bold;
+}
+
+.blockcontent p{
+	position: absolute;
+	color: white;
+	z-index: 2;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.blockcontent a{
+	position: absolute;
+	bottom: 5%;
+	text-decoration: none;
+	color: #bbb;
+	text-align: center;
+	width: 40%;
+	margin-left: 30%;
+	padding: 1rem 0;
+	border: 3px ridge #999;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 3px #000, 0 0 5px #000, 0px 0px 6px #000;
+}
+
+@media only screen and (max-width: 992px){
+
+.block{
+	height: 25rem;
+}
+
+.blockcontent p{
+	margin-top: 28%;
+}
+
+}
+
+
+@media only screen and (max-width: 576px){
+
+.blockcontainer h2{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+.block{
+	height: 23rem;
+	margin: 1rem auto;
+}
+
+.blockcontent p{
+	margin-top: 21%;
+}
+
+}
+
+
+@media only screen and (min-width: 992px){
+
+.block{
+	height: 30rem;
+}
+
+.blockcontent p{
+	margin-top: 40%;
+}
+
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 991px){
 
@@ -1168,7 +1306,7 @@ details{
 summary{
 	padding: 5px;
 	font-size: 2.75rem;
-	background: -webkit-linear-gradient(#eee, rgba(0,255,255));
+	background: -webkit-linear-gradient(#eee, #55ff06);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: bold;
@@ -1324,7 +1462,7 @@ details{
 summary{
 	padding: 5px;
 	font-size: 2.5rem;
-	background: -webkit-linear-gradient(#eee, rgba(0,255,255));
+	background: -webkit-linear-gradient(#eee, #55ff06);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	/*font-weight: bold;*/
@@ -1480,7 +1618,7 @@ details{
 summary{
 	padding: 5px;
 	font-size: 3rem;
-	background: -webkit-linear-gradient(#eee, rgba(0,255,255));
+	background: -webkit-linear-gradient(#eee, #55ff06);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: bold;
@@ -1621,13 +1759,128 @@ tr:nth-child(8):hover td{
 
 
 
+.buttoncontainer{
+	position: relative;
+	width: 100%;
+	height: 20rem;
+	/*background-color: blue;*/
+	margin-top: -8%;
+}
+
+.buttondiv{
+	position: absolute;
+	display: block;
+	/*background-color: yellow;*/
+	padding: 1rem;
+	margin: 2rem;
+	text-align: center;
+	justify-content: center;
+	transition: 1s;	
+}
+
+.buttondiv h3{
+	font-weight: bold;
+	margin-top: 1rem;
+	z-index: 5;
+	background: -webkit-linear-gradient(#eee, #55ff06);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.butdecor{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #161616;
+	z-index: -1;
+	border-radius: 8px;
+}
+
+.butdecor:before{
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 96%;
+	height: 45%;
+	background-color: #343434;
+	margin: 2%;
+	border-radius: 5px 5px 5px 5px;
+	border-bottom-left-radius: 35%;	
+	border-bottom-right-radius: 70%;
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.buttondiv:hover{
+	transform: scale(1.1);
+}
 
 
+@media only screen and (max-width: 992px){
+
+.buttoncontainer{
+	display: block;
+	margin-bottom: 0%;
+}
+
+.buttondiv1{
+	margin-left: 7.5%;
+	width: 35%;
+}
+
+.buttondiv2{
+	margin-left: 47.5%;
+	width: 45%;
+}
+
+}
 
 
+@media only screen and (max-width: 576px){
+
+.buttoncontainer{
+	display: block;
+	margin-bottom: 10%;
+}
+
+.buttondiv1{
+	margin-left: 20%;
+	width: 60%;
+}
+
+.buttondiv2{
+	top: 8rem;
+	margin-left: 12.5%;
+	width: 75%;
+}
+
+}
 
 
+@media only screen and (min-width: 992px){
 
+.buttoncontainer{
+	display: flex;
+	margin-bottom: 3%;
+}
+
+.buttondiv1{
+	margin-left: 25%;
+	width: 20%;
+}
+
+.buttondiv2{
+	margin-left: 50%;
+	width: 25%;
+}
+
+}
 
 
 
@@ -1886,15 +2139,18 @@ tr:nth-child(8):hover td{
 @media only screen and (max-width: 576px){
 
 .aboutmecontainer{
-	margin-top: 6%;
+	margin-top: 7%;
 	margin-bottom: -10%;
 }
 
 .paperTag{
-	width: 100%;
-	margin-left: 0%;
+	width: 88%;
+	margin-left: 6%;
 }
 
+.head{
+	font-size: 2.5rem;
+}
 
 }
 
