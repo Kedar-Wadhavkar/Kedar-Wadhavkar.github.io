@@ -403,6 +403,12 @@ footer{
 	left: -100%;
 }
 
+.adjustPadding{
+	float: right;
+	width: 100%;
+	text-align: right !important;
+}
+
 .navbar-right{
 	position: absolute;
 	float: right;	

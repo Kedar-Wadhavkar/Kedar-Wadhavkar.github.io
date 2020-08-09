@@ -70,7 +70,6 @@
 	margin-right: 0.5rem;
 }
 
-/*
 .navbar-nav li:after {
 	content: '';
 	display: block;
@@ -86,10 +85,22 @@
 	width: 100%;
 	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
 	transition: width .5s ease, background-color .5s ease;
-}*/
+}
 
 
 @media only screen and (min-width: 576px){
+body{
+	display: block;
+	background: #121212;
+	background-image: url("hexbg3.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+}
+
+}
+
+
+@media only screen and (max-width: 576px){
 body{
 	display: block;
 	background: #121212;
@@ -113,22 +124,6 @@ body{
 }
 
 
-@media only screen and (max-width: 576px){
-body{
-	display: block;
-	background: #121212;
-	background-image: url("hexbg3.jpg");
-	background-repeat: repeat;
-	background-size: 100%;
-}
-
-.adjustPadding{
-	float: right;
-	width: 100%;
-	text-align: right;
-}
-
-}
 
 
 
