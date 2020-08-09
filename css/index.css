@@ -324,8 +324,8 @@ footer p {
 	}
 
 footer{
-	margin-top: 2.5rem;
-	margin-bottom: 0.5rem;
+	margin-top: 11rem;
+	margin-bottom: 0.6rem;
 	}
 
 }
@@ -352,9 +352,9 @@ footer{
 	position: absolute;
 	text-align: center;
 	top: 20%;
-	width: 60%;
-	left: 34%;
-	right: 6%;
+	width: 62%;
+	left: 28%;
+	right: 10%;
 }
 
 .container{
