@@ -48,6 +48,10 @@ html{
 	font-weight: bold;
 }
 
+.typewrite{
+	 margin-top: 8rem;
+	font-size: 3.75rem;
+}
 
 .backContainer{
 	position: absolute;
@@ -346,7 +350,7 @@ footer{
 #particles-js{
 	position: absolute;
 	display: block;
-	margin-top: 13%;
+	margin-top: 14%;
 	width: 100%;
 }
 
@@ -373,8 +377,8 @@ footer{
 .dropdown-menu{
 	position: relative;
 	right: 0;
-	width: 35%;
-	left: 65%;
+	width: 40%;
+	left: 55%;
 	text-align: center;
 }
 
@@ -429,9 +433,18 @@ footer{
 	transition: width .5s ease, background-color .5s ease;
 }
 
+.container{
+	position: relative;
+	padding-top: 9rem;
 }
 
+.btext{
+	position: absolute;
+	text-align: center;
+	top: 40%;
+}
 
+}
 
 
 
