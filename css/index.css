@@ -58,9 +58,10 @@ html{
 	/*background-color: red;*/
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
-	height: 10rem;
-	margin-top: 2.5rem;
+	width: 10%;
+	margin-left: 90%;
+	height: 15rem;
+	top: 10rem;
 	padding-left: 2%;
 }
 
@@ -119,8 +120,7 @@ html{
 
 
 .container{
-	margin-top: -75rem;
-	padding-top: 4%;
+	padding-top: 0%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -352,14 +352,23 @@ footer{
 	position: absolute;
 	text-align: center;
 	top: 20%;
-	width: 50%;
-	left: 38%;
-	right: 12%;
+	width: 60%;
+	left: 34%;
+	right: 6%;
 }
 
 .container{
 	position: relative;
-	top: -4rem;
+	top: 1rem;
+}
+
+.backContainer{
+	position: absolute;
+	height: 10rem;
+	left: -15%;
+	float: right;
+	width: 25%;
+	top: 60rem;
 }
 
 }
@@ -427,7 +436,7 @@ footer{
 
 .container{
 	position: relative;
-	padding-top: 9rem;
+	top: 9rem;
 }
 
 .btext{
@@ -437,9 +446,34 @@ footer{
 	width: 90%;
 	left: 5%;
 	right: 5%;
+	
+}
+
+.backContainer{
+	position: absolute;
+	height: 10rem;
+	margin-top: 5rem;
+	float: left;
+	left: -90%;
+	width: 100%;
 }
 
 }
+
+
+@media only screen and (min-width: 992px){
+
+.btext{
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	width: 55%;
+	left: 25%;
+	right: 20%;
+}
+
+}
+
 
 
 
