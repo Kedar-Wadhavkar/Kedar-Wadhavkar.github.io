@@ -1211,7 +1211,7 @@ html{
 	text-align: center;
 	color: #000; 
 	text-shadow: 1px 1px 3px rgba(0,255,255,0.7), 0 0 4px rgba(0,255,255,0.7), 0px 0px 4px rgba(0,255,255,0.7);
-	text-shadow: 1px 1px 3px yellow, 0 0 4px #55ff06, 0px 0px 4px yellow;
+	text-shadow: 1px 1px 3px yellow, 0 0 4px white, 0px 0px 4px yellow;
 	font-weight: bold;
 }
 
