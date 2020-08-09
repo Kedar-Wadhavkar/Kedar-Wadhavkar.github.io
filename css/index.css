@@ -363,9 +363,15 @@ footer{
 	position: absolute;
 	margin-bottom: 5rem;
 	clear: both;
-	width: 100%;
+	width: 50%;
 	z-index: 1000;
 	text-align: right;
+	margin-left: 50%;
+}
+
+.navbar-brand{
+	position: absolute;
+	left: -100%;
 }
 
 .navbar-right{
@@ -377,12 +383,12 @@ footer{
 .dropdown-menu{
 	position: relative;
 	right: 0;
-	width: 40%;
-	left: 55%;
+	width: 80%;
+	left: 10%;
 	text-align: center;
 }
 
-.adjustPadding:after {
+.navbar li:after {
 	content: '';
 	display: block;
 	margin: auto;
@@ -393,41 +399,7 @@ footer{
 	border-radius: 50%;
 }
 
-.adjustPadding:hover:after {
-	width: 50%;
-	margin-left: 50%;
-	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
-	transition: width .5s ease, background-color .5s ease;
-}
-
-.navbar-right .adjustPadding:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0px;
-	background: transparent;
-	transition: width 0.5s ease, background-color 0.5s ease;
-	border-radius: 50%;
-}
-.navbar-right .adjustPadding:hover:after {
-	width: 100%;
-	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
-	transition: width .5s ease, background-color .5s ease;
-}
-
-.dropdown li:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0px;
-	background: transparent;
-	transition: width 0.5s ease, background-color 0.5s ease;
-	border-radius: 50%;
-}
-
-.dropdown li:hover:after {
+.navbar li:hover:after {
 	width: 100%;
 	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
 	transition: width .5s ease, background-color .5s ease;
@@ -442,6 +414,9 @@ footer{
 	position: absolute;
 	text-align: center;
 	top: 40%;
+	width: 90%;
+	left: 5%;
+	right: 5%;
 }
 
 }
