@@ -381,7 +381,7 @@ html{
 	border: 3.5rem solid #ddd;
 	border-image: linear-gradient(to bottom, #565656, #262626); /*(to bottom, rgba(0,255,255,0.7) , purple)*/
 	border-image-slice: 1;
-	box-shadow: -4.5px 4.5px 4.5px red; /*rgba(0,154,217,1)*/
+	box-shadow: -4.5px 4.5px 4.5px #55ff06; /*rgba(0,154,217,1)*/
 }
 
 .leftInner{
@@ -393,7 +393,7 @@ html{
 	margin-left: 38%;
 	background-color: #262626;
 	z-index: 5;
-	box-shadow: 0px -4px 0px red, 0px 0px 0px transparent;
+	box-shadow: 0px -4px 0px yellow, 0px 0px 0px transparent;
 }
 
 .rightloop{
@@ -408,7 +408,7 @@ html{
 	border: 3.5rem solid #ddd;
 	border-image: linear-gradient(to bottom, #262626 , #565656);
 	border-image-slice: 1;
-	box-shadow: 5.5px -5.5px 5.5px red, 0px 0px 0px transparent;
+	box-shadow: 5.5px -5.5px 5.5px yellow, 0px 0px 0px transparent;
 }
 
 .headleft{
@@ -656,7 +656,7 @@ html{
 	border: 3.5rem solid #ddd;
 	border-image: linear-gradient(to bottom, #565656, #262626); /*(to bottom, rgba(0,255,255,0.7) , purple)*/
 	border-image-slice: 1;
-	box-shadow: -4.5px 4.5px 4.5px red; /*rgba(0,154,217,1)*/
+	box-shadow: -4.5px 4.5px 4.5px #55ff06; /*rgba(0,154,217,1)*/
 }
 
 .leftInner{
@@ -668,7 +668,7 @@ html{
 	margin-left: 55%;
 	background-color: #262626;
 	z-index: 5;
-	box-shadow: 0px -4px 0px red, 0px 0px 0px transparent;
+	box-shadow: 0px -4px 0px yellow, 0px 0px 0px transparent;
 }
 
 .rightloop{
@@ -683,7 +683,7 @@ html{
 	border: 3.5rem solid #ddd;
 	border-image: linear-gradient(to bottom, #262626 , #565656);
 	border-image-slice: 1;
-	box-shadow: 5.5px -5.5px 5.5px red, 0px 0px 0px transparent;
+	box-shadow: 5.5px -5.5px 5.5px yellow, 0px 0px 0px transparent;
 }
 
 .headleft{
@@ -745,7 +745,7 @@ html{
 	height: 24rem;
 	/*background-color: yellow;*/
 	text-align: center;
-	margin: 0.5rem auto;
+	margin: -0.25rem auto;
 	margin-left: 2%;
 }
 
@@ -932,7 +932,7 @@ html{
 	border: 3.5rem solid #ddd;
 	border-image: linear-gradient(to bottom, #565656, #262626); /*(to bottom, rgba(0,255,255,0.7) , purple)*/
 	border-image-slice: 1;
-	box-shadow: -4.5px 4.5px 4.5px red; /*rgba(0,154,217,1)*/
+	box-shadow: -4.5px 4.5px 4.5px #55ff06; /*rgba(0,154,217,1)*/
 }
 
 .leftInner{
@@ -944,7 +944,7 @@ html{
 	margin-left: 33%;
 	background-color: #262626;
 	z-index: 5;
-	box-shadow: 0px -4px 0px red, 0px 0px 0px transparent;
+	box-shadow: 0px -4px 0px yellow, 0px 0px 0px transparent;
 }
 
 .rightloop{
@@ -959,7 +959,7 @@ html{
 	border: 3.5rem solid #ddd;
 	border-image: linear-gradient(to bottom, #262626 , #565656);
 	border-image-slice: 1;
-	box-shadow: 5.5px -5.5px 5.5px red, 0px 0px 0px transparent;
+	box-shadow: 5.5px -5.5px 5.5px yellow, 0px 0px 0px transparent;
 }
 
 .headleft{
@@ -1211,7 +1211,7 @@ html{
 	text-align: center;
 	color: #000; 
 	text-shadow: 1px 1px 3px rgba(0,255,255,0.7), 0 0 4px rgba(0,255,255,0.7), 0px 0px 4px rgba(0,255,255,0.7);
-	text-shadow: 1px 1px 3px yellow, 0 0 4px yellow, 0px 0px 4px yellow;
+	text-shadow: 1px 1px 3px yellow, 0 0 4px #55ff06, 0px 0px 4px yellow;
 	font-weight: bold;
 }
 
