@@ -2176,10 +2176,12 @@ tr:nth-child(8):hover td{
 
 .frontcontent{
 	height: 92%;
+	box-shadow: -0px -0px 0px transparent, 0px 0px 0px transparent;
 }
 
 .rearcontent{
 	height: 92%;
+	box-shadow: -0px -0px 0px transparent, 0px 0px 0px transparent;
 }
 
 .rearcontent p{
