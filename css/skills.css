@@ -1,19 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 
-*{
-	font-family: 'Merriweather', serif;
+.containerMain{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 5%;
+	/*background: yellow;*/
 }
 
-body{
-	display: block;
-	background: #121212;
+.card{
+	position: relative;
+	margin-top: 5%;
+	height: 400px;
+	/*background: white;*/
+	transition: 0.5s;
+	margin: auto auto;
+	margin-top: 5%;
 }
 
-.btext{
-	color: #ffffff;
+.card:hover .imgBx{
 	position: absolute;
-	text-align: center;
-	top: 45%;
+	top: 0;
+	left: 0;
 	width: 100%;
-	line-height: 0.5em;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background: red;*/
 }
+
+.container{
+	position: absolute;
+	display: block;
+	padding: 0;
+	flex: 1;
+	width: 100%;
+}
+
+/*
+.face1{
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+	background: green;
+	color: green;
+}*/
+
+.face2{
+	position: absolute;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: pink;
+	transition: 0.5s;
+	text-align: center;
+	height: 100%;
+	width: 90%;
+}
+
+.card:hover .face2{
+	padding: 0;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	top: -60px;
+	margin-left: calc(50% - 100px);
+	border: 2px solid black;
+	background: transparent;
+	z-index: 5;
+}
+
+.display{
+	position: relative;
+	top: 120px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 0px;
+	background: yellow;
+}
+
+.card:hover .display{
+	height: 200px;
+	transition: 0.4s;
+	transition-delay: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
