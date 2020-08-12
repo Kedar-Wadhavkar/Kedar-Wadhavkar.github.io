@@ -50,6 +50,40 @@
 	/*background: red;*/
 }
 
+.topdiv{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 10rem;
+	top: 0;
+	left: 0;
+	/*background-color: orange;*/
+	transition: 0.3s;
+}
+
+.heading{
+	font-size: 2.18rem;
+	font-weight: bold;
+	height: 6rem;
+	background: -webkit-linear-gradient(rgba(0,255,255), #eee);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 1rem;
+	z-index: 2;
+	text-transform: uppercase;
+}
+
+.level{
+	font-size: 1.8rem;
+	font-weight: bold;
+	background: -webkit-linear-gradient(rgba(0,255,255), #eee);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: -1rem;
+	z-index: -1;
+	
+}
+
 .container{
 	position: absolute;
 	display: block;
@@ -59,6 +93,51 @@
 	justify-content: center;
 	/*background: red;*/
 	transform: scale(1);
+}
+
+#text:before{
+	height: 100%;
+	content: attr(data-text);
+	position: absolute;
+	left: 0;
+	top: 0rem;
+	width: 100%;
+	text-align: center;
+	font-size: 7em;
+	color: rgba(255,255,255,0.1);
+	font-weight: 600;
+	border-radius: 6px;
+	z-index: -2;
+}
+
+.bottomdiv{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 12rem;
+	bottom: 0;
+	left: 0;
+	/*background-color: orange;*/
+	transition: 0.3s;
+}
+
+.list{
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	text-align: left;
+	margin-top: 2rem;
+	margin-left: -3.5rem;
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: -webkit-linear-gradient(#eee, rgba(0,255,255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+strong{
+	font-size: 2rem;
 }
 
 .face1{
@@ -79,13 +158,26 @@
 	height: 170px;
 	width: 170px;
 	border-radius: 50%;
-	top: -14%;
+	top: -15%;
 	margin-left: calc(50% - 85px);
 	border: 2px solid black;
 	background: #101010;
 	z-index: 5;
 	box-shadow: -6px -6px 12px #343434, 6px 6px 12px #010101;
 	transform: scale(0.8);
+	overflow: hidden;
+}
+
+.card:hover .topdiv{
+	display: none;
+}
+
+.card:hover .bottomdiv{
+	display: none;
+}
+
+.card:hover #text:before{
+	color: rgba(255,255,255,0.08);
 }
 
 .face2{
