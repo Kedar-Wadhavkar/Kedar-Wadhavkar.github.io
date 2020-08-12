@@ -4,18 +4,20 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 5%;
+	margin-top: 2%;
 	/*background: yellow;*/
+	width: 95%;
+	margin-left: 2.5%;
+	margin-bottom: 3%;
 }
 
 .card{
 	position: relative;
-	margin-top: 5%;
-	height: 400px;
+	height: 33rem;
 	/*background: white;*/
 	transition: 0.5s;
 	margin: auto auto;
-	margin-top: 5%;
+	margin-bottom: 3%;
 }
 
 .card:hover .imgBx{
@@ -36,66 +38,184 @@
 	padding: 0;
 	flex: 1;
 	width: 100%;
+	justify-content: center;
+	/*background: red;*/
+	transform: scale(1);
+	/*height: 14rem;
+	top: 9.5rem;*/
 }
 
-/*
 .face1{
-	box-sizing: border-box;
-	padding: 20px;
-	text-align: center;
-	background: green;
-	color: green;
-}*/
-
-.face2{
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: pink;
+	background: #232323;
 	transition: 0.5s;
 	text-align: center;
 	height: 100%;
-	width: 90%;
+	width: 100%;
 }
 
-.card:hover .face2{
+.card:hover .face1{
 	padding: 0;
-	height: 200px;
-	width: 200px;
+	height: 170px;
+	width: 170px;
 	border-radius: 50%;
-	top: -60px;
-	margin-left: calc(50% - 100px);
+	top: -14%;
+	margin-left: calc(50% - 85px);
 	border: 2px solid black;
-	background: transparent;
+	background: #101010;
 	z-index: 5;
+	box-shadow: -6px -6px 12px #343434, 6px 6px 12px #010101;
+	transform: scale(0.8);
 }
 
-.display{
+.face2{
 	position: relative;
-	top: 120px;
+	top: 20%;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	overflow: hidden;
 	height: 0px;
-	background: yellow;
+	background: #161616;
+	padding-top: -50px;
 }
 
-.card:hover .display{
-	height: 200px;
-	transition: 0.4s;
+.card:hover .face2{
+	height: 80%;
+	border: 2px ridge rgba(0,255,255);
+	border-right: 2px groove rgba(0,154,217);
+	border-bottom: 2px groove rgba(0,154,217);
+	transition: transform 0.4s;
 	transition-delay: 0.3s;
 }
 
+.first{
+	margin-top: 0%;
+}
 
+.skills{
+	position: relative;
+	display: flex;	
+	width: 90%;
+	margin-bottom: 3.5%;
+	margin-left: 5%;
+	top: 20%;
+	padding: 15px 10px 8px 10px;
+	background-image: linear-gradient(#606060 0%, #333 15%, #101010);
+	border-radius: 8px;
+	overflow: hidden;
+	border: 1px solid #000;
+	transition: 0.5s;
+	box-shadow: -2px -2px 10px #010101, 2px 2px 10px #010101;
+}
 
+.skills:hover{
+	transform: scale(1.05);
+	transition: transform 0.3s;
+}
 
+.skills:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255,255,255,0.07);
+	z-indx: 10;
+}
 
+.subName{
+	position: relative;
+	width: 25%;
+	text-align: center;
+	margin-top: -2%;
+	/*background-color: yellow;*/
+	font-size: 1.5rem;
+	color: #eee;
+	font-weight: bold;
+}
 
+.percent{
+	position: relative;
+	width: 70%;
+	margin: 0 15px;
+	margin-left: 5%;
+	height: 12px;
+	border-radius: 10px;
+	background-color: #151515;
+	box-shadow: inset 0 0 10px #000;
+	overflow: hidden;
+	border: 1px solid #000;
+}
 
+.progress{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: inset 0 0 2px #000;
+}
 
+.card:hover .progress{
+	animation: animate 2s ease-in-out forwards;
+}
 
+.skills:hover .progress{
+	animation: animate 2s ease-in-out forwards;
+}
+
+@keyframes animate
+{
+	from
+	{
+		width: 0;
+	}
+}
+
+.skills:nth-child(1) .progress{
+	background-image: linear-gradient(45deg, #1fe6ff, #673ab7);
+}
+
+.skills:nth-child(2) .progress{
+	background-image: linear-gradient(45deg, #3bc0ff, #33ff00);
+}
+
+.skills:nth-child(3) .progress{
+	background-image: linear-gradient(45deg, #ffee54, #ff00ca);
+}
+
+.skills:nth-child(4) .progress{
+	background-image: linear-gradient(45deg, #22ffde, #2196f3);
+}
+
+.work{
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 60%;
+	height: 12%;
+	margin-left: 20%;
+	margin-top: 17%;
+	font-weight: bold;
+	font-size: 1.75rem;
+	background-color: #101010;
+	border: 4px ridge #666;
+	border-right: 4px groove #666;
+	border-bottom: 4px groove #666;
+	color: #dedede;
+	padding-bottom: 25px;
+}
+
+.work:hover{
+	color: #101010;
+	background-color: #dedede;
+}
 
 
 
