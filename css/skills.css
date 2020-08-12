@@ -41,8 +41,6 @@
 	justify-content: center;
 	/*background: red;*/
 	transform: scale(1);
-	/*height: 14rem;
-	top: 9.5rem;*/
 }
 
 .face1{
@@ -55,6 +53,7 @@
 	text-align: center;
 	height: 100%;
 	width: 100%;
+	transition: 0.3s;
 }
 
 .card:hover .face1{
@@ -163,11 +162,7 @@
 }
 
 .card:hover .progress{
-	animation: animate 2s ease-in-out forwards;
-}
-
-.skills:hover .progress{
-	animation: animate 2s ease-in-out forwards;
+	animation: animate 1.5s ease-in-out forwards;
 }
 
 @keyframes animate
@@ -195,13 +190,13 @@
 }
 
 .work{
-	position: relative;
+	position: absolute;
 	display: block;
 	text-align: center;
 	width: 60%;
 	height: 12%;
 	margin-left: 20%;
-	margin-top: 17%;
+	bottom: 1.5rem;
 	font-weight: bold;
 	font-size: 1.75rem;
 	background-color: #101010;
