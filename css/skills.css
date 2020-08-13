@@ -160,7 +160,7 @@
 	line-height: 2.5rem;
 	font-size: 1.5rem;
 	font-weight: bold;
-	background: -webkit-linear-gradient(#eee, lime);
+	background: -webkit-linear-gradient(#eee, rgba(0,255,255), #6E4AE2);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -182,6 +182,7 @@ strong{
 	transition: 0.3s;
 	overflow: hidden;
 	border-radius: 5px;
+	border: 2px solid #555;
 }
 
 .card:hover .face1{
@@ -346,6 +347,7 @@ strong{
 	border-right: 4px groove #666;
 	border-bottom: 4px groove #666;
 	color: #dedede;
+	padding-top: 3px;
 	padding-bottom: 25px;
 }
 
