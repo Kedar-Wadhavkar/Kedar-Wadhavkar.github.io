@@ -14,7 +14,7 @@
 .card{
 	position: relative;
 	height: 38rem;
-	/*background: white;*/
+	/*background: #78F8EC;*/ /*#6E4AE2;*/
 	transition: 0.5s;
 	margin: auto auto;
 	margin-bottom: 6%;
@@ -65,10 +65,10 @@
 	font-size: 2.18rem;
 	font-weight: bold;
 	height: 6rem;
-	background: -webkit-linear-gradient(rgba(0,255,255), #eee);
+	background: -webkit-linear-gradient(#ffee54, #eee);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: 1rem;
+	margin-top: 1.75rem;
 	z-index: 2;
 	text-transform: uppercase;
 }
@@ -85,10 +85,10 @@
 .level{
 	font-size: 1.8rem;
 	font-weight: bold;
-	background: -webkit-linear-gradient(rgba(0,255,255), #eee);
+	background: -webkit-linear-gradient(rgba(0,154,217,1), #eee); /*rgba(0,154,217,1)*/
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: -1rem;
+	margin-top: -1.5rem;
 	z-index: -1;
 	
 }
@@ -123,7 +123,7 @@
 	position: absolute;
 	display: block;
 	width: 90%;
-	height: 14rem;
+	height: 15rem;
 	bottom: 0;
 	left: 5%;
 	/*background-color: orange;*/
@@ -140,7 +140,7 @@
 	line-height: 2.5rem;
 	font-size: 1.5rem;
 	font-weight: bold;
-	background: -webkit-linear-gradient(#eee, rgba(0,255,255));
+	background: -webkit-linear-gradient(#eee, lime);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -161,6 +161,7 @@ strong{
 	width: 100%;
 	transition: 0.3s;
 	overflow: hidden;
+	border-radius: 5px;
 }
 
 .card:hover .face1{
@@ -200,6 +201,7 @@ strong{
 	height: 0px;
 	background: #161616;
 	padding-top: -50px;
+	border-radius: 5px;
 }
 
 .card:hover .face2{
