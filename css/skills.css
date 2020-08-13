@@ -65,7 +65,7 @@
 	font-size: 2.18rem;
 	font-weight: bold;
 	height: 6rem;
-	background: -webkit-linear-gradient(#ffee54, #eee);
+	background: -webkit-linear-gradient(rgba(0,255,255), #eee);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-top: 1.75rem;
@@ -80,6 +80,26 @@
 
 .card:nth-child(5) .heading{
 	font-size: 2rem;
+}
+
+.card:nth-child(1) .heading{
+	padding-top: 1.3rem;
+}
+
+.card:nth-child(1) .heading{
+	padding-top: 1.3rem;
+}
+
+.card:nth-child(6) .heading{
+	padding-top: 1.3rem;
+}
+
+.card:nth-child(7) .heading{
+	padding-top: 1.3rem;
+}
+
+.card:nth-child(8) .heading{
+	padding-top: 1.3rem;
 }
 
 .level{

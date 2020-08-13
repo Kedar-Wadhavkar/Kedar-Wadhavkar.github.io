@@ -397,7 +397,7 @@
 .contactInfo{
 	margin-left: 8.5%;
 	position: absolute;
-	/*margin-top: 3%;*/
+	margin-top: 0%;
 	width: 75%;
 	/*height: calc(100% - 18%);*/
 	background-color: #333333; /*#0f3959;*/
@@ -535,6 +535,7 @@
 	margin-bottom: 5%;
 	box-shadow: 0 50px 50px #000000;
 	width: 100%;
+	margin-left: 0%;
 	border: 3px ridge;
 	border-color: rgba(0,154,217,1);
 }
@@ -605,8 +606,7 @@
 }
 
 .inputBox input[type="submit"]{
-	margin-top: 4%;
-	margin-bottom: 8%;
+	margin-top: 4.5rem;
 	font-size: 2rem;
 	text-align: center;
 	position: relative;
@@ -614,13 +614,13 @@
 	background: -webkit-linear-gradient(rgba(0,154,217), white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-color: #212121; /*#0f3959;*/
-	border: none;
-	max-width: 25%;
-	padding: 2% 0;
+	background-color: #212121;
+	max-width: 100%;
+	padding: 8px 24px;
 	border: 3px ridge;
 	border-color: rgba(0,255,255);
 	font-weight: 600;
+	bottom: 32%;
 }
 
 .inputBox input[type="submit"]:hover{
