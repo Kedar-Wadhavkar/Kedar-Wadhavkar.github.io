@@ -13,7 +13,7 @@
 
 .card{
 	position: relative;
-	height: 36rem;
+	height: 38rem;
 	/*background: white;*/
 	transition: 0.5s;
 	margin: auto auto;
@@ -53,10 +53,10 @@
 .topdiv{
 	position: absolute;
 	display: block;
-	width: 100%;
+	width: 90%;
 	height: 10rem;
 	top: 0;
-	left: 0;
+	left: 5%;
 	/*background-color: orange;*/
 	transition: 0.3s;
 }
@@ -71,6 +71,15 @@
 	margin-top: 1rem;
 	z-index: 2;
 	text-transform: uppercase;
+}
+
+.card:nth-child(5) .topdiv{
+	width: 100%;
+	left: 0%;
+}
+
+.card:nth-child(5) .heading{
+	font-size: 2rem;
 }
 
 .level{
@@ -113,10 +122,10 @@
 .bottomdiv{
 	position: absolute;
 	display: block;
-	width: 100%;
-	height: 12rem;
+	width: 90%;
+	height: 14rem;
 	bottom: 0;
-	left: 0;
+	left: 5%;
 	/*background-color: orange;*/
 	transition: 0.3s;
 }
@@ -151,6 +160,7 @@ strong{
 	height: 100%;
 	width: 100%;
 	transition: 0.3s;
+	overflow: hidden;
 }
 
 .card:hover .face1{
@@ -182,7 +192,7 @@ strong{
 
 .face2{
 	position: relative;
-	top: 16%;
+	top: 14%;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -193,7 +203,7 @@ strong{
 }
 
 .card:hover .face2{
-	height: 84%;
+	height: 86%;
 	border: 2px ridge rgba(0,255,255);
 	border-right: 2px groove rgba(0,154,217);
 	border-bottom: 2px groove rgba(0,154,217);
@@ -202,14 +212,14 @@ strong{
 }
 
 .first{
-	margin-top: -1.5%;
+	margin-top: -1%;
 }
 
 .skills{
 	position: relative;
 	display: flex;	
 	width: 90%;
-	margin-bottom: 3.8%;
+	margin-bottom: 4.5%;
 	margin-left: 5%;
 	top: 20%;
 	padding: 18px 10px 15px 10px;
