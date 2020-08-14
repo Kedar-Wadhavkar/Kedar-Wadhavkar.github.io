@@ -612,6 +612,17 @@ html{
 	display: block;
 }
 
+.viewWork{
+	position: absolute;
+	bottom: 1rem;
+	right: 2rem;
+	display: none;
+}
+
+.card:hover .viewWork{
+	display: block;
+}
+
 }
 
 
@@ -888,6 +899,17 @@ html{
 	display: block;
 }
 
+.viewWork{
+	position: absolute;
+	bottom: 1rem;
+	right: 2rem;
+	display: none;
+}
+
+.card:hover .viewWork{
+	display: block;
+}
+
 }
 
 
@@ -1144,6 +1166,17 @@ html{
 }
 
 .card:hover .content p{
+	display: block;
+}
+
+.viewWork{
+	position: absolute;
+	bottom: 1rem;
+	right: 2rem;
+	display: none;
+}
+
+.card:hover .viewWork{
 	display: block;
 }
 

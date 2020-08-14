@@ -113,7 +113,7 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute1()">Look at my Work</button>
 		</div>
 	</div>
 
@@ -157,7 +157,7 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute2()">Look at my Work</button>
 		</div>
 	</div>
 
@@ -200,7 +200,7 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute3()">Look at my Work</button>
 		</div>
 	</div>
 
@@ -243,7 +243,7 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute4()">Look at my Work</button>
 		</div>
 	</div>
 
@@ -286,7 +286,7 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute5()">Look at my Work</button>
 		</div>
 	</div>
 
@@ -329,7 +329,7 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute6()">Look at my Work</button>
 		</div>
 	</div>
 
@@ -372,7 +372,7 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute7()">Look at my Work</button>
 		</div>
 	</div>
 
@@ -415,11 +415,21 @@
 					<div class = "progress" style = "width: 30%;"></div>
 				</div>
 			</div>
-			<button class = "work">Look at my Work</button>
+			<button class = "work" onclick="skillsRoute8()">Look at my Work</button>
 		</div>
 	</div>
 
 </div>
+
+
+
+<!-- The Modal -->
+			<div id="myModal" class="modal">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div>
+
 
 
 
@@ -438,10 +448,10 @@
 	<div class="carousel-inner">
 
 		<div class="item active">
-        		<img src="css/pic1.jpg" alt="Los Angeles">
+        		<img id="myyImg" src="css/pic1.jpg" alt="Los Angeles">
 			<div class="carousel-caption d-none d-md-block">
 				<h5>My Name Kedar</h5>
-				<p>I am a good boy..</p>
+				<button class = "wait" onclick="fullScreen()">Look in Fullscreen</button>
 			</div>
       		</div>
 
@@ -450,7 +460,7 @@
   				<source src="css/vid2.mp4" type="video/mp4">	
 			</video>-->
 
-			<img src="css/pic2.jpg" alt="New york">
+			<img id="myImg" src="css/pic2.jpg" alt="New york">
 			<div class="carousel-caption d-none d-md-block">
 				<h5>My Name KD</h5>
 				<p>I am a good boy..</p>
@@ -861,7 +871,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+	<script src = "js/carousel.js"></script>
+
 	<!--finished-->
+
 
 <script>
 var mybutton = document.querySelector('.gotopbtn');
@@ -878,55 +891,6 @@ function scrollFunction() {
 	mybutton.style.display = "none";
 	}
 }
-
-$('#myCarousel1').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel2').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel3').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel4').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel5').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel6').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel7').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel8').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
 </script>
 
 

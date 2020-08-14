@@ -206,4 +206,122 @@ dial.animateStart();
 
 
 
+$('#myCarousel1').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+$('#myCarousel2').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+$('#myCarousel3').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+$('#myCarousel4').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+$('#myCarousel5').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+$('#myCarousel6').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+$('#myCarousel7').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+$('#myCarousel8').carousel({
+     interval: 4000,
+     wrap: true,
+     keyboard: true
+ });
+
+
+
+
+
+
+function skillsRoute1() {
+    let elmnt = document.getElementById("myCarousel1");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+function skillsRoute2() {
+    let elmnt = document.getElementById("myCarousel2");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+function skillsRoute3() {
+    let elmnt = document.getElementById("myCarousel3");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+function skillsRoute4() {
+    let elmnt = document.getElementById("myCarousel4");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+function skillsRoute5() {
+    let elmnt = document.getElementById("myCarousel5");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+function skillsRoute6() {
+    let elmnt = document.getElementById("myCarousel6");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+function skillsRoute7() {
+    let elmnt = document.getElementById("myCarousel7");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+function skillsRoute8() {
+    let elmnt = document.getElementById("myCarousel8");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+function fullScreen(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
 
