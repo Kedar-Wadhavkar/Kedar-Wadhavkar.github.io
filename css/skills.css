@@ -38,7 +38,7 @@ html{
 	/*background: yellow;*/
 	width: 95%;
 	margin-left: 2.5%;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
 }
 
 .card{
@@ -386,6 +386,85 @@ strong{
 	color: #101010;
 	background-color: #dedede;
 }
+
+
+
+.carouselContainer{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*background-color: yellow;*/
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+@media only screen and (max-width: 992px){
+
+.carousel{
+	width: 48%;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+.carouselContainer{
+	padding-top: 2rem;
+}
+
+.carousel{
+	width: 98%;
+	margin-bottom: 3rem;
+}
+
+}
+
+@media only screen and (min-width: 992px){
+
+.carousel{
+	width: 32%;
+	margin: auto;
+	margin-bottom: 3rem;
+}
+
+}
+
+.carousel{
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.carousel-inner .item{
+	overflow: hidden;
+	border-style: none;
+}
+
+.ind{
+	width: 30px !important;
+	border-radius: 3px !important;
+	height: 8px !important;
+}
+
+.change{
+	margin-top: 225%;
+}
+
+.carousel-control{
+	height: 75%;
+}
+
+
+
+
+
+
+
 
 
 
