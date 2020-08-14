@@ -213,6 +213,8 @@ html{
 	margin-top: -1%;
 	z-index: 2;
 	cursor: pointer;
+	border: 0px solid;
+	border-color: transparent;
 }
 
 .buttoneffect2{
@@ -436,6 +438,8 @@ html{
 	box-shadow: inset -2px -2px 3px rgba(85,255,06,0.5), inset 3px 3px 5px #010101;
 	z-index: 2;
 	cursor: pointer;
+	border: 0px solid;
+	border-color: transparent;
 }
 
 .buttoneffect2{
@@ -665,6 +669,8 @@ html{
 	z-index: 2;
 	cursor: pointer;
 	background-color: #161616;
+	border: 0px solid;
+	border-color: transparent;
 }
 
 .buttoneffect2{
@@ -1942,7 +1948,9 @@ html{
 
 }
 
-
+button:focus {
+    outline: none;
+}
 
 
 

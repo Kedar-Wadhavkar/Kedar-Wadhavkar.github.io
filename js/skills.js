@@ -207,8 +207,3 @@ dial.animateStart();
 
 
 
-
-
-
-
-
