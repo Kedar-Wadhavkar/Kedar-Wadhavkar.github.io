@@ -2046,25 +2046,28 @@ tr:nth-child(8):hover td{
 	transform: rotateY(180deg);
 	box-shadow: -6px -6px 10px #000000, 6px 6px 10px #000000;
 }
-
-
-.name{
-	margin-top: 3rem;
-	text-shadow: 0px 0px 0px #121212, 2px 2px 5px #121212, 0px 0px 0px #121212;
-}
  
 .rearcontent p{
 	position: relative;
-	margin-top: 2.5rem;
+	top: 2.5rem;
 	color: #232323;
 	font-weight: bold;
 	text-align: justify;
 	margin: auto 2rem;
+	font-size: 1.75rem;
 }
 
 .rearcontent p strong{
 	font-size: 2rem;
 	color: #000;
+}
+
+.name{
+	margin-top: 3.5rem;
+	text-shadow: 0px 0px 0px #121212, 2px 2px 5px #121212, 0px 0px 0px #121212;
+	text-align: right;
+	font-size: 2rem;
+	margin-right: 2rem;
 }
 
 .socialIcon{
@@ -2191,7 +2194,7 @@ tr:nth-child(8):hover td{
 
 .aboutmecontainer{
 	margin-top: 10%;
-	margin-bottom: -10%;
+	margin-bottom: -9%;
 }
 
 .paperTag{
@@ -2204,16 +2207,16 @@ tr:nth-child(8):hover td{
 }
 
 .box{
-	margin-top: 0rem;
+	margin-top: 1rem;
 }
 
 .frontcontent{
-	height: 92%;
+	height: 95%;
 	box-shadow: -0px -0px 0px transparent, 0px 0px 0px transparent;
 }
 
 .rearcontent{
-	height: 92%;
+	height: 95%;
 	box-shadow: -0px -0px 0px transparent, 0px 0px 0px transparent;
 }
 
@@ -2251,10 +2254,32 @@ tr:nth-child(8):hover td{
 
 
 
+.introduction{
+	position: absolute;
+	display: block;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	height: 7rem;
+	bottom: 1rem;
+	text-align: center;
+	color: #fff;
+}
 
+.introName{
+	margin: 0;
+	padding: 0;
+	margin-top: 0.8rem;
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: rgba(255, 255, 80, 1);
+	text-shadow: 0px 0px 0px #000, 1px 1px 3px #000, 0px 0px 0px #000;
+}
 
-
-
+.designation{
+	font-size: 1.75rem;
+	font-weight: bold;
+	/*text-shadow: 0px 0px 0px #000, 1px 1px 3px #000, 0px 0px 0px #000;*/
+}
 
 
 

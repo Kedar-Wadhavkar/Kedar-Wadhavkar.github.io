@@ -927,10 +927,52 @@
 
 }
 
+
+
+@media only screen and (max-width: 992px){
 	
+footer p {
+	position: relative;
+	display: block;
+	font-size: 1.2em;
+	color: #c0c0c0;	
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	top: 48rem;	
+	z-index: 100;
+}
 
+}
 
+@media only screen and (max-width: 576px){
+	
+footer p {
+	position: relative;
+	display: block;
+	font-size: 1.2em;
+	color: #c0c0c0;	
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	top: 1rem;	
+	z-index: 100;
+}
 
+}
+
+@media only screen and (min-width: 992px){
+	
+footer p {
+	position: relative;
+	display: block;
+	font-size: 1.2em;
+	color: #c0c0c0;	
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	top: 59rem;	
+	z-index: 100;
+}
+
+}
 
 
 
