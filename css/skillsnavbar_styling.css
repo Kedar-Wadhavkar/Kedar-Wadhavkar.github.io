@@ -176,7 +176,8 @@
 .adjustPadding{
 	font-weight: bold;
 	text-align: center;
-	margin-left: 1rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
 	margin-top: 0.2rem;
 	cursor: pointer;
 	text-shadow: 0 1px 5px #000000, 0 0 20px #000000, 0 0 10px #000000;
