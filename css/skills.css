@@ -8,7 +8,7 @@ html{
 	position: fixed;
 	bottom: 15px;
 	right: 10px;
-	z-index: 2000;
+	z-index: 100;
 	font-size: 36px;
 	border: none;
 	outline: none;
@@ -260,7 +260,7 @@ strong{
 	border: 2px ridge rgba(0,255,255);
 	border-right: 2px groove rgba(0,154,217);
 	border-bottom: 2px groove rgba(0,154,217);
-	transition: 0.5s;
+	transition: 0.8s;
 	transition-delay: 0.2s;
 }
 
@@ -370,7 +370,6 @@ strong{
 	height: 12%;
 	margin-left: 20%;
 	top: 26.75rem;
-	/*bottom: 1.5rem;*/
 	font-weight: bold;
 	font-size: 1.75rem;
 	background-color: #101010;
@@ -380,6 +379,7 @@ strong{
 	color: #dedede;
 	padding-top: 3px;
 	padding-bottom: 25px;
+	border-radius: 5px;
 }
 
 .work:hover{
@@ -441,13 +441,15 @@ strong{
 }
 
 .carousel{
-	border-radius: 8px;
+	border-radius: 6px;
 	overflow: hidden;
+	box-shadow: -3px 1px 15px #000;
 }
 
 .carousel-inner .item{
 	overflow: hidden;
 	border-style: none;
+	border-radius: 6px !important;
 }
 
 .ind{
@@ -464,22 +466,8 @@ strong{
 	height: 75%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #myImg {
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -541,9 +529,9 @@ strong{
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 35px;
-  color: #f1f1f1;
+  color: #fff;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
