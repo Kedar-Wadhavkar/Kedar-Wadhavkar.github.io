@@ -1,3 +1,10 @@
+@media only screen and (max-width: 576px){
+
+.navbar-right{
+	margin-right: -1.5rem !important;
+}
+
+}
 
 .tablink{
 	font-weight: bold;

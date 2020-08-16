@@ -412,7 +412,7 @@ footer{
 .navbar-right{
 	position: absolute;
 	float: right;	
-	right: 0;
+	right: 0 !important;
 }
 
 .dropdown-menu{
