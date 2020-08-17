@@ -298,7 +298,7 @@
 	-webkit-text-fill-color: transparent;
 	background-color: #212121;
 	max-width: 100%;
-	padding: 12px 12px;
+	padding: 8px 16px;
 	border: 3px ridge;
 	border-color: rgba(0,255,255);
 	font-weight: 600;
@@ -915,7 +915,7 @@
 	-webkit-text-fill-color: transparent;
 	background-color: #212121; /*#0f3959;*/
 	max-width: 100%;
-	padding: 12px 12px;
+	padding: 8px 16px;
 	border: 3px ridge;
 	border-color: rgba(0,255,255);
 	font-weight: 600;
