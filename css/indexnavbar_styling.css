@@ -6,13 +6,6 @@
 
 
 @media only screen and (max-width: 991px){
-body{
-	display: block;
-	background: #121212;
-	background-image: url("hexbg3.jpg");
-	background-repeat: repeat;
-	background-size: 100%;
-}
 
 .navbar{
 	background: transparent;
@@ -20,15 +13,14 @@ body{
 	border: none;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-	color: #fff;
-	background-color: transparent;
-}
-
 .active{
 	border-radius: 0 0 10px 10px;
 	border-bottom: 2px solid;
-	border-color: #eee !important;
+	border-color: #eee;
+	background-color: #000;
+}
+
+.active:hover{
 	background-color: #000 !important;
 }
 
@@ -40,7 +32,7 @@ body{
 }
 
 .dropdown-menu{
-	position: relative;
+	position: absolute !imporatant;
 	text-shadow: 0px 1px 3px #000000;
 	background-color: transparent !important;
 	font-size: 2.2rem;
@@ -56,10 +48,6 @@ body{
 .dropdown-menu a{
 	color: #999 !important;
 	font-weight: bold;
-}
-
-.dropdown-menu a:focus{
-	background-color: transparent !important;
 }
 
 .dropdown-menu li{
@@ -126,30 +114,17 @@ body{
 
 @media only screen and (max-width: 576px){
 
-body{
-	display: block;
-	background: #121212;
-	background-image: url("hexbg3.jpg");
-	background-repeat: repeat;
-	background-size: 100%;
-}
-
 .navbar {
 	background: transparent;
 	font-size: 2rem; 
 	border: none;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-	color: #fff;
-	background-color: transparent;
-}
-
 .active{
 	background-color: #000;
 	border-radius: 0 0 10px 10px;
 	border-bottom: 2px solid;
-	border-color: #eee !important;
+	border-color: #eee;
 }
 
 .active2 a{
@@ -179,9 +154,9 @@ body{
 }
 
 .dropdown-menu{
-	position: relative !important;
+	position: absolute !important;
 	text-shadow: 0px 1px 3px #000000;
-	background-color: #121212 !important;
+	background-color: transparent !important;
 	font-size: 2.2rem;
 	font-weight: bold;
 	text-align: center;
@@ -200,10 +175,6 @@ body{
 .dropdown-menu a{
 	color: #999 !important;
 	font-weight: bold;
-}
-
-.dropdown-menu a:focus{
-	background-color: transparent !important;
 }
 
 .dropdown-menu li{
@@ -246,17 +217,74 @@ body{
 	transition: width .5s ease, background-color .5s ease;
 }
 
+.navbar-toggle{
+	float: right;
+	text-align: right;
+}
+
+.navbar{
+	position: absolute;
+	margin-bottom: 5rem;
+	clear: both;
+	width: 50%;
+	z-index: 1000;
+	text-align: right;
+	margin-left: 50%;
+}
+
+.navbar-brand{
+	position: absolute;
+	left: -100%;
+}
+
+.adjustPadding{
+	float: right;
+	width: 100%;
+	text-align: right !important;
+	margin-right: 0rem !important;
+}
+
+.navbar-right{
+	position: absolute;
+	float: right;	
+	right: 1.5rem !important;
+}
+
+.dropdown-menu{
+	background-color: transparent !important;
+	position: relative !important;
+	right: 0;
+	width: 90%;
+	left: 5%;
+	text-align: center;
+}
+
+.dropdown-menu li{
+	display: inline-block;
+	width: 100% !important;
+}
+
+.navbar li:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width 0.5s ease, background-color 0.5s ease;
+	border-radius: 50%;
+}
+
+.navbar li:hover:after {
+	width: 100%;
+	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
+	transition: width .5s ease, background-color .5s ease;
+}
+
 }
 
 
 @media only screen and (min-width: 992px){
-body{
-	display: block;
-	background: #121212;
-	background-image: url("hexbg4.jpg");
-	background-repeat: repeat;
-	background-size: 50%;
-}
 
 .navbar{
 	background: transparent;
@@ -264,16 +292,11 @@ body{
 	border: none;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-	color: #fff;
-	background-color: transparent;
-}
-
 .active{
 	border-radius: 0 0 10px 10px;
 	border-bottom: 2px solid;
-	border-color: #eee !important;
-	background-color: #000 !important;
+	border-color: #eee;
+	background-color: #000;
 }
 
 .active:hover{
@@ -299,10 +322,6 @@ body{
 .dropdown-menu a{
 	color: #999 !important;
 	font-weight: bold;
-}
-
-.dropdown-menu a:focus{
-	background-color: transparent !important;
 }
 
 .dropdown-menu li{
@@ -366,6 +385,22 @@ body{
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

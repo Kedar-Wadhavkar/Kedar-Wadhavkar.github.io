@@ -286,18 +286,15 @@ footer p {
 }
 
 
-
-
-
 @media only screen and (max-width: 992px){
 
 #particles-js{
 	height: 155rem;
-	}
+}
 
 .block{
 	margin: 3rem auto;
-	}
+}
 
 }
 
@@ -305,11 +302,11 @@ footer p {
 
 #particles-js{
 	height: 205rem;
-	}
+}
 
 .block{
 	margin: 2rem auto;
-	}
+}
 	
 }
 
@@ -317,16 +314,16 @@ footer p {
 
 #particles-js{
 	height: 253rem;
-	}
+}
 
 .block{
 	margin: 1.5rem auto;
-	}
+}
 
 footer{
 	margin-top: 11rem;
 	margin-bottom: 0.6rem;
-	}
+}
 
 }
 
@@ -335,18 +332,25 @@ footer{
 
 #particles-js{
 	height: 122rem;
-	}
+}
 
 .block{
 	margin: 3rem auto;
-	}
+}
 
 }
 
 
 
-
 @media only screen and (max-width: 992px){
+
+body{
+	display: block;
+	background: #121212;
+	background-image: url("hexbg3.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+} 
 
 .btext{
 	position: absolute;
@@ -373,72 +377,22 @@ footer{
 
 }
 
-
 @media only screen and (max-width: 576px){
+
+
+body{
+	display: block;
+	background: #121212;
+	background-image: url("hexbg3.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+}
 
 #particles-js{
 	position: absolute;
 	display: block;
 	margin-top: 14%;
 	width: 100%;
-}
-
-.navbar-toggle{
-	float: right;
-	text-align: right;
-}
-
-.navbar{
-	position: absolute;
-	margin-bottom: 5rem;
-	clear: both;
-	width: 50%;
-	z-index: 1000;
-	text-align: right;
-	margin-left: 50%;
-}
-
-.navbar-brand{
-	position: absolute;
-	left: -100%;
-}
-
-.adjustPadding{
-	float: right;
-	width: 100%;
-	text-align: right !important;
-	margin-right: 0rem !important;
-}
-
-.navbar-right{
-	position: absolute;
-	float: right;	
-	right: 1.5rem !important;
-}
-
-.dropdown-menu{
-	position: relative;
-	right: 0;
-	width: 90%;
-	left: 5%;
-	text-align: center;
-}
-
-.navbar li:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0px;
-	background: transparent;
-	transition: width 0.5s ease, background-color 0.5s ease;
-	border-radius: 50%;
-}
-
-.navbar li:hover:after {
-	width: 100%;
-	background: linear-gradient(90deg, rgba(0,154,217,1) 0%, #55ff06 100%);
-	transition: width .5s ease, background-color .5s ease;
 }
 
 .container{
@@ -470,6 +424,15 @@ footer{
 
 @media only screen and (min-width: 992px){
 
+
+body{
+	display: block;
+	background: #121212;
+	background-image: url("hexbg4.jpg");
+	background-repeat: repeat;
+	background-size: 50%;
+}
+
 .btext{
 	position: absolute;
 	text-align: center;
@@ -480,6 +443,7 @@ footer{
 }
 
 }
+
 
 
 
