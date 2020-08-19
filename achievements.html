@@ -1,247 +1,72 @@
 <!DOCTYPE html>
-<html lang = "en">
-
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="lt-ie10" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-	<meta charset = "UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Achievements</title>
-	<link rel = "icon" href =  "css/K.png" type = "image/x-icon">
-
-	<link rel = "stylesheet" href = "css/bootstrap.css">
-	<link rel = "stylesheet" href = "css/achievements.css">
-	<link rel = "stylesheet" href = "css/navbar_styling.css">
-
-	<script src = "js/achievements.js"></script>
-
-
-<style>
-* {box-sizing: border-box;}
-
-.img-comp-container {
-  position: relative;
-  height: 200px; /*should be the same height as the images*/
-}
-
-.img-comp-img {
-  position: absolute;
-  width: auto;
-  height: auto;
-  overflow:hidden;
-}
-
-.img-comp-img img {
-  display:block;
-  vertical-align:middle;
-}
-
-.img-comp-slider {
-  position: absolute;
-  z-index:9;
-  cursor: ew-resize;
-  /*set the appearance of the slider:*/
-  width: 40px;
-  height: 40px;
-  background-color: #2196F3;
-  opacity: 0.7;
-  border-radius: 50%;
-}
-</style>
-<script>
-function initComparisons() {
-  var x, i;
-  /*find all elements with an "overlay" class:*/
-  x = document.getElementsByClassName("img-comp-overlay");
-  for (i = 0; i < x.length; i++) {
-    /*once for each "overlay" element:
-    pass the "overlay" element as a parameter when executing the compareImages function:*/
-    compareImages(x[i]);
-  }
-  function compareImages(img) {
-    var slider, img, clicked = 0, w, h;
-    /*get the width and height of the img element*/
-    w = img.offsetWidth;
-    h = img.offsetHeight;
-    /*set the width of the img element to 50%:*/
-    img.style.width = (w / 2) + "px";
-    /*create slider:*/
-    slider = document.createElement("DIV");
-    slider.setAttribute("class", "img-comp-slider");
-    /*insert slider*/
-    img.parentElement.insertBefore(slider, img);
-    /*position the slider in the middle:*/
-    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-    /*execute a function when the mouse button is pressed:*/
-    slider.addEventListener("mousedown", slideReady);
-    /*and another function when the mouse button is released:*/
-    window.addEventListener("mouseup", slideFinish);
-    /*or touched (for touch screens:*/
-    slider.addEventListener("touchstart", slideReady);
-    /*and released (for touch screens:*/
-    window.addEventListener("touchend", slideFinish);
-    function slideReady(e) {
-      /*prevent any other actions that may occur when moving over the image:*/
-      e.preventDefault();
-      /*the slider is now clicked and ready to move:*/
-      clicked = 1;
-      /*execute a function when the slider is moved:*/
-      window.addEventListener("mousemove", slideMove);
-      window.addEventListener("touchmove", slideMove);
-    }
-    function slideFinish() {
-      /*the slider is no longer clicked:*/
-      clicked = 0;
-    }
-    function slideMove(e) {
-      var pos;
-      /*if the slider is no longer clicked, exit this function:*/
-      if (clicked == 0) return false;
-      /*get the cursor's x position:*/
-      pos = getCursorPos(e)
-      /*prevent the slider from being positioned outside the image:*/
-      if (pos < 0) pos = 0;
-      if (pos > w) pos = w;
-      /*execute a function that will resize the overlay image according to the cursor:*/
-      slide(pos);
-    }
-    function getCursorPos(e) {
-      var a, x = 0;
-      e = e || window.event;
-      /*get the x positions of the image:*/
-      a = img.getBoundingClientRect();
-      /*calculate the cursor's x coordinate, relative to the image:*/
-      x = e.pageX - a.left;
-      /*consider any page scrolling:*/
-      x = x - window.pageXOffset;
-      return x;
-    }
-    function slide(x) {
-      /*resize the image:*/
-      img.style.width = x + "px";
-      /*position the slider:*/
-      slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-    }
-  }
-}
-</script>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>twentytwenty</title>
+  <link href="css/foundation.css" rel="stylesheet" type="text/css" />
+  <link href="css/twentytwenty-no-compass.css" rel="stylesheet" type="text/css" />
 </head>
+  <body>
 
-<body>
-
-<nav class="navbar navbar-inverse">
-  
-	<div class="navbar-header">
-	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-	</button>
-	<a class="navbar-brand" href="index.html" style = "color: #000000; text-shadow: 1px 1px 3px rgba(0,255,255), 0 0 5px black, 0px 0px 10px rgba(0,255,255); font-weight: bold;">KEDAR</a>
-	</div>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-
-        <li class="adjustPadding"><a href="aboutMe.html">About Me</a></li>
-
-	<li role="presentation" class="dropdown adjustPadding">
-	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-	Career<span class="caret"></span></a>
-	<ul class="dropdown-menu">
-		<li> <a href ="projects.html">Projects</a>
-		<li> <a href ="thesis.html">Thesis</a>
-		<li> <a href ="skills.html">Skills</a>
-	</ul>
-  	</li>
- 
-	<li role="presentation" class="dropdown adjustPadding">
-	<a class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-	Personal Info<span class="caret"></span></a>
-	<ul class="dropdown-menu">
-		<li class = "active2"> <a href ="achievements.html">Achievements</a>
-		<li> <a href ="hobbies.html">Hobbies</a>
-		<li> <a href ="gallery.html">Gallery</a>
-	</ul>
-  	</li>
-        
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li class = "adjustPadding"><a href="contactMe.html">Contact Me</a></li>
-      </ul>
-
+    <div class="row" style="margin-top: 2em;">
+      <div class="large-4 columns">
+        <h3>Basic Usage</h3>
+        <p>Demonstrates basic usage of the plugin.</p>
+      </div>
+      <div class="large-8 columns">
+        <div class="twentytwenty-container">
+          <img src="img/1_1.jpg" />
+          <img src="img/1_2.jpg" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="row" style="margin-top: 2em; margin-bottom: 2em;">
+      <div class="large-4 columns">
+        <h3>Vertical Orientation</h3>
+        <p>Demonstrates sliding up and down.</p>
+      </div>
+      <div class="large-8 columns">
+        <div class="twentytwenty-container" data-orientation="vertical">
+          <img src="img/1_1.jpg" />
+          <img src="img/1_2.jpg" />
+        </div>
+      </div>
     </div>
 
-</nav>
-
-        <!---------------------------------------------------->
-        <!--particle js i added here                        -->
-        <!---------------------------------------------------->
-       
-        <div id="particles" style="height: 42rem;" >
-            <div id="particles-js" class="particle-js-area" style="height: 55rem">
-                <div class="btext">
-                    <h1>
-        <!---------------------------------------------------->
-        <!--Text Added here which is printing on top        -->
-        <!---------------------------------------------------->
-        
-                        <p class="typewrite" data-period="50" style = "margin-top: 8rem; font-size: 4.5rem; font-family: cursive; text-shadow: 5px 5px 5px #000000;"
-                        data-type='["Coming very soon...", "Till then stay tuned and checkout my other pages..."]'>
-                        <span class="wrap"></span>
-                        </p>
-        <!---------------------------------------------------->            
-                    </h1>
-                </div>
-            </div>
+    <div class="row" style="margin-bottom: 2em;">
+      <div class="large-4 columns">
+        <h3>Side by side</h3>
+        <p>Using multiple comparisons at once.</p>
+      </div>
+      <div class="large-4 columns">
+        <div class="twentytwenty-container">
+          <img src="img/2_1.jpg" />
+          <img src="img/2_2.jpg" />
         </div>
-
-        <!--particle js Ended here                          -->
-        <!---------------------------------------------------->
-
-
-
-
-	<!-- scripts required in this program i placed here -->
-	
-	<script  type="text/javascript" src="js/jquery.js"></script>
-	<script  type="text/javascript" src="js/bootstrap.js"></script>
-
-	<script type="text/javascript" src="js/particles.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-	
-	<!--finished-->
-
-<h1>Compare Two Images</h1>
-
-<p>Click and slide the blue slider to compare two images:</p>
-
-<div class="img-comp-container">
-  <div class="img-comp-img">
-    <img src="css/pic1.jpg" width="300" height="200">
-  </div>
-  <div class="img-comp-img img-comp-overlay">
-    <img src="css/pic2.jpg" width="300" height="200">
-  </div>
-</div>
-
-<script>
-/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
-initComparisons();
-</script>
-
-</body>
-
+      </div>
+      <div class="large-4 columns">
+        <div class="twentytwenty-container">
+          <img src="img/3_1.jpg" />
+          <img src="img/3_2.jpg" />
+        </div>
+      </div>
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+    $(window).load(function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    });
+    </script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
