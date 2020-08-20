@@ -9,3 +9,11 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+
+
+
+
+function meRoute() {
+    let elmnt = document.getElementById("everything");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }

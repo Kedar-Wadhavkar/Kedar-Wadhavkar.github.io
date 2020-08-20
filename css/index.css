@@ -433,16 +433,89 @@ body{
 	background-size: 50%;
 }
 
+
 .btext{
 	position: absolute;
-	text-align: center;
-	top: 40%;
-	width: 55%;
-	left: 25%;
+	text-align: left;
+	top: 30%;
+	width: 45%;
+	left: 30%;
 	right: 20%;
 }
 
+.btext h1{
+	padding-left: 2rem;
+	height: 15rem;
+	border-left: 5px ridge #ddd;
+	border-radius: 6px;
 }
+
+}
+
+.scrollBox{
+	position: absolute;
+	top: 62rem;
+	/*background-color: grey;*/
+	height: 8rem;
+	width: 9%;
+	right: 0;
+	padding-right: 4rem;
+	margin-right: 2rem; 
+	padding-left: 1rem; 
+}
+
+.scrollBox span{
+	/*background-color: yellow;*/
+	position: relative;
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-bottom: 3px solid #fff; 
+	border-right: 3px solid #fff; 
+	transform: rotate(45deg);
+	margin: -12px;
+	animation: animate 2s infinite;
+	border-radius: 5px;
+	margin-left: 90%;
+}
+
+.scrollBox span:nth-child(2){
+	animation-delay: -0.1s;
+}
+
+.scrollBox span:nth-child(3){
+	animation-delay: -0.2s;
+}
+
+@keyframes animate{
+
+	0%
+	{
+	opacity: 0; 
+	transform: rotate(45deg) translate(-20px, -20px);
+	}
+
+	50%
+	{
+	opacity: 1; 
+	}
+
+	100%
+	{
+	opacity: 0; 
+	transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
