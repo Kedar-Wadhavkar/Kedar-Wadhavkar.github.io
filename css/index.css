@@ -456,9 +456,6 @@ body{
 	/*background-color: grey;*/
 	height: 8rem;
 	width: 9%;
-	padding-right: 4rem;
-	margin-right: 2rem; 
-	padding-left: 1rem; 
 	z-index: 500;
 }
 
@@ -466,12 +463,9 @@ body{
 	/*background-color: yellow;*/
 	position: relative;
 	display: block;
-	width: 25px;
-	height: 25px;
-	border-bottom: 3px solid #ccc; 
-	border-right: 3px solid #ccc; 
+	border-bottom: 3px solid #aaa; 
+	border-right: 3px solid #aaa; 
 	transform: rotate(45deg);
-	margin: -12px;
 	animation: animate 2s infinite;
 	border-radius: 5px;
 	margin-left: 90%;
@@ -510,9 +504,17 @@ body{
 
 .scrollBox{
 	top: 28rem;
-	right: 34%;
+	right: 31%;
+	padding-right: 4rem;
+	margin-right: 2rem; 
+	padding-left: 1rem; 
 }
 
+.scrollBox span{
+	width: 25px;
+	height: 25px;
+	margin: -12px;
+}
 }
 
 @media only screen and (max-width: 576px){
@@ -520,15 +522,34 @@ body{
 .scrollBox{
 	top: 62rem;
 	right: 0;
+	padding-right: 0rem; 
+	padding-left: 2rem; 
+	margin-right: 4rem; 
 }
 
+.scrollBox span{
+	width: 20px;
+	height: 20px;
+	margin: -10px;
+}
 }
 
 @media only screen and (min-width: 992px){
 
 .scrollBox{
-	top: 40rem;
-	right: 62%;
+	padding-right: 0rem !important;
+	margin-right: 2rem; 
+	padding-left: 2rem; 
+	top: 40.5rem;
+	right: 64%;
+	width: 3%;
+}
+
+.scrollBox span{
+	width: 25px;
+	height: 25px;
+	margin: -12px;
+
 }
 
 }
