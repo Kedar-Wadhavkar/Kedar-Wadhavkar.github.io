@@ -947,16 +947,16 @@ footer p {
 @media only screen and (max-width: 768px){
 
 footer p {
-	position: absolute;
-	display: inline-block;
+	/*background-color: yellow;*/
+	position: relative;
+	display: block;
 	font-size: 1.2em;
 	color: #c0c0c0;	
 	text-align: center;
 	text-shadow: 2px 2px 2px #000000;
-	margin-top: 67rem;
+	top: 1rem;
 	z-index: 100;
-	width: 100%;
-	margin-left: -100%;
+	height: 1rem;
 }
 
 }
