@@ -35,6 +35,7 @@
 	border-width: 3px;
 	border-left-style: ridge;
 	text-shadow: 1px 1px 2px #55ff06, 0 0 5px #55ff06, 0 0 5px #55ff06;
+	border-left: 2px ridge #3f3f3f;
 }
 
 .but2{
