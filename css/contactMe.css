@@ -944,17 +944,19 @@ footer p {
 
 }
 
-@media only screen and (max-width: 576px){
-	
+@media only screen and (max-width: 768px){
+
 footer p {
-	position: relative;
-	display: block;
+	position: absolute;
+	display: inline-block;
 	font-size: 1.2em;
 	color: #c0c0c0;	
 	text-align: center;
 	text-shadow: 2px 2px 2px #000000;
-	top: 1rem;	
+	margin-top: 67rem;
 	z-index: 100;
+	width: 100%;
+	margin-left: -100%;
 }
 
 }
