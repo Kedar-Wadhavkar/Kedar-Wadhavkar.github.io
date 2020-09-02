@@ -17,3 +17,30 @@ function meRoute() {
     let elmnt = document.getElementById("everything");
     elmnt.scrollIntoView({behavior: 'smooth'});
   }
+
+
+
+
+
+function Route1() {
+    let elmnt = document.getElementById("route1");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+
+function Route2() {
+    let elmnt = document.getElementById("route2");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+
+function Route3() {
+    let elmnt = document.getElementById("route3");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
+
+
+function Route4() {
+    let elmnt = document.getElementById("route4");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }
