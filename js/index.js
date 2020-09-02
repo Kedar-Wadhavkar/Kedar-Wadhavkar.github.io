@@ -21,26 +21,30 @@ function meRoute() {
 
 
 
-
 function Route1() {
+setTimeout(function () {
     let elmnt = document.getElementById("route1");
     elmnt.scrollIntoView({behavior: 'smooth'});
-  }
-
+  }, 600);
+}
 
 function Route2() {
+setTimeout(function () {
     let elmnt = document.getElementById("route2");
     elmnt.scrollIntoView({behavior: 'smooth'});
-  }
-
+  }, 600);
+}
 
 function Route3() {
+setTimeout(function () {
     let elmnt = document.getElementById("route3");
     elmnt.scrollIntoView({behavior: 'smooth'});
-  }
-
+  }, 600);
+}
 
 function Route4() {
+setTimeout(function () {
     let elmnt = document.getElementById("route4");
     elmnt.scrollIntoView({behavior: 'smooth'});
-  }
+  }, 600);
+}
