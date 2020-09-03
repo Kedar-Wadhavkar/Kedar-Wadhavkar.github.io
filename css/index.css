@@ -133,8 +133,6 @@ footer p {
 	color: #c0c0c0;	
 	text-align:center;
 	text-shadow: 2px 2px 2px #000000;
-	margin-top: 2rem;	
-	margin-bottom: 0rem;
 }
 
 
@@ -142,6 +140,11 @@ footer p {
 
 #particles-js{
 	height: 155rem;
+}
+
+footer{
+	margin-top: 6rem;
+	margin-bottom: 0.6rem;
 }
 
 }
@@ -172,6 +175,11 @@ footer{
 
 #particles-js{
 	height: 122rem;
+}
+
+footer{
+	margin-top: 2rem;	
+	margin-bottom: 0rem;
 }
 
 }
@@ -403,6 +411,7 @@ body{
 	width: 100%;
 	position: relative;
 	top: 5rem;
+	justify-content: center;
 }
 
 .timeline {
@@ -453,13 +462,15 @@ body{
 
 .thumb span {
 	color: #41838e; 
-	width: 100%;
+	width: 180%;
+	margin-left: -40%;
 	text-align: center;
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 2rem;
 	text-transform: uppercase;
 	position: absolute;
-	bottom: -30px;
+	bottom: -35px;
+	/*background-color: yellow;*/
 }
 
 .user-1 {
@@ -518,7 +529,7 @@ body{
 
 .event label:after {
 	font-family: 'fontawesome-selected';
-	content: '\e702';
+	content: '';
 	background: #fff;
 	border-radius: 50%;
 	color: #41838E;
@@ -531,6 +542,8 @@ body{
 	position: absolute;
 	text-align: center;
 }
+
+
 
 .content-perspective {
 	margin-left: 230px;
@@ -612,9 +625,9 @@ body{
 	left: -22px;
 	top: 19px;
 	z-index: -1;
-	left: -3.5rem;
+	left: -40px;
 	transform: scale(1.3);
-	top: 1.5rem;
+	top: 15px;
 }
 
 /* Transitions */
@@ -759,9 +772,9 @@ body{
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
-	left: -4rem;
+	left: -40px;
 	transform: scale(1.3);
-	top: 1.5rem;
+	top: 15px;
 }
 
 }
@@ -787,11 +800,22 @@ body{
 	top: -1rem;
 }
 
+.thumb span {
+	color: #41838e; 
+	width: 100%;
+	margin-left: 120%;
+	text-align: left;
+	font-weight: 700;
+	font-size: 2rem;
+	text-transform: uppercase;
+	position: absolute;
+	top: 60px;
+}
+
 .event { 
 	padding-right: 0px;
 	margin-bottom: 100px;
 }
-
 
 .thumb {
 	-webkit-transform: scale(0.8);
