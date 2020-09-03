@@ -422,7 +422,6 @@ body{
 
 .event {
 	position: relative;
-	margin-bottom: 80px;
 	padding-right: 40px;
 }
 
@@ -742,6 +741,10 @@ body{
 	top: -3rem;
 }
 
+.event {
+	margin-bottom: 38px;
+}
+
 .content-inner h3 {
 	font-size: 20px;
 }
@@ -880,6 +883,10 @@ body{
 
 .timeline:before {
 	top: -4rem;
+}
+
+.event {
+	margin-bottom: 80px;
 }
 
 }
