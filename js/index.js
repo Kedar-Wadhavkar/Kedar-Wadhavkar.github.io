@@ -48,3 +48,24 @@ setTimeout(function () {
     elmnt.scrollIntoView({behavior: 'smooth'});
   }, 600);
 }
+
+function Route5() {
+setTimeout(function () {
+    let elmnt = document.getElementById("route5");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }, 600);
+}
+
+function Route6() {
+setTimeout(function () {
+    let elmnt = document.getElementById("route6");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }, 600);
+}
+
+function Route7() {
+setTimeout(function () {
+    let elmnt = document.getElementById("route7");
+    elmnt.scrollIntoView({behavior: 'smooth'});
+  }, 600);
+}
