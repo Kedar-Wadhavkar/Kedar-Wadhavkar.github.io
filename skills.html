@@ -425,8 +425,15 @@
 
 <!-- The Modal -->
 			<div id="myModal" class="modal">
-				<span class="close">&times;</span>
+				<span class="close close1">&times;</span>
 				<img class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div>
+
+
+			<div id="myModal2" class="modal">
+				<span class="close close2">&times;</span>
+				<video class="modal-content" id="video01">
 				<div id="caption"></div>
 			</div>
 
@@ -449,7 +456,7 @@
 	<div class="carousel-inner">
 
 		<div class="item active">
-        		<img id="myyImg" src="css/pic1.jpg" alt="Los Angeles">
+        		<img id="img11" src="css/pic1.jpg" alt="Los Angeles">
 			<div class="carousel-caption d-none d-md-block">
 				<h5>My Name Kedar</h5>
 				<button class = "wait" onclick="fullScreen()">Look in Fullscreen</button>
@@ -458,10 +465,10 @@
 
      		 <div class="item">
 			<!--<video width="100%" controls>
-  				<source src="css/vid2.mp4" type="video/mp4">	
+  				<source src="css/vid4.mp4" type="video/mp4">	
 			</video>-->
 
-			<img id="myImg" src="css/pic2.jpg" alt="New york">
+			<img id="img12" src="css/pic2.jpg" alt="New york">
 			<div class="carousel-caption d-none d-md-block">
 				<h5>My Name KD</h5>
 				<p>I am a good boy..</p>
@@ -469,7 +476,9 @@
      		 </div>
     
       		<div class="item">
-       			<img src="css/pic1.jpg" alt="New york">
+       			<video id="vid13" width="100%" controls autoplay>
+  				<source src="css/vid5.mp4" type="video/mp4" alt = "Hope">	
+			</video>
 			<div class="carousel-caption d-none d-md-block">
 				<h5>My Name KeDar</h5>
 				<p>I am a good boy..</p>
