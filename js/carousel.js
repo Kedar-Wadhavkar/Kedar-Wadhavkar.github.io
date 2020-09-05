@@ -1,4 +1,4 @@
-// Get the modal
+// Get the modal for images
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -35,30 +35,28 @@ span1.onclick = function() {
 
 
 
-
+// Get modal For videos
 
 var modal2 = document.getElementById("myModal2");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var vid13 = document.getElementById("vid13");
-var modalVideo = document.getElementById("video01");
-var captionText = document.getElementById("caption");
-
 vid13.onclick = function(){
   modal2.style.display = "block";
-  modalVideo.src = "css/vid5.mp4";
-  captionText.innerHTML = this.alt;
 }
-
-// Get the <span> element that closes the modal
 var span2 = document.getElementsByClassName("close2")[0];
-
-// When the user clicks on <span> (x), close the modal
 span2.onclick = function() { 
   modal2.style.display = "none";
 }
 
 
+var modal3 = document.getElementById("myModal3");
+var vid21 = document.getElementById("vid21");
+vid21.onclick = function(){
+  modal3.style.display = "block";
+}
+var span3 = document.getElementsByClassName("close3")[0];
+span3.onclick = function() { 
+  modal3.style.display = "none";
+}
 
 
 
