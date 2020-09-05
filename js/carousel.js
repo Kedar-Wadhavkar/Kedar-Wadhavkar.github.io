@@ -49,7 +49,7 @@ span2.onclick = function() {
 
 
 var modal3 = document.getElementById("myModal3");
-var vid21 = document.getElementById("vid21");
+var vid21 = document.getElementById("img21");
 vid21.onclick = function(){
   modal3.style.display = "block";
 }
