@@ -1934,8 +1934,8 @@ tr:nth-child(8):hover td{
 	justify-content: center;
 	top: -7rem;
 	/*background-color: yellow;*/
-	margin-left: 5%;
-	width: 90%;
+	margin-left: 3%;
+	width: 94%;
 	padding: 2%;
 	margin-bottom: -20%;
 	margin-top: 5%;
@@ -2024,7 +2024,7 @@ tr:nth-child(8):hover td{
 @media only screen and (max-width: 768px){
 
 .carousel{
-	width: 98%;
+	width: 100%;
 }
 
 .mb-style-3 {
@@ -2072,7 +2072,7 @@ tr:nth-child(8):hover td{
 
 .carousel-indicators{
 	
-	top: 410px !important;
+	bottom: 0px !important;
 }
 
 .ind{
@@ -2082,12 +2082,12 @@ tr:nth-child(8):hover td{
 }
 
 .change{
-	margin-top: 100%;
+	margin-top: 80%;
 }
 
 .carousel-control{
 	height: 35%;
-	margin-top: 25%;
+	margin-top: 15%;
 }
 
 .carousel-inner > .item.active {
@@ -2100,7 +2100,7 @@ tr:nth-child(8):hover td{
 
 
 .mb-style-3 blockquote{
-	background: #fff;
+	background: #eee;
 	padding: 30px;
 	border-radius: 5px;
 	box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 15px rgba(0, 0, 0, 0.3);
@@ -2118,19 +2118,18 @@ tr:nth-child(8):hover td{
 }
 
 .mb-style-3 blockquote:after  {
-	border-top-color: #ffffff;
+	border-top-color: #eee;
 	border-width: 10px;
 	left: 60%;
 	margin-left: -10px;
 }
 
 .mb-style-3 blockquote p {
-	font-family: 'Alegreya', serif;
-	font-size: 1.75rem;
+	font-size: 1.3rem;
 	color: #121212;
 	font-weight: 400;
-	/*line-height: 40px;*/
-	font-style: italic;
+	line-height: 2rem;
+	font-weight: 700;
 	text-indent: 100px;
 	position: relative;
 	text-align: justify;
@@ -2143,7 +2142,7 @@ tr:nth-child(8):hover td{
 	font-weight: 700;
 	position: absolute;
 	font-size: 150px;
-	top: -70px;
+	top: 20px;
 	left: -80px;
 	color: rgba(188, 147, 200, 1);
 	text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.2);
