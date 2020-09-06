@@ -2056,8 +2056,6 @@ tr:nth-child(8):hover td{
 	/*background-color: yellow;*/
 	border-radius: 6px;
 	overflow: hidden;
-	/*box-shadow: -3px 1px 15px #000;*/
-	/*height: 30rem;*/
 	padding: 0 !important;
 }
 
@@ -2068,11 +2066,10 @@ tr:nth-child(8):hover td{
 }
 
 .carousel-indicators .active{
-	background-color: #ffffff !important;
+	background-color: rgba(0,180,255) !important;
 }
 
 .carousel-indicators{
-	
 	bottom: 8% !important;
 }
 
@@ -2130,7 +2127,7 @@ tr:nth-child(8):hover td{
 	color: #121212;
 	font-weight: 400;
 	line-height: 2rem;
-	font-weight: 700;
+	font-weight: bold;
 	text-indent: 100px;
 	position: relative;
 	text-align: justify;
@@ -2142,26 +2139,12 @@ tr:nth-child(8):hover td{
 	font-style: normal;
 	font-weight: 700;
 	position: absolute;
-	font-size: 150px;
+	font-size: 140px;
 	top: 25px;
-	left: -80px;
-	color: rgba(188, 147, 200, 1);
+	left: -75px;
+	color: rgba(0,200,255); /*rgba(188, 147, 200, 1);*/
 	text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.2);
 }
-/*
-.mb-style-3 blockquote p:after{
-	content: '\201C';
-	transform: rotate(180deg);
-	font-family: serif;
-	font-style: normal;
-	font-weight: 700;
-	position: absolute;
-	font-size: 120px;
-	top: 150px;
-	left: 150px;
-	color: rgba(188, 147, 200, 1);
-	text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
-}*/
 
 .mb-style-3 .mb-attribution {
 	text-align: right;
@@ -2179,40 +2162,34 @@ tr:nth-child(8):hover td{
 	display: block;
 	width: 100px;
 	height: 100px;
-	border: 5px solid #fff;
+	border: 5px solid #eee;
 	border-radius: 50%;
 	background: url(pic4.jpg) no-repeat center center;
 	background-size: 100%;
 	position: absolute;
 	right: 0px;
 	bottom: 5px;
-	box-shadow: inset 0px 0px 4px rgba(0,0,0,0.5), 0 2px 2px rgba(0,0,0,0.6);
-	
+	box-shadow: inset 0px 0px 6px rgba(0,0,0,0.8), 0 4px 4px rgba(0,0,0,1);
 	top: -10px;
 }
 
 .mb-style-3 .mb-author{
 	font-weight: 700;
 	font-size: 18px;
-	color: rgba(188, 147, 200, 1);
+	color: rgba(0,180,255); /*rgba(188, 147, 200, 1);*/
 	text-shadow: 0 1px 1px rgba(255,255,255,0.7);
 	margin-bottom: 0px !important;
 }
 
-.mb-style-3 cite a{
+.mb-style-3 cite{
 	font-weight: 700;
 	font-style: italic;
-	color: #fff;
+	color: #eee;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
 	margin-top: 0px !important;
 	text-align: right;
 	padding-right: 45px;
 	text-decoration: none;
-}
-
-.mb-style-3 cite a:hover{
-	color: rgba(188, 147, 200, 1);
-	text-shadow: 0 1px 1px rgba(255,255,255,0.7);
 }
 
 
@@ -2228,17 +2205,6 @@ body{
 	overflow-x: hidden;
 }
 
-@font-face {
-	font-family: 'icons';
-	src: url("font/icons.eot");
-	src: 
-		url("font/icons.eot?#iefix") format('embedded-opentype'), 
-		url("font/icons.woff") format('woff'), 
-		url("font/icons.ttf") format('truetype'), 
-		url("font/icons.svg#icons") format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 /* Let's set and reset some common styles */
 .mb-wrap {
