@@ -1938,7 +1938,7 @@ tr:nth-child(8):hover td{
 	width: 94%;
 	padding: 2%;
 	margin-bottom: -20%;
-	margin-top: 5%;
+	margin-top: 8%;
 }
 
 .pointer{
@@ -2025,6 +2025,7 @@ tr:nth-child(8):hover td{
 
 .carousel{
 	width: 100%;
+	margin-top: 2%;
 }
 
 .mb-style-3 {
@@ -2072,7 +2073,7 @@ tr:nth-child(8):hover td{
 
 .carousel-indicators{
 	
-	bottom: 0px !important;
+	bottom: 8% !important;
 }
 
 .ind{
@@ -2120,7 +2121,7 @@ tr:nth-child(8):hover td{
 .mb-style-3 blockquote:after  {
 	border-top-color: #eee;
 	border-width: 10px;
-	left: 60%;
+	left: 55%;
 	margin-left: -10px;
 }
 
@@ -2142,7 +2143,7 @@ tr:nth-child(8):hover td{
 	font-weight: 700;
 	position: absolute;
 	font-size: 150px;
-	top: 20px;
+	top: 25px;
 	left: -80px;
 	color: rgba(188, 147, 200, 1);
 	text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.2);
