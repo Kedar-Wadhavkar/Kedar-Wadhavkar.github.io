@@ -202,74 +202,7 @@ var containers = document.getElementsByClassName("chart8");
 var dial = new Dial(containers[0]);
 dial.animateStart();
 
-var containers = document.getElementsByClassName("chart9");
-var dial = new Dial(containers[0]);
-dial.animateStart();
 
-var containers = document.getElementsByClassName("chart10");
-var dial = new Dial(containers[0]);
-dial.animateStart();
-
-var containers = document.getElementsByClassName("chart11");
-var dial = new Dial(containers[0]);
-dial.animateStart();
-
-var containers = document.getElementsByClassName("chart12");
-var dial = new Dial(containers[0]);
-dial.animateStart();
-
-
-
-
-
-
-$('#myCarousel1').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel2').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel3').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel4').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel5').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel6').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel7').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
-
-$('#myCarousel8').carousel({
-     interval: 4000,
-     wrap: true,
-     keyboard: true
- });
 
 
 
