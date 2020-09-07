@@ -2100,6 +2100,10 @@ tr:nth-child(8):hover td{
 	background-color: rgba(0,180,255) !important;
 }
 
+.carousel-indicators .ind:hover{
+	background-color: rgba(0,180,255) !important;
+}
+
 .carousel-indicators{
 	bottom: 8% !important;
 }
@@ -2202,8 +2206,7 @@ tr:nth-child(8):hover td{
 	height: 100px;
 	border: 5px solid #333;
 	border-radius: 50%;
-	background: url(pic4.jpg) no-repeat center center;
-	background-size: 100%;
+	background-size: cover;
 	position: absolute;
 	right: 0px;
 	bottom: 5px;
@@ -2258,6 +2261,29 @@ tr:nth-child(8):hover td{
 	font-style: normal;
 }
 
+.p1{
+	background: url(pic1.jpg) no-repeat center center;
+}
+
+.p2{
+	background: url(pic2.jpg) no-repeat center center;
+}
+
+.p3{
+	background: url(pic3.jpg) no-repeat center center;
+}
+
+.p4{
+	background: url(pic4.jpg) no-repeat center center;
+}
+
+.p5{
+	background: url(pic5.jpg) no-repeat center center;
+}
+
+.p6{
+	background: url(pic6.jpg) no-repeat center center;
+}
 
 .totalspan{
 	/*background-color: yellow;*/
