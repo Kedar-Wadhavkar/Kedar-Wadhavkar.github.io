@@ -1244,7 +1244,7 @@ html{
 	text-align: center;
 	color: #000; 
 	text-shadow: 1px 1px 3px rgba(0,255,255,0.7), 0 0 4px rgba(0,255,255,0.7), 0px 0px 4px rgba(0,255,255,0.7);
-	text-shadow: 1px 1px 3px yellow, 0 0 4px #fff, 0px 0px 4px yellow;
+	text-shadow: 1px 1px 3px #fff, 0 0 4px yellow, 0px 0px 4px #fff;
 	font-weight: bold;
 }
 
@@ -2128,7 +2128,7 @@ tr:nth-child(8):hover td{
 
 .mb-style-3 blockquote p {
 	font-size: 1.3rem;
-	background: -webkit-linear-gradient(#eee 55%, rgba(0,255,255));
+	background: -webkit-linear-gradient(#eee, rgba(100,255,255));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 400;
