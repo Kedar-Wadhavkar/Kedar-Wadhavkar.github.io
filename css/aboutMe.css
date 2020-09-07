@@ -1250,7 +1250,7 @@ html{
 
 .blockcontent p{
 	position: absolute;
-	background: -webkit-linear-gradient(#eee, yellow);
+	background: -webkit-linear-gradient(#eee, rgba(255,255,100));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	z-index: 2;
@@ -1941,7 +1941,6 @@ tr:nth-child(8):hover td{
 	width: 94%;
 	padding: 2%;
 	margin-bottom: -20%;
-	margin-top: 8%;
 }
 
 .pointer{
@@ -1999,16 +1998,11 @@ tr:nth-child(8):hover td{
 }
 
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 992px){
+
+.aboutmecontainer{
+	margin-top: 1%;
+}
 
 .carousel{
 	width: 100%;
@@ -2026,6 +2020,10 @@ tr:nth-child(8):hover td{
 
 @media only screen and (max-width: 768px){
 
+.aboutmecontainer{
+	margin-top: 8%;
+}
+
 .carousel{
 	width: 100%;
 	margin-top: 2%;
@@ -2040,6 +2038,10 @@ tr:nth-child(8):hover td{
 }
 
 @media only screen and (min-width: 992px){
+
+.aboutmecontainer{
+	margin-top: -3%;
+}
 
 .carousel{
 	width: 100%;
