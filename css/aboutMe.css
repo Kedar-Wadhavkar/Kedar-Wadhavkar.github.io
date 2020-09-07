@@ -1998,16 +1998,43 @@ tr:nth-child(8):hover td{
 }
 
 
+@media only screen and (min-width: 768px){
+#myCarousel1{
+	display: none;
+}
+}
+
+@media only screen and (max-width: 768px){
+#myCarousel2{
+	display: none;
+}
+}
+
+@media only screen and (min-width: 992px){
+#myCarousel2{
+	display: none;
+}
+}
+
+@media only screen and (max-width: 991px){
+#myCarousel3{
+	display: none;
+}
+}
+
+
 @media only screen and (max-width: 992px){
 
 .aboutmecontainer{
 	margin-top: 1%;
+	margin-left: 2%;
+	width: 96%;
 }
 
 .carousel{
 	width: 100%;
 	margin: auto;
-	margin-bottom: 2rem;
+	margin-bottom: 0rem;
 }
 
 .mb-style-3 {
@@ -2046,7 +2073,6 @@ tr:nth-child(8):hover td{
 .carousel{
 	width: 100%;
 	margin: auto;
-	margin-bottom: 5rem;
 }
 
 .mb-style-3 {
@@ -2231,6 +2257,44 @@ tr:nth-child(8):hover td{
 .mb-wrap cite {
 	font-style: normal;
 }
+
+
+.totalspan{
+	/*background-color: yellow;*/
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 !important;
+	z-index: 50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
