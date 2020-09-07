@@ -1244,18 +1244,21 @@ html{
 	text-align: center;
 	color: #000; 
 	text-shadow: 1px 1px 3px rgba(0,255,255,0.7), 0 0 4px rgba(0,255,255,0.7), 0px 0px 4px rgba(0,255,255,0.7);
-	text-shadow: 1px 1px 3px yellow, 0 0 4px white, 0px 0px 4px yellow;
+	text-shadow: 1px 1px 3px yellow, 0 0 4px #fff, 0px 0px 4px yellow;
 	font-weight: bold;
 }
 
 .blockcontent p{
 	position: absolute;
-	color: white;
+	background: -webkit-linear-gradient(#eee, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	z-index: 2;
 	text-align: center;
 	font-size: 1.5rem;
 	margin-left: 5%;
 	margin-right: 5%;
+	font-weight: bold;
 }
 
 .blockcontent a{
@@ -1266,7 +1269,7 @@ html{
 	text-align: center;
 	width: 40%;
 	margin-left: 30%;
-	padding: 1rem 0;
+	padding: 0.6rem 1rem;
 	border: 3px ridge #999;
 	font-weight: bold;
 	font-size: 1.5rem;
@@ -2084,8 +2087,9 @@ tr:nth-child(8):hover td{
 }
 
 .carousel-control{
-	height: 35%;
+	height: 30%;
 	margin-top: calc(100% - 85%);
+	opacity: 0.5;
 }
 
 .carousel-inner > .item.active {
@@ -2095,12 +2099,13 @@ tr:nth-child(8):hover td{
 
 
 
-
-
 .mb-style-3 blockquote{
-	background: #eee;
+	width: 100% !important;
+	background: #555;
 	padding: 30px;
 	border-radius: 5px;
+	/*box-shadow: inset 10px 0 30px rgba(0,0,0,0.5), inset 0px 10px 30px rgba(0,0,0,0.5);*/
+	border-left: none;
 }
 
 .mb-style-3 blockquote:after, 
@@ -2115,7 +2120,7 @@ tr:nth-child(8):hover td{
 }
 
 .mb-style-3 blockquote:after  {
-	border-top-color: #eee;
+	border-top-color: #555;
 	border-width: 10px;
 	left: 55%;
 	margin-left: -10px;
@@ -2123,7 +2128,9 @@ tr:nth-child(8):hover td{
 
 .mb-style-3 blockquote p {
 	font-size: 1.3rem;
-	color: #121212;
+	background: -webkit-linear-gradient(#eee 55%, rgba(0,255,255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-weight: 400;
 	line-height: 2rem;
 	font-weight: bold;
@@ -2132,17 +2139,18 @@ tr:nth-child(8):hover td{
 	text-align: justify;
 }
 
-.mb-style-3 blockquote p:before{
+.quote:before{
 	content: '\201C';
 	font-family: serif;
 	font-style: normal;
 	font-weight: 700;
 	position: absolute;
 	font-size: 140px;
-	top: 25px;
-	left: -75px;
-	color: rgba(0,200,255); /*rgba(188, 147, 200, 1);*/
+	margin-top: -75px;
+	margin-left: 30px;
+	color: rgba(0,200,255) !important; /*rgba(188, 147, 200, 1);*/
 	text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.2);
+	z-index: 10;
 }
 
 .mb-style-3 .mb-attribution {
@@ -2161,14 +2169,14 @@ tr:nth-child(8):hover td{
 	display: block;
 	width: 100px;
 	height: 100px;
-	border: 5px solid #eee;
+	border: 5px solid #333;
 	border-radius: 50%;
 	background: url(pic4.jpg) no-repeat center center;
 	background-size: 100%;
 	position: absolute;
 	right: 0px;
 	bottom: 5px;
-	box-shadow: inset 0px 0px 6px rgba(0,0,0,0.8), 0 4px 4px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 12px rgba(0,0,0,1), 0 4px 4px rgba(0,0,0,1);
 	top: -10px;
 }
 
