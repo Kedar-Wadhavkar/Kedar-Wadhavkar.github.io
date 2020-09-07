@@ -2145,10 +2145,13 @@ tr:nth-child(8):hover td{
 	font-style: normal;
 	font-weight: 700;
 	position: absolute;
-	font-size: 140px;
-	margin-top: -75px;
-	margin-left: 30px;
+	font-size: 100px;
+	margin-top: -40px;
+	margin-left: 40px;
 	color: rgba(0,200,255) !important; /*rgba(188, 147, 200, 1);*/
+	background: -webkit-linear-gradient(#eee 20%, rgba(0,255,255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.2);
 	z-index: 10;
 }
@@ -2201,19 +2204,6 @@ tr:nth-child(8):hover td{
 	text-align: right;
 	padding-right: 45px;
 	text-decoration: none;
-}
-
-
-/* General Demo Style */
-body{
-	font-family: 'Open Sans Condensed','Arial Narrow', serif;
-	background: #ddd url(../images/light_toast.png) repeat top left;
-	font-weight: 400;
-	font-size: 15px;
-	color: #333;
-	-webkit-font-smoothing: antialiased;
-	overflow-y: scroll;
-	overflow-x: hidden;
 }
 
 
