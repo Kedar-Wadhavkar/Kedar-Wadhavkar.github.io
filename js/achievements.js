@@ -1,9 +1,3 @@
-function message(msg){
-	document.getElementById('intro').innerHTML = msg;
-	}
-
-
-
 var mybutton = document.querySelector('.gotopbtn');
 
 window.onscroll = function() {scrollFunction()};
