@@ -388,7 +388,7 @@ html{
 	display: block;
 	position: absolute;
 	width: 120%;
-	height: 3.3rem;
+	height: 3.5rem;
 	top: 3rem;
 	margin-left: 38%;
 	background-color: #262626;
@@ -674,7 +674,7 @@ html{
 	display: block;
 	position: absolute;
 	width: 120%;
-	height: 3.3rem;
+	height: 3.5rem;
 	top: 3rem;
 	margin-left: 55%;
 	background-color: #262626;
@@ -961,7 +961,7 @@ html{
 	display: block;
 	position: absolute;
 	width: 120%;
-	height: 3.3rem;
+	height: 3.5rem;
 	top: 3rem;
 	margin-left: 33%;
 	background-color: #262626;
@@ -2206,6 +2206,7 @@ tr:nth-child(8):hover td{
 	height: 100px;
 	border: 5px solid #333;
 	border-radius: 50%;
+	background-color: #121212;
 	background-size: cover;
 	position: absolute;
 	right: 0px;

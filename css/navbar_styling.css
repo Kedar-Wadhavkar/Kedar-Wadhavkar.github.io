@@ -336,6 +336,10 @@ body{
 	box-shadow: inset -2px -2px 3px #343434, inset 3px 3px 5px #010101;
 }
 
+.nav{
+	margin-left: 5rem;
+}
+
 .adjustPadding{
 	margin-left: 1rem;
 	font-weight: bold;
@@ -346,7 +350,7 @@ body{
 }
 
 .navbar-right{
-	margin-right: 0.5rem;
+	margin-right: 1.5rem;
 }
 
 .navbar-nav li:after {
