@@ -48,7 +48,7 @@ html{
 	padding: 20px;
 	text-align: left;
 	position: relative;
-	perspective: 1700px;
+	perspective: 1100px;
 	perspective-origin: 0 50%;
 }
 
@@ -110,7 +110,7 @@ html{
 	background-image: linear-gradient(#001429, #000a14);
 	color: #ed4e6e;
 	height: 100%;
-	top: -3%;
+	top: 0%;
 	width: 50%;
 	opacity: 0;
 	backface-visibility: hidden;
@@ -126,7 +126,7 @@ html{
 .certificate:hover figcaption{
 	opacity: 1;
 	transform: rotateY(0deg);
-	transition: transform 0.4s, opacity 0.1s;
+	transition: transform 0.6s, opacity 0.1s;
 }
 
 
@@ -256,15 +256,90 @@ html{
 }
 
 
+.certificate{
+	overflow: hidden;
+	transition: 4s;
+}
+
+.certificate:hover{
+	overflow: visible;
+}
+
+.certificate:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -200px;
+	width: 35px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.4);
+	transform: skewX(-30deg);
+	z-index: 50;
+	animation: animate 3s ease-in-out infinite;
+}
+/*
+.certificate:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -200px;
+	width: 35px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.4);
+	transform: skewX(-30deg);
+	z-index: 50;
+	animation: animate 4s ease-in-out infinite;
+	animation-delay: 0.5s;
+}*/
+
+@keyframes animate{
+
+	0%
+	{
+	left: -200px;
+	}
+
+	/*50%
+	{
+	left: 500px;
+	}*/
+
+	100%
+	{
+	left: 650px;
+	}
+}
+
+.certificate:hover:before{
+	display: none !important;
+}
+
+.certificate:hover:after{
+	display: none !important;
+}
 
 
 
 
+.box2 .certificate:before{
+	animation-delay: 2s;
+}
 
+.box3 .certificate:before{
+	animation-delay: 1.5s;
+}
 
+.box4 .certificate:before{
+	animation-delay: 2.5s;
+}
 
+.box5 .certificate:before{
+	animation-delay: 3s;
+}
 
-
+.box6 .certificate:before{
+	animation-delay: 1s;
+}
 
 
 
