@@ -30,6 +30,166 @@ html{
 	box-shadow: 1px 2px 4px rgba(0,255,255), -1px -2px 4px #fff;
 }
 
+.container{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center !important;
+	margin-top: 1%;
+	/*background: yellow;*/
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+.window{
+	position: relative;
+	width: 100%;
+	/*background: red;*/
+	display: block;
+	justify-content: center !important;
+	overflow: hidden;
+}
+
+.awards1{
+	position: relative;
+	display: block;
+	float: left !important;
+	width: 40%;
+	margin: 0 5% 0 5%;
+	background-color: #121212;
+}
+
+.awards2{
+	position: relative;
+	display: block;
+	float: right !important;
+	width: 40%;
+	margin: 0 5% 0 5%;
+	background-color: #121212;
+}
+
+.certificateimg{
+	width: 100%;
+}
+
+.certificateimg img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.awards1 .img1{
+	transition: transform 0.5s;
+}
+
+.awards1:hover .img1{
+	transform: translateX(20%);
+}
+
+.awards1 .img2{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: 0%;
+	transition: transform 0.5s;
+}
+
+.awards1:hover .img2{
+	transform: translateX(-25%);
+}
+
+.awards2 .img3{
+	transition: transform 0.5s;
+}
+
+.awards2:hover .img3{
+	transform: translateX(-20%);
+	transition: transform 0.5s;
+}
+
+.awards2 .img4{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: 0%;
+	transition: transform 0.5s;
+}
+
+.awards2:hover .img4{
+	transform: translateX(25%);
+}
+
+.info1{
+	position: relative;
+	display: block;
+	float: right;
+	width: 40%;
+	height: 300px;
+	background-color: yellow;
+	margin: 2.5% 5% 8% 5%;
+}
+
+.info2{
+	position: relative;
+	display: block;
+	float: left;
+	width: 40%;
+	height: 300px;
+	background-color: yellow;
+	margin: 2.5% 5% 2.5% 5%;
+}
+
+#badge-ribbon1 {
+      	position: relative;
+      	background: red;
+      	height: 100px;
+      	width: 100px;
+      	border-radius: 50px;
+}
+
+#badge-ribbon1:before,
+#badge-ribbon1:after {
+      	content: '';
+      	position: absolute;
+      	border-bottom: 70px solid red;
+      	border-left: 40px solid transparent;
+     	border-right: 40px solid transparent;
+      	top: 70px;
+      	left: -10px;
+      	transform: rotate(-140deg);
+	z-index: -1;
+}
+
+#badge-ribbon1:after {
+      	left: auto;
+      	right: -10px;
+      	transform: rotate(140deg);
+	z-index: -1;
+}
+
+.badgeOne{
+	display: block;
+	float: right !important;
+	margin-right: -5%;
+	top: -10%;
+	transform: rotateZ(-20deg);
+}
+
+.badgeOne h2,
+.badgeTwo h2{
+	text-align: center;
+	z-index: 50;
+	font-weight: bold;
+}
+
+.badgeTwo{
+	display: block;
+	float: left !important;
+	margin-left: -5%;
+	top: -10%;
+	transform: rotateZ(20deg);
+}
+
 .container1{
 	position: relative;
 	display: flex;
