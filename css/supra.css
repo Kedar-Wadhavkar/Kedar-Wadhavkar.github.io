@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+*{
+	font-family: 'Merriweather', serif;
+}
+
+body{
+	display: block;
+	background: #121212;
+}
+
+.btext{
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	width: 100%;
+	line-height: 0.5em;
+}

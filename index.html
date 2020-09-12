@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset = "UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Kedar Sameer Wadhavkar</title>
+	<link rel = "icon" href =  "css/K.png" type = "image/x-icon">
+	
+	<link rel="stylesheet" href="css/bootstrap.css">	
+	<link rel = "stylesheet" href = "css/index.css">
+	<link rel = "stylesheet" href = "css/indexnavbar_styling.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+</head>
+	
+<body>
+
+<nav class="navbar navbar-inverse">
+  
+	<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+	</button>
+	<a class="navbar-brand" href="index.html" style = "color: #000000; text-shadow: 1px 1px 3px rgba(0,255,255), 0 0 5px black, 0px 0px 10px rgba(0,255,255); font-weight: bold; z-index: 2; opacity: 1;">KEDAR</a>
+	</div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li class="adjustPadding"><a href="aboutMe.html">About</a></li>
+
+	<li role="presentation" class="dropdown adjustPadding">
+	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+	Portfolio<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li> <a href ="projects.html">Projects</a>
+		<li> <a href ="thesis.html">Thesis</a>
+		<li> <a href ="skills.html">Skills</a>
+	</ul>
+  	</li>
+ 
+	<li role="presentation" class="dropdown adjustPadding">
+	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+	Personal Info<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li> <a href ="achievements.html">Achievements</a>
+		<li> <a href ="hobbies.html">Hobbies</a>
+		<li> <a href ="gallery.html">Gallery</a>
+	</ul>
+  	</li>
+
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class = "adjustPadding"><a href="contactMe.html">Contact</a></li>
+      </ul>
+    </div>
+
+</nav>     
+
+        <!---------------------------------------------------->
+        <!--navigation Bar finished here                    -->
+        <!---------------------------------------------------->
+
+
+        <!------------Button for scroll up added here-->
+        <a class="gotopbtn" href="#">
+	<i class="far fa-arrow-alt-circle-up topButscroll" style="color: #7fff44d3;"></i> 
+	</a>
+        <!---------------------------------------------->
+
+
+        <!---------------------------------------------------->
+        <!--particle js i added here                        -->
+        <!---------------------------------------------------->
+       
+        <div id="particles" style="height: 55rem;" >
+            <div id="particles-js" class="particle-js-area" style="height: 65rem">
+                <div class="btext">
+                    <h1>
+        <!---------------------------------------------------->
+        <!--Text Added here which is printing on top        -->
+        <!---------------------------------------------------->
+        
+                        <p class="typewrite" data-period="50"
+                        data-type='["Hello, I am Kedar...", "With an ever-inquisitive mind, I love exploring new things.", "I believe in finding solutions to the problems in a smarter yet a non-traditional way..."]'>
+                        <span class="wrap"></span>
+                        </p>
+        <!---------------------------------------------------->            
+                    </h1>
+                </div>
+            </div>
+
+	<div class = "scrollBox" onclick = "meRoute()">
+		<span onclick = "meRoute()"></span>
+		<span onclick = "meRoute()"></span>
+		<span onclick = "meRoute()"></span>
+	</div>
+
+        </div>
+
+        <!--particle js Ended here                          -->
+        <!---------------------------------------------------->
+
+
+
+<div class = "partition"></div>
+
+<div class = "container" style = "margin-top: 10rem;" id = "everything">
+			
+	<section class="main">
+
+	<ul class="timeline">
+
+		<li class="event" id = "route1" onclick = "Route1()">
+		<input type="radio" name="tl-group" checked>
+		<label></label>
+		<div class="thumb user-1"><span>About</span></div>
+		<div class="content-perspective">
+			<div class="content">
+				<div class="content-inner">
+					<h3>I find your lack of faith disturbing</h3>
+					<p>Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. Escape is not his plan. I must face him. Alone.</p>
+				</div>
+			</div>
+		</div>
+		</li>
+
+		<li class="event" id = "route2" onclick = "Route2()">
+		<input type="radio" name="tl-group">
+		<label></label>
+		<div class="thumb user-2"><span>Projects</span></div>
+		<div class="content-perspective">
+			<div class="content">
+				<div class="content-inner">
+					<h3>I find your lack of faith disturbing</h3>
+					<p>Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. Escape is not his plan. I must face him. Alone.</p>
+				</div>
+			</div>
+		</div>
+		</li>
+
+		<li class="event" id = "route3" onclick = "Route3()">
+		<input type="radio" name="tl-group">
+		<label></label>
+		<div class="thumb user-3"><span>Thesis</span></div>
+		<div class="content-perspective">
+			<div class="content">
+				<div class="content-inner">
+					<h3>I find your lack of faith disturbing</h3>
+					<p>Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. Escape is not his plan. I must face him. Alone.</p>
+				</div>
+			</div>
+		</div>
+		</li>
+
+		<li class="event" id = "route4" onclick = "Route4()">
+		<input type="radio" name="tl-group">
+		<label></label>
+		<div class="thumb user-4"><span>Skills</span></div>
+		<div class="content-perspective">
+			<div class="content">
+				<div class="content-inner">
+					<h3>I find your lack of faith disturbing</h3>
+					<p>Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. Escape is not his plan. I must face him. Alone.</p>
+				</div>
+			</div>
+		</div>
+		</li>
+
+		<li class="event" id = "route5" onclick = "Route5()">
+		<input type="radio" name="tl-group">
+		<label></label>
+		<div class="thumb user-5"><span>Achievements</span></div>
+		<div class="content-perspective">
+			<div class="content">
+				<div class="content-inner">
+					<h3>I find your lack of faith disturbing</h3>
+					<p>Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. Escape is not his plan. I must face him. Alone.</p>
+				</div>
+			</div>
+		</div>
+		</li>
+
+		<li class="event" id = "route6" onclick = "Route6()">
+		<input type="radio" name="tl-group">
+		<label></label>
+		<div class="thumb user-6"><span>Hobbies</span></div>
+		<div class="content-perspective">
+			<div class="content">
+				<div class="content-inner">
+					<h3>I find your lack of faith disturbing</h3>
+					<p>Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. Escape is not his plan. I must face him. Alone.</p>
+				</div>
+			</div>
+		</div>
+		</li>
+
+		<li class="event" id = "route7" onclick = "Route7()">
+		<input type="radio" name="tl-group">
+		<label></label>
+		<div class="thumb user-7"><span>Gallery</span></div>
+		<div class="content-perspective">
+			<div class="content">
+				<div class="content-inner">
+					<h3>I find your lack of faith disturbing</h3>
+					<p>Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. The plans you refer to will soon be back in our hands. A tremor in the Force. The last time I felt it was in the presence of my old master. Escape is not his plan. I must face him. Alone.</p>
+				</div>
+			</div>
+		</div>
+		</li>
+		
+	</ul>
+	</section>
+
+</div><!-- /container -->
+
+
+
+
+	<!-- scripts required in this program i placed here -->
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/index.js"></script>
+	
+	<!--finished-->
+
+
+<footer><p>&copy;&nbsp;Portfolio developed by Kedar Wadhavkar</p></footer>
+
+</body>
+
+</html>

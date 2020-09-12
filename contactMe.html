@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset = "UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Contact Me</title>
+	<link rel = "icon" href =  "css/K.png" type = "image/x-icon">
+
+	<link rel = "stylesheet" href = "css/bootstrap.css">
+	<link rel = "stylesheet" href = "css/contactMe.css">
+	<link rel = "stylesheet" href = "css/navbar_styling.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<script src = "js/contactMe.js"></script>
+	
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  
+	<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+	</button>
+	<a class="navbar-brand" href="index.html" style = "color: #000000; text-shadow: 1px 1px 3px rgba(0,255,255), 0 0 5px black, 0px 0px 10px rgba(0,255,255); font-weight: bold;">KEDAR</a>
+	</div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li class="adjustPadding"><a href="aboutMe.html">About Me</a></li>
+
+	<li role="presentation" class="dropdown adjustPadding">
+	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+	Portfolio<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li> <a href ="projects.html">Projects</a>
+		<li> <a href ="thesis.html">Thesis</a>
+		<li> <a href ="skills.html">Skills</a>
+	</ul>
+  	</li>
+ 
+	<li role="presentation" class="dropdown adjustPadding">
+	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+	Personal Info<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li> <a href ="achievements.html">Achievements</a>
+		<li> <a href ="hobbies.html">Hobbies</a>
+		<li> <a href ="gallery.html">Gallery</a>
+	</ul>
+  	</li>
+        
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class = "adjustPadding"><a class = "active" href="#">Contact Me</a></li>
+      </ul>
+
+    </div>
+
+</nav>
+
+	<div class = "iconDiv">
+	<ul class = "iconList">
+		<li class = "icons"><a href = "#"><i class="fab up fa-facebook-f"></i></a></li>
+		<li class = "icons"><a href = "#"><i class="fab up fa-google-plus-g"></i></a></li>
+		<li class = "icons"><a href = "#"><i class="fab up fa-linkedin-in"></i></a></li>
+		<li class = "icons"><a href = "#"><i class="fab up fa-instagram"></i></a></li>
+		<li class = "icons"><a href = "#"><i class="fab up fa-github"></i></a></li>
+	</ul>
+	</div>
+
+<br>
+
+<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 container">
+
+	<div class = "contactInfo">
+		<div>
+		<h2>CONTACT INFO<div class = "hline"></div></h2>
+			<ul class = "info">
+			<li>
+				<span><i class="fas fa-street-view fa-2x"></i></span>
+				<span>5 Niranjan Prestige<br>
+					Warje, Pune<br>
+					411058</span>
+			</li>
+			<li>
+				<span><i class="fas fa-envelope-open-text fa-2x"></i></span>
+				<span>kedar.wadhavkar2<br>
+					@gmail.com</span>
+			</li>
+			<li>
+				<span><i class="fas fa-phone-alt fa-2x"></i></span>
+				<span>+91 99999-99999</span>
+			</li>
+			</ul>
+		</div>
+
+		<br><br>
+
+		<ul class = "sci">
+		<li class = "end"><a href = "#"><i class="fab fa-github fa-3x"></i></a></li>
+		<li class = "end"><a href = "#"><i class="fab fa-facebook-square fa-3x"></i></a></li>
+		<li class = "end"><a href = "#"><i class="fab fa-linkedin fa-3x"></i></a></li>
+		</ul>
+
+	</div>
+
+	<form method = "POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScKp-XRzV8fDUGnpIf-lX2EjlcA8QTlGJe9mjVP5CkArEtV5A/formResponse" autocomplete="off">
+	<div class = "contactForm">
+		<h2>Send a Message...<div class = "hline"></div></h2>
+		<div class = "formBox">
+			<div class = "inputBox one">
+				<input type = 'text' name = 'entry.169091002' placeholder = "First Name here" required/>
+				<span>Your First Name</span>
+			</div>
+
+			<div class = "inputBox one">
+				<input type = 'text' name = 'entry.304636504' placeholder = "Last Name here" required/>
+				<span>Your Last Name</span>
+			</div>
+
+			<div class = "inputBox one">
+				<input type = 'email' name = 'emailAddress' placeholder = "Email ID here" required/>
+				<span>Your Email Address</span>
+			</div>
+
+
+			<div class = "inputBox two">
+				<input type = 'text' name = 'entry.1316832838' placeholder="Feedback / Message here..." required/>
+				<span>Enter your Feedback / Message</span>
+			</div>
+			
+			<div class = "inputBox three">
+				<input type = 'submit' name = 'submit' value = 'Send'>
+			</div>
+
+		</div>
+	</div>
+	</form>
+
+</div>
+
+
+	<!-- scripts required in this program i placed here -->
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="js/common.js"></script>
+
+	<!--finished-->
+
+
+<footer><p>&copy;&nbsp;Portfolio developed by Kedar Wadhavkar</p></footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
