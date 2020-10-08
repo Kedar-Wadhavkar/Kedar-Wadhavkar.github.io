@@ -1347,6 +1347,7 @@ html{
 	box-sizing: border-box;
 	padding: 20px;
 	overflow: scroll;
+	overflow-X: hidden;
 	height: 30rem;
 	font-weight: bold;
 	/*border: 1px solid #232323;*/
@@ -1605,6 +1606,7 @@ html{
 	box-sizing: border-box;
 	padding: 20px;
 	overflow: scroll;
+	overflow-X: hidden;
 	height: 40rem;
 	font-weight: bold;
 	/*border: 1px solid #232323;*/
@@ -1863,6 +1865,7 @@ html{
 	box-sizing: border-box;
 	padding: 20px;
 	overflow: scroll;
+	overflow-X: hidden;
 	height: 40rem;
 	font-weight: bold;
 	/*border: 1px solid #232323;*/
