@@ -33,7 +33,7 @@ body{
 	background-color: #000 !important;
 }
 
-.navbar .active2 a{
+.active2 a{
 	color: #000000 !important;
 	/*background-color: #dfdfdf;*/
 	border-radius: 5px;
@@ -153,7 +153,7 @@ body{
 	border-color: #eee !important;
 }
 
-.navbar .active2 a{
+.active2 a{
 	color: #000000 !important;
 	border-radius: 5px;
 	border: 2px ridge #ddd;
@@ -281,7 +281,7 @@ body{
 	background-color: #000 !important;
 }
 
-.navbar .active2 a{
+.active2 a{
 	color: #000000 !important;
 	/*background-color: #dfdfdf;*/
 	border-radius: 5px;
