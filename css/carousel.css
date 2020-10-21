@@ -228,17 +228,7 @@
   	padding: 0 12px;
 }
 
-.carousel .card{
-  	color: #fff;
-  	text-align: center;
-  	margin: 20px 0;
-  	line-height: 250px;
-  	font-size: 90px;
-  	font-weight: 600;
-  	border-radius: 10px;
-  	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-}
-
+/*
 .carousel .card-1{
 	background: #ed1c24;
 }
@@ -257,7 +247,7 @@
 
 .carousel .card-5{
   	background: #630460;
-}
+}*/
 
 .owl-dots{
   	text-align: center;
@@ -271,14 +261,178 @@
   	margin: 0 5px;
   	outline: none;
   	border-radius: 14px;
-	border: 2px solid #0072bc!important;
+	border: 2px solid #aaa!important;
 	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
 	transition: all 0.3s ease;
 }
 
 .owl-dot.active,
 .owl-dot:hover{
-	background: #0072bc!important;
+	background: #aaa!important;
+}
+
+
+/*
+.carousel .card{
+  	color: #fff;
+  	text-align: center;
+  	margin: 20px 0;
+  	line-height: 250px;
+  	font-size: 90px;
+  	font-weight: 600;
+  	border-radius: 10px;
+  	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}*/
+
+
+.carCards1{
+	position: relative;
+	width: 320px;
+	height: 400px;
+	background-color: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+	/*margin: auto 1.5%;*/
+  	margin: auto;
+  	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.carCards1:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background: #ff9933;*/ /*#FF8C00;*/ /*rgba(0,100,260);*/
+	background-image: linear-gradient(rgba(0,100,260), rgba(0,255,255), rgba(255,255,255), rgba(255,255,255));
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+	z-index: 2;
+}
+
+.carCards1:hover:before{
+	clip-path: circle(320px at 90% -25%);
+}
+
+.carCards1:after{
+	content: 'Gift';
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	font-size: 12em;
+	font-weight: bold;
+	font-style: italic;
+	color: #333;
+}
+
+.imgBox{
+	position: absolute;
+	width: 100%;
+	height: 220px;
+	z-index: 1000;
+	top: 80%;
+	transform: translateY(-80%);
+	transition: 0.5s;
+}
+
+.carCards1:hover .imgBox{
+	top: 0%;
+	transform: translateY(35%);
+}
+
+.imgBox img{
+	width: 100%;
+	height: 130%;
+	margin-top: -8%;
+	margin-left: 0%;
+	transform: translate(0%, -5%) rotate(-5deg);
+	transition: 0.5s;
+	/*visibility: hidden;*/
+}
+
+.carCards1:hover img{
+	transform: rotate(-15deg);
+}
+
+
+
+
+
+
+.hobby1 img{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.content{
+	position: absolute;
+	display: block;
+	/*background: red;*/
+	z-index: 1;
+	height: 78%;
+	top: 12%;
+	overflow-Y: scroll;
+	overflow-X: hidden;
+	color: #eee;
+	padding: 0;
+	/*visibility: hidden;*/
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content h2{
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 5%;
+}
+/*
+@media only screen and (max-width: 992px){
+
+.hobby1{
+	margin: auto;
+	width: 95%;
+	height: 500px;
+}
+
+.content{	
+	width: 34.5%;
+	margin-left: 12%;
+}
+}
+
+@media only screen and (max-width: 576px){
+
+.hobby1{
+	margin: auto 3%;
+	width: 95%;
+	height: 500px;
+}
+
+.content{	
+	width: 68%;
+	margin-left: 23%;
+	font-size: 1.5rem;
+}
+}
+
+@media only screen and (min-width: 992px){
+*/
+
+.hobby1{
+	margin: auto;
+	width: 95%;
+	height: 450px;
+}
+
+.content{	
+	width: 68%;
+	margin-left: 23%;
+	font-size: 1.5rem;
 }
 
 
@@ -287,8 +441,133 @@
 
 
 
+.foodCard{	
+	position: relative;
+	background: #eee;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: auto 1%;
+	transition: 0.5s;
+	width: 95%;
+}
+
+.foodCard:hover{
+	background-image: radial-gradient(#FF8C00,#eee);
+}
+
+.foodCard img{
+	position: absolute;
+	width: 70%;
+	height: 80%;
+	margin-left: 20%;
+	margin-top: calc(160px - 30%);
+	z-index: 2;
+	transition: 0.5s;
+	/*box-shadow: 8px 8px 15px #121212;*/
+	filter: drop-shadow(-3px -3px 2px rgba(255,255,255,0.7))
+		drop-shadow(5px 5px 5px rgba(0,0,0,0.5))
+		drop-shadow(15px 15px 15px rgba(0,0,0,0.5));
+}
+
+.foodCard:hover img{
+	/*transform: scale(1.25);*/
+	margin-top: 4%;
+	margin-left: 10%;
+	/*box-shadow: -5px -5px 10px #121212;*/
+}
+
+.detailsBx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background-image: linear-gradient(135deg, #ddd, #FF8C00);
+	z-index: 0;
+	transition: 0.3s;
+	/*border-radius: 0 0 70% 0;*/
+}
+/*
+.foodCard:hover .detailsBx{
+	background: transparent;
+}*/
+
+.nameTri{
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	z-index: 2 !important;
+	bottom: 0;
+	background: yellow;
+	transform: rotateZ(-45deg);
+	left: 20%;
+	top: 20%;
+	transition: 0.8s;
+	background-image: linear-gradient(90deg,#ddd,#FF8C00);
+	border-top: 3px ridge #ff8c00;
+	box-shadow: inset 6px 6px 12px rgb(255,140,0,0.5);
+}
+
+.nameTri img{
+	transform: rotate(45deg);
+	opacity: 0.2;
+	width: 20%;
+	height: 20%;
+	top: 15%;
+	left: 18%;
+}
+
+.foodCard:hover .nameTri{
+	top: 80%;
+	left: 80%;
+}
+
+.name{
+	position: absolute;
+	/*background: yellow;*/
+	z-index: 10 !important;
+	right: 6%;
+	bottom: 0;
+	font-size: 1.5rem;
+	height: 45%;
+	width: 30%;
+	text-align: center;
+	transition: 0.5s ease-out;
+}
+
+.name h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.foodCard:hover .name{
+	text-align: right;
+	right: 3%;
+	width: 100%;
+	height: 20%;
+}
 
 
+@media only screen and (max-width: 992px){
+
+.foodCard{
+	height: 275px;
+}
+}
+
+@media only screen and (max-width: 576px){
+
+.foodCard{
+	height: 300px;
+}
+}
+
+@media only screen and (min-width: 992px){
+
+.foodCard{
+	height: 275px;
+}
+}
 
 
 
