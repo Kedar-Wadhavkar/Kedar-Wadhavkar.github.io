@@ -26,14 +26,14 @@ body{
 	background-color: transparent;
 }
 
-.active{
+.navbar .active{
 	border-radius: 0 0 10px 10px;
 	border-bottom: 2px solid;
 	border-color: #eee !important;
 	background-color: #000 !important;
 }
 
-.active2 a{
+.navbar .active2 a{
 	color: #000000 !important;
 	/*background-color: #dfdfdf;*/
 	border-radius: 5px;
@@ -146,14 +146,14 @@ body{
 	background-color: transparent;
 }
 
-.active{
+.navbar .active{
 	background-color: #000;
 	border-radius: 0 0 10px 10px;
 	border-bottom: 2px solid;
 	border-color: #eee !important;
 }
 
-.active2 a{
+.navbar .active2 a{
 	color: #000000 !important;
 	border-radius: 5px;
 	border: 2px ridge #ddd;
@@ -270,18 +270,18 @@ body{
 	background-color: transparent;
 }
 
-.active{
+.navbar .active{
 	border-radius: 0 0 10px 10px;
 	border-bottom: 2px solid;
 	border-color: #eee !important;
 	background-color: #000 !important;
 }
 
-.active:hover{
+.navbar .active:hover{
 	background-color: #000 !important;
 }
 
-.active2 a{
+.navbar .active2 a{
 	color: #000000 !important;
 	/*background-color: #dfdfdf;*/
 	border-radius: 5px;
