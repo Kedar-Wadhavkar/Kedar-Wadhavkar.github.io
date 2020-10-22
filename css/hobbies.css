@@ -18,86 +18,19 @@ body{
 	margin-top: 0.5rem;
 	margin-bottom: 10rem;
 	/*background-color: yellow;*/
-	margin-left: 8%;
-	margin-right: 8%;
-	width: 84%;
-}
-
-.connection{
-	position: absolute;
-	height: 3rem;
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2P8DwSMQMCABBhBgiA+sgRYBboEXBuyBIpZMAkAW1YUAh9deX8AAAAASUVORK5CYII=) repeat-x bottom left;
-	top: 15rem;
-	width: 104%;
-	left: -2%;
-	z-index: -1;
-}
-
-.container1:hover .hobbies{
-	filter: blur(2px);
-	transform: scale(0.95);
-}
-
-.container1 .hobbies:hover{
-	background-color: #eee;
-	filter: blur(0px);
-	transform: scale(1.10);
-	border-radius: 5px 5px 5px 5px;
 }
 
 .hobbies{
-	width: 18%;
 	padding: 0 1% 0 1%;
-	margin: 1%;
 	/*background-color: #ddd;*/
 	border-radius: 5px;
 	transition: transform 0.5s;
 }
 
-.circle{
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	background-color: #121212;
-	margin-top: -9px;
-	margin-left: calc(50% - 19px);
-	z-index: 0;
-	/*border: 1px ridge #ddd;*/
-	margin-bottom: 0px;
-}
-
-.hobbies:hover .thumb{
-	border-radius: 40%;
-	background-image: radial-gradient(#eee, aqua, #eee, #eee);
-}
-
-.hobbies:hover .thumb:before,
-.hobbies:hover .thumb:after {
-	display: none;
-}
-
-.hobbies:hover .info p{
-	margin-top: -2rem;
-	color: #121212;
-	font-weight: bold;
-	/*text-shadow: 2px 2px 5px black;*/
-	width: 100%;
-	margin-left: 0%;
-	background: -webkit-linear-gradient(rgba(0,154,217), rgba(0,23,46));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.hobbies:hover .circle{
-	display: none;
-}
-
 .thumb{
 	position: relative;
 	justify-content: center !important;
-	width: 100%;
 	background-image: radial-gradient(transparent, #000, transparent, transparent);
-	padding: 10%;
 	border-radius: 5%;
 	transition: 1.5s;
 }
@@ -108,7 +41,6 @@ body{
 }
 
 .info{
-	margin-top: 20%;
 	position: relative;
 	width: 100%;
 	padding: 2%;
@@ -125,6 +57,122 @@ body{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-top: -2rem;
+}
+
+@media only screen and (max-width: 991px){
+
+.container1{
+	margin-left: 0%;
+	width: 100%;
+}
+
+.hobbies{	
+	width: 45%;
+	margin: 2%;
+}
+
+.thumb{
+	float: left;
+	shape-outside: circle(50%) !important;
+	width: 55%;
+	margin-left: -10%;
+	border-radius: 50%;
+	padding: 3%;
+	margin-top: 0;
+}
+
+.info p{
+	margin-top: 2rem;
+}
+}
+
+
+@media only screen and (max-width: 576px){
+
+.container1{
+	margin-left: 3%;
+	width: 94%;
+}
+
+.hobbies{	
+	width: 95%;
+}
+
+.thumb{
+	float: left;
+	shape-outside: circle(50%) !important;
+	width: 55%;
+	margin-left: -10%;
+	border-radius: 50%;
+	padding: 3%;
+	margin-top: 0;
+}
+
+.info p{
+	margin-top: 2rem;
+}
+}
+
+
+@media only screen and (min-width: 992px){
+
+.container1{
+	margin-left: 8%;
+	width: 84%;
+}
+
+.connection{
+	position: absolute;
+	height: 3rem;
+	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2P8DwSMQMCABBhBgiA+sgRYBboEXBuyBIpZMAkAW1YUAh9deX8AAAAASUVORK5CYII=) repeat-x bottom left;
+	top: 15rem;
+	width: 104%;
+	left: -2%;
+	z-index: -1;
+}
+
+.container1:hover .hobbies{
+	/*filter: blur(2px);*/
+	transform: scale(0.95);
+}
+
+.container1 .hobbies:hover{
+	background-color: #eee;
+	/*filter: blur(0px);*/
+	transform: scale(1.10);
+	border-radius: 5px 5px 5px 5px;
+}
+
+.hobbies{	
+	width: 18%;
+	margin: 1%;
+}
+
+
+.circle{
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background-color: #121212;
+	margin-top: -9px;
+	margin-left: calc(50% - 19px);
+	z-index: 0;
+	/*border: 1px ridge #ddd;*/
+	margin-bottom: 0px;
+}
+
+.hobbies:hover .circle{
+	display: none;
+}
+
+.thumb{
+	width: 100%;
+	padding: 10%;
+}
+
+.hobbies:hover .thumb{
+	border-radius: 40%;
+	background-image: radial-gradient(#eee, aqua, #eee, #eee);
 }
 
 .thumb:before{
@@ -162,6 +210,11 @@ body{
 	animation-delay: 0.8s;
 }
 
+.hobbies:hover .thumb:before,
+.hobbies:hover .thumb:after {
+	display: none;
+}
+
 @keyframes one{
 	0%{bottom: 0px;}
 	50%{bottom: -20px;}
@@ -173,6 +226,27 @@ body{
 	50%{bottom: -20px;}
 	100%{bottom: 0px;}
 }
+
+.info{
+	margin-top: 20%;
+}
+
+.hobbies:hover .info p{
+	margin-top: -2rem;
+	color: #121212;
+	font-weight: bold;
+	/*text-shadow: 2px 2px 5px black;*/
+	width: 100%;
+	margin-left: 0%;
+	background: -webkit-linear-gradient(rgba(0,154,217), rgba(0,23,46));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+}
+
+
+
 
 
 @media only screen and (max-width: 992px){
@@ -191,6 +265,8 @@ body{
 @media only screen and (min-width: 992px){
 .medium{display: none !important;}
 }
+
+
 
 
 .container2{
