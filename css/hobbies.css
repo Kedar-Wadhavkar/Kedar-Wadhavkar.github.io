@@ -72,17 +72,27 @@ body{
 }
 
 .thumb{
-	float: left;
+	/*float: left;*/
 	shape-outside: circle(50%) !important;
 	width: 55%;
-	margin-left: -10%;
+	/*margin-left: -10%;*/
 	border-radius: 50%;
 	padding: 3%;
 	margin-top: 0;
 }
 
+.t1, .t3{
+	float: right;
+	margin-right: -8%;
+}
+
+.t2, .t4, .t5{
+	float: left;
+	margin-left: -8%;
+}
+
 .info p{
-	margin-top: 2rem;
+	margin-top: 1.5rem;
 }
 }
 
@@ -99,17 +109,32 @@ body{
 }
 
 .thumb{
-	float: left;
+	/*float: left;*/
 	shape-outside: circle(50%) !important;
 	width: 55%;
-	margin-left: -10%;
+	/*margin-left: -10%;*/
 	border-radius: 50%;
 	padding: 3%;
 	margin-top: 0;
 }
 
+.t1, .t3, .t5{
+	float: right;
+	margin-right: -8%;
+}
+
+.t5{
+	width: 63%;
+	padding-left: 10%;
+}
+
+.t2, .t4{
+	float: left;
+	margin-left: -8%;
+}
+
 .info p{
-	margin-top: 2rem;
+	margin-top: 1.5rem;
 }
 }
 
