@@ -15,7 +15,7 @@ html{
 
 #particles-js{
 	margin-top: -1%;
-	background-image: url("kd1.png");
+	background-image: url("media/kd1.png");
 	background-repeat:no-repeat;
 	background-size: auto 100%;
 }
@@ -126,7 +126,7 @@ footer{
 body{
 	display: block;
 	background: #121212;
-	background-image: url("hexbg3.jpg");
+	background-image: url("media/hexbg3.jpg");
 	background-repeat: repeat;
 	background-size: 100%;
 } 
@@ -162,7 +162,7 @@ body{
 body{
 	display: block;
 	background: #121212;
-	background-image: url("hexbg3.jpg");
+	background-image: url("media/hexbg3.jpg");
 	background-repeat: repeat;
 	background-size: 100%;
 }
@@ -206,7 +206,7 @@ body{
 body{
 	display: block;
 	background: #121212;
-	background-image: url("hexbg4.jpg");
+	background-image: url("media/hexbg4.jpg");
 	background-repeat: repeat;
 	background-size: 50%;
 }
@@ -339,7 +339,7 @@ body{
 .partition{
 	position: relative;
 	height: 3rem;
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2P8DwSMQMCABBhBgiA+sgRYBboEXBuyBIpZMAkAW1YUAh9deX8AAAAASUVORK5CYII=) repeat-x bottom left;
+	background: transparent url("media/line.png") repeat-x bottom left;
 }
 
 .container {
@@ -361,7 +361,7 @@ body{
 	width: 5px;
 	height: 108%;
 	left: 165px;
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQIW2NkQAP/gYARWQwkAOLDBeECjEAAkkEWAKtEFwAJAgAZEBP+oM1IkwAAAABJRU5ErkJggg==);
+	background: url("media/line.png");
 }
 
 .event {
@@ -388,7 +388,7 @@ body{
 	position: absolute;
 	height: 8px;
 	z-index: -1;
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPElEQVQYV2NkQAP/gYARCNDFUQRgirAphitEl0TngxXisg5ZnBGXIpgbYfIYjkb3BNxGbBLYxIgyEaQRAA8KKAWYsZtjAAAAAElFTkSuQmCC);
+	background: transparent url("media/uparrow.png");
 	width: 51px;
 	top: 42px;
 	left: 100%;
@@ -409,37 +409,37 @@ body{
 }
 
 .user-1 {
-	background-image: url(picaboutme.jpg);
+	background-image: url("media/picaboutme.jpg");
 	background-size: 100%;
 }
 
 .user-2 {
-	background-image: url(picachievements.jpg);
+	background-image: url("media/picachievements.jpg");
 	background-size: 100%;
 }
 
 .user-3 {
-	background-image: url(picgallery.jpg);
+	background-image: url("media/picgallery.jpg");
 	background-size: 100%;
 }
 
 .user-4 {
-	background-image: url(picprojects.jpg);
+	background-image: url("media/picprojects.jpg");
 	background-size: 100%;
 }
 
 .user-5 {
-	background-image: url(picskills.jpg);
+	background-image: url("media/picskills.jpg");
 	background-size: 100%;
 }
 
 .user-6 {
-	background-image: url(picsupra.jpg);
+	background-image: url("media/picsupra.jpg");
 	background-size: 100%;
 }
 
 .user-7 {
-	background-image: url(picthesis.jpg);
+	background-image: url("media/picthesis.jpg");
 	background-size: 100%;
 }
 
@@ -658,7 +658,7 @@ body{
 }
 
 .event input[type="radio"]:checked ~ .thumb:before {
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAOfUjX+882+wYgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQBbNyaHFmzEqgAAAABJRU5ErkJggg==);
+	background: transparent url("media/uparroworange.png");
 }
 
 .content-inner p,

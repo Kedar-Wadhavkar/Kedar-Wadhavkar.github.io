@@ -10,7 +10,7 @@
 body{
 	display: block;
 	background: #121212;
-	background-image: url("hexbg3.jpg");
+	background-image: url("media/hexbg3.jpg");
 	background-repeat: repeat;
 	background-size: 100%;
 }
@@ -130,7 +130,7 @@ body{
 body{
 	display: block;
 	background: #121212;
-	background-image: url("hexbg3.jpg");
+	background-image: url("media/hexbg3.jpg");
 	background-repeat: repeat;
 	background-size: 100%;
 }
@@ -254,7 +254,7 @@ body{
 body{
 	display: block;
 	background: #121212;
-	background-image: url("hexbg4.jpg");
+	background-image: url("media/hexbg4.jpg");
 	background-repeat: repeat;
 	background-size: 50%;
 }
