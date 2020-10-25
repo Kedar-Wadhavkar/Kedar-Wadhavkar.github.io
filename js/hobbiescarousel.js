@@ -31,20 +31,20 @@ var img1l5 = document.getElementById("img1l5");
 var img1l6 = document.getElementById("img1l6");
 
 
-img1s1.onclick = function(){modal1s.style.display = "block";  modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
-img1s2.onclick = function(){modal1s.style.display = "block";  modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
-img1s3.onclick = function(){modal1s.style.display = "block";  modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
-img1s4.onclick = function(){modal1s.style.display = "block";  modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
-img1s5.onclick = function(){modal1s.style.display = "block";  modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
-img1s6.onclick = function(){modal1s.style.display = "block";  modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
+img1s1.onclick = function(){modal1s.style.display = "block"; modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
+img1s2.onclick = function(){modal1s.style.display = "block"; modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
+img1s3.onclick = function(){modal1s.style.display = "block"; modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
+img1s4.onclick = function(){modal1s.style.display = "block"; modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
+img1s5.onclick = function(){modal1s.style.display = "block"; modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
+img1s6.onclick = function(){modal1s.style.display = "block"; modalImg1s.src = this.src;  captionText.innerHTML = this.alt;}
 
 
-img1m1.onclick = function(){modal1m.style.display = "block";  modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
-img1m2.onclick = function(){modal1m.style.display = "block";  modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
-img1m3.onclick = function(){modal1m.style.display = "block";  modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
-img1m4.onclick = function(){modal1m.style.display = "block";  modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
-img1m5.onclick = function(){modal1m.style.display = "block";  modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
-img1m6.onclick = function(){modal1m.style.display = "block";  modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
+img1m1.onclick = function(){modal1m.style.display = "block"; modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
+img1m2.onclick = function(){modal1m.style.display = "block"; modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
+img1m3.onclick = function(){modal1m.style.display = "block"; modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
+img1m4.onclick = function(){modal1m.style.display = "block"; modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
+img1m5.onclick = function(){modal1m.style.display = "block"; modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
+img1m6.onclick = function(){modal1m.style.display = "block"; modalImg1m.src = this.src;  captionText.innerHTML = this.alt;}
 
 
 img1l1.onclick = function(){modal1l.style.display = "block"; modalImg1l.src = this.src; captionText.innerHTML = this.alt;}
