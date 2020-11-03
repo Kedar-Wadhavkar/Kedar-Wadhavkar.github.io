@@ -381,6 +381,9 @@ body{
 	-o-transform: scale(0.8) translateX(24px);
 	-ms-transform: scale(0.8) translateX(24px);
 	transform: scale(0.8) translateX(24px);
+	filter: drop-shadow(-2px -2px 2px #aaa)
+		drop-shadow(2px 2px 2px #333)
+		drop-shadow(2px 2px 2px #333);
 }
 
 .thumb:before {
@@ -551,6 +554,9 @@ body{
 	color: rgba(0,0,0,0.5);
 	font-weight: bold;
 	text-align: left;
+	filter: drop-shadow(-2px -2px 2px #fff)
+		drop-shadow(2px 2px 2px #fff)
+		drop-shadow(2px 2px 2px #fff);
 }
 
 .content-inner:before {
@@ -638,7 +644,7 @@ body{
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
 	max-height: 260px; /* Add media queries */
-	color: rgba(0,0,0,0.8);
+	color: rgba(0,0,0,0.65);
 	-webkit-transition-delay: 0s, 0.6s;
 	-moz-transition-delay: 0s, 0.6s;
 	-o-transition-delay: 0s, 0.6s;
