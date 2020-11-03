@@ -381,9 +381,6 @@ body{
 	-o-transform: scale(0.8) translateX(24px);
 	-ms-transform: scale(0.8) translateX(24px);
 	transform: scale(0.8) translateX(24px);
-	filter: drop-shadow(-2px -2px 2px #aaa)
-		drop-shadow(2px 2px 2px #333)
-		drop-shadow(2px 2px 2px #333);
 }
 
 .thumb:before {
@@ -554,9 +551,6 @@ body{
 	color: rgba(0,0,0,0.5);
 	font-weight: bold;
 	text-align: left;
-	filter: drop-shadow(-2px -2px 2px #fff)
-		drop-shadow(2px 2px 2px #fff)
-		drop-shadow(2px 2px 2px #fff);
 }
 
 .content-inner:before {
@@ -712,6 +706,9 @@ body{
 .content-inner p {
 	font-size: 14px;
 	text-align: justify;
+	filter: drop-shadow(-2px -2px 2px #fff)
+		drop-shadow(2px 2px 2px #fff)
+		drop-shadow(2px 2px 2px #fff);
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
@@ -771,6 +768,9 @@ body{
 	-o-transform: scale(0.8);
 	-ms-transform: scale(0.8);
 	transform: scale(0.8);
+	filter: drop-shadow(-2px -2px 2px #aaa)
+		drop-shadow(2px 2px 2px #333)
+		drop-shadow(2px 2px 2px #333);
 }
 
 .event input[type="radio"] {
@@ -818,6 +818,12 @@ body{
 .content-inner {
 	border-left: none;
 	border-top: 5px solid #41838e;
+}
+
+.content-inner p {
+	filter: drop-shadow(-2px -2px 2px #fff)
+		drop-shadow(2px 2px 2px #fff)
+		drop-shadow(2px 2px 2px #fff);
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner {
