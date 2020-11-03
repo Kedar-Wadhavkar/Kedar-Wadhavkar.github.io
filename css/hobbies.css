@@ -500,6 +500,14 @@ body{
 .container4 .right{
 	margin-right: -5%;
 }
+
+.container4 .fa-chevron-left{
+	margin-left: 0%; 
+}
+
+.container4 .fa-chevron-right{
+	margin-right: 0%; 
+}
 }
 
 
