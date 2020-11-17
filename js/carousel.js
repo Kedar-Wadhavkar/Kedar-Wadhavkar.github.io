@@ -37,12 +37,14 @@ var vids13 = document.getElementById("imgs13");
 var vids14 = document.getElementById("imgs14");
 
 var vids21 = document.getElementById("imgs21");
+var vids22 = document.getElementById("imgs22");
 
 
 vids13.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/diffCas_vid.mp4";}
-vids14.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/vid6.mp4";}
+vids14.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/vid66.mp4";}
 
-vids21.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/diffCas_2.mp4";}
+vids21.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/diffCas.mp4";}
+vids22.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/vid6.mp4";}
 
 
 span2.onclick = function() {modal2.style.display = "none";}
