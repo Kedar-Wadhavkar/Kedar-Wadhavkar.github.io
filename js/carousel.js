@@ -39,10 +39,10 @@ var vids14 = document.getElementById("imgs14");
 var vids21 = document.getElementById("imgs21");
 
 
-vids13.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/fin.mp4";}
+vids13.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/diffCas_vid.mp4";}
 vids14.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/vid6.mp4";}
 
-vids21.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/fin.mp4";}
+vids21.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/diffCas_2.mp4";}
 
 
 span2.onclick = function() {modal2.style.display = "none";}
