@@ -1,33 +1,25 @@
-// Get the modal for images
-var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img11 = document.getElementById("img11");
-var img12 = document.getElementById("img12");
-var vid13 = document.getElementById("vid13");
-var modalImg = document.getElementById("img01");
-var modalVideo = document.getElementById("video01");
+// Modal For photos
+
+var modal = document.getElementById("myModal");var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-
-img11.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-img12.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
 var span1 = document.getElementsByClassName("close1")[0];
 
-// When the user clicks on <span> (x), close the modal
-span1.onclick = function() { 
-  modal.style.display = "none";
-}
+var imgs11 = document.getElementById("imgs11");
+var imgs12 = document.getElementById("imgs12");
+
+var imgs51 = document.getElementById("imgs51");
+var imgs52 = document.getElementById("imgs52");
+
+
+imgs11.onclick = function(){ modal.style.display = "block";  modalImg.src = this.src; captionText.innerHTML = this.alt;}
+imgs12.onclick = function(){ modal.style.display = "block";  modalImg.src = this.src; captionText.innerHTML = this.alt;}
+
+imgs51.onclick = function(){ modal.style.display = "block";  modalImg.src = this.src; captionText.innerHTML = this.alt;}
+imgs52.onclick = function(){ modal.style.display = "block";  modalImg.src = this.src; captionText.innerHTML = this.alt;}
+
+
+span1.onclick = function() { modal.style.display = "none";}
 
 
 
@@ -35,28 +27,28 @@ span1.onclick = function() {
 
 
 
-// Get modal For videos
+// Modal For videos
 
 var modal2 = document.getElementById("myModal2");
-var vid13 = document.getElementById("vid13");
-vid13.onclick = function(){
-  modal2.style.display = "block";
-}
+var modalVideo = document.getElementById("vid01");
 var span2 = document.getElementsByClassName("close2")[0];
-span2.onclick = function() { 
-  modal2.style.display = "none";
-}
+
+var vids13 = document.getElementById("imgs13");
+var vids14 = document.getElementById("imgs14");
+
+var vids21 = document.getElementById("imgs21");
 
 
-var modal3 = document.getElementById("myModal3");
-var vid21 = document.getElementById("img21");
-vid21.onclick = function(){
-  modal3.style.display = "block";
-}
-var span3 = document.getElementsByClassName("close3")[0];
-span3.onclick = function() { 
-  modal3.style.display = "none";
-}
+vids13.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/fin.mp4";}
+vids14.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/vid6.mp4";}
+
+vids21.onclick = function(){ modal2.style.display = "block";  modalVideo.src = "css/media/fin.mp4";}
+
+
+span2.onclick = function() {modal2.style.display = "none";}
+
+
+
 
 
 
