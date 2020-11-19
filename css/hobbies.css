@@ -816,8 +816,8 @@ body{
 @media only screen and (max-width: 992px){
 
 .foodCard{
-	width: 340px;
-	height: 255px;
+	width: 48%;
+	height: 264px;
 }
 
 .foodCard img{
@@ -825,7 +825,7 @@ body{
 }
 
 .nameTri img{
-	top: calc(200px - 25%);
+	top: calc(200px - 20%);
 }
 }
 
@@ -848,8 +848,8 @@ body{
 @media only screen and (min-width: 992px){
 
 .foodCard{
-	width: 380px;
-	height: 285px;
+	width: 388px;
+	height: 291px;
 }
 
 .foodCard img{
