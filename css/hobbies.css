@@ -636,7 +636,6 @@ body{
 	overflow-X: hidden;
 	color: #eee;
 	padding: 0;
-	visibility: hidden;
 }
 
 .content::-webkit-scrollbar {
