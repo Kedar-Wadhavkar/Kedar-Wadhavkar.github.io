@@ -5,6 +5,9 @@
 	user-select: none;
 }
 
+body{	
+	background-attachment: fixed;
+}
 
 @media only screen and (max-width: 991px){
 

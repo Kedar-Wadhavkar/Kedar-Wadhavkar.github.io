@@ -13,6 +13,7 @@ body{
 	background-image: url("media/hexbg3.jpg");
 	background-repeat: repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 }
 
 .navbar{
@@ -130,6 +131,7 @@ body{
 	background-image: url("media/hexbg3.jpg");
 	background-repeat: repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 }
 
 .navbar {
@@ -250,6 +252,7 @@ body{
 	background-image: url("media/hexbg4.jpg");
 	background-repeat: repeat;
 	background-size: 50%;
+	background-attachment: fixed;
 }
 
 .navbar{

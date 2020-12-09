@@ -894,7 +894,7 @@ body{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1000; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: auto; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -910,6 +910,12 @@ body{
   display: block;
   width: 80%;
   max-width: 700px;
+}
+
+.modal img{
+	background-color: rgba(0,0,0,0);
+	border-style: none !important;
+	box-shadow: 0px 0px #000;
 }
 
 /* Caption of Modal Image */
@@ -959,8 +965,6 @@ body{
   text-decoration: none;
   cursor: pointer;
 }
-
-
 
 
 

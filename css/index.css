@@ -479,8 +479,6 @@ body{
 	text-align: center;
 }
 
-
-
 .content-perspective {
 	margin-left: 230px;
 	position: relative;
@@ -521,6 +519,11 @@ body{
 	-ms-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+
+	
+	background-color: rgba(255,255,255,0.08);
+	box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+	backdrop-filter: blur(2px);
 }
 
 .content-inner {
@@ -529,28 +532,34 @@ body{
 	color: #333;
 	border: none;
 	border-left: 5px solid #41838e;
-	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-	background-color: #ddd;
+	/*box-shadow: 0 4px 6px rgba(0,0,0,0.1);*/
 }
 
 .content-inner h3 {
 	font-size: 26px;
 	padding: 5px 0 5px 0;
 	color: #41838e;
+	color: #fff;
 	font-weight: bold;
 	/*text-shadow: 0px 5px 8px #ccc;*/
-	filter: drop-shadow(-3px -3px 3px #fff)
-		drop-shadow(3px 3px 3px #fff)
-		drop-shadow(2px 2px 2px #fff);
+	/*filter: drop-shadow(-1px -1px 3px rgba(255,255,255,0.5))
+		drop-shadow(1px 1px 3px rgba(255,255,255,0.5))
+		drop-shadow(1px 1px 3px rgba(255,255,255,0.5));*/
+	/*filter: drop-shadow(-1px -1px 3px #41838e)
+		drop-shadow(1px 1px 3px #41838e)
+		drop-shadow(1px 1px 3px #41838e);*/
+	filter: drop-shadow(-1px -1px 3px #196370)
+		drop-shadow(1px 1px 3px #196370)
+		drop-shadow(1px 1px 3px #196370);
 }
 
 .content-inner p {
 	font-size: 18px;
 	max-height: 0px;
 	overflow: hidden;
-	color: rgba(0,0,0,0.5);
+	color: #ddd !important;
 	font-weight: bold;
-	text-align: left;
+	text-align: justify;
 }
 
 .content-inner:before {
@@ -620,7 +629,13 @@ body{
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner h3 {
-	color: #F26328;
+	color: #fff;
+	/*filter: drop-shadow(-1px -1px 4px #F26328)
+		drop-shadow(1px 1px 4px #F26328)
+		drop-shadow(1px 1px 4px #F26328);*/
+	filter: drop-shadow(-1px -1px 4px #f06d37)
+		drop-shadow(1px 1px 4px #f06d37)
+		drop-shadow(1px 1px 4px #f06d37);
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content {
@@ -695,6 +710,11 @@ body{
 	top: -3rem;
 }
 
+.content{
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0);
+}
+
 .event {
 	margin-bottom: 38px;
 }
@@ -706,17 +726,21 @@ body{
 .content-inner p {
 	font-size: 14px;
 	text-align: justify;
-	filter: drop-shadow(-2px -2px 2px #fff)
+	/*filter: drop-shadow(-2px -2px 2px #fff)
 		drop-shadow(2px 2px 2px #fff)
-		drop-shadow(2px 2px 2px #fff);
+		drop-shadow(2px 2px 2px #fff);*/
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
 	max-height: 500px; 
 }
 
+.content-inner:before {
+	left: -30px;
+}
+
 .event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
-	left: -40px;
+	left: -30px;
 	transform: scale(1.3);
 	top: 15px;
 }
@@ -742,6 +766,12 @@ body{
 .timeline::before {
 	left: 50px;
 	top: -1rem;
+	display: none;
+}
+
+.content{
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);
 }
 
 .thumb span {
@@ -769,8 +799,9 @@ body{
 	-ms-transform: scale(0.8);
 	transform: scale(0.8);
 	filter: drop-shadow(-2px -2px 2px #aaa)
-		drop-shadow(2px 2px 2px #333)
-		drop-shadow(2px 2px 2px #333);
+		drop-shadow(2px 2px 2px rgba(0,0,0,0))
+		drop-shadow(2px 2px 2px rgba(0,0,0,0));
+	z-index: 5;
 }
 
 .event input[type="radio"] {
@@ -778,6 +809,7 @@ body{
 	height: 100px;
 	left: 0px;
 	top: 0px;
+	z-index: 10 !important;
 }
 
 .thumb:before,
@@ -821,9 +853,9 @@ body{
 }
 
 .content-inner p {
-	filter: drop-shadow(-2px -2px 2px #fff)
+	/*filter: drop-shadow(-2px -2px 2px #fff)
 		drop-shadow(2px 2px 2px #fff)
-		drop-shadow(2px 2px 2px #fff);
+		drop-shadow(2px 2px 2px #fff);*/
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner {
@@ -835,6 +867,7 @@ body{
 	content: '\25b4';
 	left: 33px !important;
 	top: -32px !important;
+	visibility: hidden;
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
@@ -861,6 +894,11 @@ body{
 
 .timeline:before {
 	top: -4rem;
+}
+
+.content{
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0);
 }
 
 .event {
