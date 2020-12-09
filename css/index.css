@@ -522,7 +522,7 @@ body{
 
 	
 	background-color: rgba(255,255,255,0.08);
-	box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+	box-shadow: 8px 8px 10px rgba(0,0,0,0.6);
 	backdrop-filter: blur(2px);
 }
 
@@ -784,7 +784,7 @@ body{
 	text-transform: uppercase;
 	position: absolute;
 	top: 60px;
-	visibility: hidden;
+	display: none;
 }
 
 .event { 
