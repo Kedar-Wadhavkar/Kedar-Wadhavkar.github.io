@@ -111,8 +111,11 @@
 
 	</div>
 
-	<form method = "POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScKp-XRzV8fDUGnpIf-lX2EjlcA8QTlGJe9mjVP5CkArEtV5A/formResponse" autocomplete="off">
-	<div class = "contactForm">
+	<script type="text/javascript">var submitted=false</script>
+	<iframe name= "hiddenConfirm" id="hiddenConfirm" style="display:none;" onload="if(submitted){window.location='contactMe.html';}"></iframe> 
+	<form method="POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScKp-XRzV8fDUGnpIf-lX2EjlcA8QTlGJe9mjVP5CkArEtV5A/formResponse" autocomplete="off" target="hiddenConfirm" onsubmit = "submitted=true">         
+	<div class="contactForm">
+
 		<h2>Send a Message...<div class = "hline"></div></h2>
 		<div class = "formBox">
 			<div class = "inputBox one">
